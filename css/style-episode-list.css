@@ -13,7 +13,7 @@ body {
 .episode-list {
     background-color: seagreen;
     margin: 20px;
-    padding: 20px;  
+    padding: 20px;
 }
 a {
     color: black;
@@ -22,4 +22,7 @@ a {
 a:hover {
     color: black;
     font-style: oblique;
+}
+.footer {
+  font-size: 32px;
 }

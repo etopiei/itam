@@ -57,7 +57,14 @@
     {"Name":"Walking In Circles - Episode 1", "URL":"phNkIRq3X9E", "EpisodeID": "T7.1"}
 ],
 "Video Game High School": [
-    {"Title": "Video Game High School", "Genre": "Action/Romance/Sci-Fi ", "Creator":"Matthew Arnold, Will Campos and Brian Firenzi", "PosterURL":"http://i53.photobucket.com/albums/g63/etopiei/MV5BOTgxOTMwOTAxMF5BMl5BanBnXkFtZTcwMTY3MTExOA._V1_SX640_SY720__zps4fssm3zt.jpg", "Time": "15", "ID": "T8"},
+    {"Title": "Video Game High School", "Genre": "Action/Romance/Sci-Fi", "Creator":"Matthew Arnold, Will Campos and Brian Firenzi", "PosterURL":"http://i53.photobucket.com/albums/g63/etopiei/MV5BOTgxOTMwOTAxMF5BMl5BanBnXkFtZTcwMTY3MTExOA._V1_SX640_SY720__zps4fssm3zt.jpg", "Time": "15", "ID": "T8"},
     {"Name": "Video Game High School (VGHS) - Episode 1", "ShortName": "VGHS Episode 1", "URL":"1JqR3GVqib4", "EpisodeID": "T8.1", "Plot": "The first episode for our feature-length webseries 'Video Game High School!'"}
+],
+"Awkward Black Girl": [
+  {"Title": "Awkward Black Girl", "Genre": "Comedy", "Creator":"Shea William Vanderpoort", "PosterURL":"http://i53.photobucket.com/albums/g63/etopiei/The-Misadventures-of-Awkward-Black-Girl_zpsschnj0db.jpg", "Time": "5", "ID": "T9"},
+  {"Name": "Awkward Black Girl - Episode 1 - The Stop Sign", "ShortName": "The Stop Sign", "URL":"Mia51fMAGJw", "EpisodeID": "T9.1", "Plot": "J introduces herself and walks us through the awkwardness of the stop-sign."},
+  {"Name": "Awkward Black Girl - Episode 2 - The Job", "ShortName": "The Job", "URL":"u4HWaWjBAB8", "EpisodeID": "T9.2", "Plot": "J confronts her issue with passive aggressiveness at the workplace."},
+  {"Name": "Awkward Black Girl - Episode 3 - The Hallway", "ShortName": "The Hallway", "URL":"y9n7Vx33QiA", "EpisodeID": "T9.3", "Plot": "J attempts to pursue her office crush and navigates the awkwardness of the hallway."},
+  {"Name": "Awkward Black Girl - Episode 4 - The Icebreaker", "ShortName": "The Icebreaker", "URL":"jg5rfYhbdhY", "EpisodeID": "T9.4", "Plot": "J and Cece's friendship develops, while NIna finds her own ally in the office."}
 ]
 }

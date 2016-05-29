@@ -1,6 +1,9 @@
 body {
     background-color: lightgray;
 }
+.page {
+  margin: 20px;
+}
 .content {
     background-color: slategray;
     margin: 30px;
@@ -43,4 +46,7 @@ body {
 .see-all:hover {
     color: black;
     font-style: oblique;
+}
+.footer {
+  font-size: 32px;
 }
