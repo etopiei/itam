@@ -1,0 +1,25 @@
+body {
+    background-color: lightgray;
+}
+.content {
+    background-color: slategray;
+    margin: 30px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.banner {
+    margin: 20px;
+}
+.episode-list {
+    background-color: seagreen;
+    margin: 20px;
+    padding: 20px;  
+}
+a {
+    color: black;
+    margin-right: 10px;
+}
+a:hover {
+    color: black;
+    font-style: oblique;
+}

@@ -1,0 +1,63 @@
+{
+"TAOS":[
+    {"Title": "The Adventures of Superseven", "Genre": "Action/Adventure", "Creator": "Scott Rhodes", "PosterURL": "http://i53.photobucket.com/albums/g63/etopiei/taos%20poster_zpsgzcnqeas.png", "Time": "10", "ID": "T1"},
+    {"Name":"Adventures of Superseven - Episode 1 -  Superseven Operation Trapezoid Conundrum", "ShortName": "Superseven Operation Trapezoid Conundrum", "URL":"bmWKQAvCZ_c", "EpisodeID": "T1.1", "Plot": "Can Sandra West thwart a plot to assassinate Superseven on live TV?"},
+    {"Name": "Adventures Of Superseven - Epsiode 2 - Operation Breakdown", "ShortName": "Operation Breakdown", "URL":"HSx2krBLYVE", "EpisodeID": "T1.2", "Plot": "Superseven is hot on the trail of the ruthless double Agent 'Mamba'...Can Superseven catch him before Sandra West does!"},
+    {"Name": "Adventures Of Superseven - Epsiode 3 - Operation Fourplay Part 1", "ShortName": "Operation Fourplay Pt.1", "URL":"gcQ7d1mzGSo", "EpisodeID": "T1.3", "Plot": "A deserted theatre....A midnight rendezvous...A cunning trap...Will Superseven survive!!!"},
+    {"Name": "Adventures Of Superseven - Epsiode 4 - Operation Fourplay Part 2", "ShortName": "Operation Fourplay Pt.2", "URL":"loIW6ku3Te8", "EpisodeID": "T1.4", "Plot": "On the way home from their rendezvous with sword play, Superseven and Sandra West encounter a duo of deadly assassins...With a contract!"},
+    {"Name": "Adventures Of Superseven - Epsiode 5 - Up Close & Personal - Interview", "ShortName": "Up Close & Personal - Interview", "URL":"NuQvfzB796g", "EpisodeID": "T1.5", "Plot": "An up close and personal interview with masked super spy, Superseven!"},
+    {"Name": "Adventures Of Superseven - Epsiode 6 - Up Close & Personal - Sandra West Interview", "ShortName": "Up Close & Personal - Sandra West Interview", "URL":"sQ6tofAzyHY", "EpisodeID": "T1.6", "Plot": "An interview with sultry, sexy, super-spy...Sandra West!"},
+    {"Name": "Adventures Of Superseven - Epsiode 7 - Operation Red Shark", "ShortName": "Operation Red Shark", "URL":"aBZ5fmrbung", "EpisodeID": "T1.7", "Plot": "Stressed from a mission and his interactions with Sandra West, Superseven seeks solace in the East. On his return, Superseven has words with his mechanic 'Sparky' about his crime fighting vehicle"},
+    {"Name": "Adventures Of Superseven - Epsiode 8 - Operation Prime Time", "ShortName": "Operation Prime Time", "URL":"nwVi6jIaCEA", "EpisodeID": "T1.8", "Plot": "Superseven and Sandra West encounter a former T.H.E.Y agent, turned Hollywood producer."},
+    {"Name": "Adventures Of Superseven - Epsiode 9 - Operation Get Sandra West", "ShortName": "Operation Get Sandra West", "URL":"iCA_y8aGtm8", "EpisodeID": "T1.9", "Plot": "Superseven returns from Asia when he senses that Sandra West is in mortal danger!"},
+    {"Name": "Adventures Of Superseven - Epsiode 10 - A Coffin For Sandra West", "ShortName": "A Coffin For Sandra West", "URL":"IDcmtQC46Iw", "EpisodeID": "T1.10", "Plot": "Sandra West falls into a T.H.E.Y trap, while Superseven goes on a mission to destroy a secret enemy rocket base."},
+    {"Name": "Adventures Of Superseven - Epsiode 11 - Operation: Death Trap Burbank", "ShortName": "Operation: Death Trap Burbank", "URL":"GMWQux_lK68", "EpisodeID": "T1.11", "Plot": "Superseven meets with a double agent to find out the fate of Sandra West."},
+    {"Name": "Adventures Of Superseven - Epsiode 12 - Operation: Diabolical", "ShortName": "Operation: Diabolical", "URL":"M8512kW0y4w", "EpisodeID": "T1.12", "Plot": "Sandra West is held captive and interrogated by Big O, Dr. Diabolical and Thunderpussy."}
+],
+"The Guild": [
+    {"Title": "The Guild", "Genre": "Comedy", "Creator": "Felicia Day", "PosterURL": "http://ecx.images-amazon.com/images/I/51aF4SrO5aL._AC_UL480_SR342,480_.jpg", "Time": "5", "ID": "T2"},
+    {"Name":"The Guild - Season 1 - Episode 1 - Wake-Up Call", "ShortName": "Wake-Up Call", "URL":"grCTXGW3sxQ", "EpisodeID": "T2.1", "Plot": "Cyd Sherman's online gaming addiction brings more than she bargains for..."},
+    {"Name":"The Guild - Season 1 - Episode 2 - Zaboo'd", "ShortName": "Zaboo'd", "URL":"Qb7GNu3NN-E", "EpisodeID": "T2.2", "Plot": "Cyd Sherman's imaginary world becomes all too real when a gnome warlock shows up on her doorstep."},
+    {"Name":"The Guild - Season 1 - Episode 3 - The Macro Problem", "ShortName": "The Macro Problem", "URL":"SrCoUqWns6g", "EpisodeID": "T2.3", "Plot": "Episode 3, The Macro Problem."},
+    {"Name":"The Guild - Season 1 - Episode 4 - Cheesybeards", "ShortName": "Cheesybeards", "URL":"OplPTPdDSKA", "EpisodeID": "T2.4", "Plot": "The Knights of Good finally meet face to face and...it's awkward."},
+    {"Name":"The Guild - Season 1 - Episode 5 - Rather Be Raiding", "ShortName": "Rather Be Raiding", "URL":"pKkVIbA5iyE", "EpisodeID": "T2.5", "Plot": "Codex struggles to keep the Guild meeting on track, and everything turns out great! Not."},
+    {"Name":"The Guild - Season 1 - Episode 6 - Total Wipe", "ShortName": "Total Wipe", "URL":"JtBO4R-ZD_A", "EpisodeID": "T2.6", "Plot": "Emotions run high in the Guild after the disastrous Cheeseybeards meeting."},
+    {"Name":"The Guild - Season 1 - Episode 7 - Home Invasion", "ShortName": "Home Invasion", "URL":"f3dRlbjgp7o", "EpisodeID": "T2.7", "Plot": "Codex discovers why Zaboo is so weird. It's genetic."},
+    {"Name":"The Guild - Season 1 - Episode 8 - Tipping Point", "ShortName": "Tipping Point", "URL":"rNWt0J-MYko", "EpisodeID": "T2.8", "Plot": "It's up to Codex to grow a spine, eep."},
+    {"Name":"The Guild - Season 1 - Episode 9 - Owning Bladezz", "ShortName": "Owning Bladezz", "URL":"orFgoo28IOU", "EpisodeID": "T2.9", "Plot": "The Guild confronts Bladezz and Codex holds the trump card."},
+    {"Name":"The Guild - Season 1 - Episode 10 - Boss Fight", "ShortName": "Boss Fight", "URL":"rq05zQjgoUA", "EpisodeID": "T2.10", "Plot": "The Guild faces the biggest boss of all time...Zaboo's Mom"}
+],
+"Justice Woman":[
+    {"Title": "Justice Woman", "Genre": "Comedy", "Creator": "Vanessa Verduga", "PosterURL":"http://i53.photobucket.com/albums/g63/etopiei/images.duckduckgo_zpsicqw82hn.png", "Time": "10", "ID": "T3"},
+    {"Name":"Justice Woman - Season 1 Episode 1 - Luck be a Lady", "ShortName": "Luck be a Lady", "URL":"E3ymDifjTuE", "EpisodeID": "T3.1", "Plot": "Meet Sofia Escala, an Assistant D.A. committed to justice, who wants to take on more than traffic and DWI cases. Her admiration for the all-star prosecutor Brent Renard leads her to peruse his latest triumph, State v. Lopez, in the hopes of getting on his radar, but what she discovers puts Brent's ability to have won that case into question."},
+    {"Name":"Justice Woman - Season 1 Episode 2 - A Bit Much", "ShortName": "A Bit Much", "URL":"niBoiGboMEM", "EpisodeID": "T3.2", "Plot": "Sofia convinces Rob to investigate a discrepancy she found in the State v. Lopez files, leading them to an abandoned warehouse where they unexpectedly stumble upon a meeting of corrupt forces. Their presence does not go unperceived by the bad guys. Will they escape?"},
+    {"Name":"Justice Woman - Season 1 Episode 3 - Crossing the Line", "ShortName": "Crossing the Line", "URL":"eQXFaomHckE", "EpisodeID": "T3.3", "Plot": "Sometimes the obvious needs to come out to make the stench of injustice come to light. What is justice? It's certainly not blind. And if you're rich and powerful or a combination of the two you've got nothing to fear. The rich, the powerful, they make their own justice. But what they don't know is that she is on the inside too like a virus. She'll play the game and they'll never know she's there killing the unjust from the inside."},
+    {"Name":"Justice Woman - Season 2 Episode 1 - Right with Might", "ShortName": "Right with Might", "URL":"fUdT1QQ4ieY", "EpisodeID": "T3.4", "Plot": "The saga continues as Sofía Escala, a.k.a. Justice Woman, and Robert Gallion, a.k.a. Roberta, delve deeper into the wrongdoings of a corrupt legal system to make right with might no longer one traffic ticket at a time, but one person at a time."},
+    {"Name":"Justice Woman - Season 2 Episode 2 - Nowhere to Turn", "ShortName": "Nowhere to Turn", "URL":"ltK-tVGm0kQ", "EpisodeID": "T3.5", "Plot": "Sofia and Robert discuss Steven Romero's domestic violence situation among other things as she questions why anyone would put up with such hatred at home. As the conversation turns lighter, Kevin enters their office and joins in the conversation to boast about the Judge assigning him to the Lopez matter, which makes Sofia perk up. As she stays behind working and alone in the office, Sofia realizes that, as a gay man, Steven has nowhere to turn for support. Suddenly, an unexpected visitor shows up and Sofia now feels trapped with nowhere to turn. Will she escape?"},
+    {"Name":"Justice Woman - Season 2 Episode 3 - Meat On A Stick", "ShortName": "Meat On A Stick", "URL":"V5xOyitib4I", "EpisodeID": "T3.6", "Plot": "Managing to get out of her office, Sofia calls and interrupts Robert's romantic evening to ask him to come get her at work quickly; she's in danger. Robert shows up and the two find themselves once again in a tight situation as they eavesdrop on a discussion between the the strange visitor and the Judge who plan to pay a witness to testify that Jesus Lopez is not innocent, which will lead to the exoneration of Brent Renard. Will Sofia and Robert get caught eavesdropping this time?"},
+    {"Name":"Justice Woman - Season 2 Episode 4 - Chasing Cars", "ShortName": "Chasing Cars", "URL":"B2TjN8Z5FgY", "EpisodeID": "T3.7", "Plot": "Sofia and Robert think they've managed to get away free and clear until Rufus, the villain, catches up to them. A car chase ensues. However, there's a certain Mysterious Woman chasing their tails as well. Who can she be? And more importantly, how will Sofia and Robert escape or will they?"},
+    {"Name":"Justice Woman - Season 2 Episode 5 - Untouchable", "ShortName": "Untouchable", "URL":"XSql7oMTPuw", "EpisodeID": "T3.8", "Plot": "Having played Sofia's knight in shining armor, Rob now faces the possibility of losing his boyfriend Phil while giving Ruby, the Judge's secretary, the wrong impression of his orientation. As Rob tries to evade Ruby discretely, Sofia outright rejects Joe in fear of her mother's behavior. But how bad can mama be?"}
+],
+"Anyone But Me": [
+    {"Title": "Anyone But Me", "Genre": "Comedy/Drama", "Creator": "Susan Miller & Tina Cesa Ward", "PosterURL": "http://i43.tower.com/images/mm117027548/anyone-but-me-complete-first-season-rachael-hip-flores-dvd-cover-art.jpg", "Time": "10", "ID": "T4"},
+    {"Name":"Anyone But Me - Episode 1 -  Heavy Lifting", "ShortName": "Heavy Lifting", "URL":"jsmsR8lF4WU", "EpisodeID": "T4.1" , "Plot": "Vivian McMillan moves out of the city and away from herself."},
+    {"Name":"Anyone But Me - Episode 2 -  New Alliance", "ShortName": "New Alliance", "URL":"-yATO0PM1bU", "EpisodeID": "T4.2" , "Plot": "Outsiders connect."},
+    {"Name":"Anyone But Me - Episode 3 -  Countdown", "ShortName": "Countdown", "URL":"BhY5DylarpE", "EpisodeID": "T4.3" , "Plot": "A lot can happen in one day."}
+],
+"Chop Socky Boom":[
+    {"Title": "Chop Socky Boom", "Genre": "Comedy", "Creator": "Darlene Sellers and Heath Ward", "PosterURL": "http://i53.photobucket.com/albums/g63/etopiei/chop-socky-boom-poster_zpspg9mejmq.png", "Time": "10", "ID": "T5"},
+    {"Name":"Chop Socky Boom - Episode 1", "URL":"nsNN_N0mF6Q", "EpisodeID": "T5.1"}
+],
+"Rwby": [
+    {"Title": "Rwby", "Genre": "Action/Adventure", "Creator": "Monty Oum", "PosterURL":"http://i53.photobucket.com/albums/g63/etopiei/rwby_zpsx73kwtnk.jpg", "Time": "10", "ID": "T6"},
+    {"Name":"Rwby - Episode 1", "URL":"-sGiE10zNQM", "EpisodeID": "T6.1"}
+],
+"Walking In Circles": [
+    {"Title": "Walking In Circles", "Genre": "Action/Adventure", "Creator":"Adam Rady", "PosterURL":"http://i53.photobucket.com/albums/g63/etopiei/walking-in-circles_zpstuntsgoi.jpg", "Time": "10", "ID": "T7"},
+    {"Name":"Walking In Circles - Episode 1", "URL":"phNkIRq3X9E", "EpisodeID": "T7.1"}
+],
+"Video Game High School": [
+    {"Title": "Video Game High School", "Genre": "Action/Romance/Sci-Fi ", "Creator":"Matthew Arnold, Will Campos and Brian Firenzi", "PosterURL":"http://i53.photobucket.com/albums/g63/etopiei/MV5BOTgxOTMwOTAxMF5BMl5BanBnXkFtZTcwMTY3MTExOA._V1_SX640_SY720__zps4fssm3zt.jpg", "Time": "15", "ID": "T8"},
+    {"Name": "Video Game High School (VGHS) - Episode 1", "ShortName": "VGHS Episode 1", "URL":"1JqR3GVqib4", "EpisodeID": "T8.1", "Plot": "The first episode for our feature-length webseries 'Video Game High School!'"}
+]
+}

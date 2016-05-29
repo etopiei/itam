@@ -1,0 +1,46 @@
+body {
+    background-color: lightgray;
+}
+.content {
+    background-color: slategray;
+    margin: 30px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.banner {
+    margin: 20px;
+}
+.for-you{
+    margin: 20px;
+    background-color: seagreen;
+    padding: 10px;
+    border-radius: 10px;
+}
+.tv{
+    margin: 20px;
+    background-color: lightseagreen;
+    padding:10px;
+    border-radius: 10px;
+}
+.movies{
+    margin: 20px;
+    background-color: royalblue;
+    padding:10px;
+    border-radius: 10px;
+}
+.title {
+    margin-left: 20px;
+}
+.tag {
+    color: black;
+}
+.see-all {
+    float: right;
+    margin-top: -32px;
+    margin-right: 20px;
+    color: black;
+}
+.see-all:hover {
+    color: black;
+    font-style: oblique;
+}

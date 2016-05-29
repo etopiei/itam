@@ -1,0 +1,27 @@
+body {
+    background-color: lightgray;
+}
+.content {
+    background-color: slategray;
+    margin: 30px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.banner {
+    margin: 20px;
+}
+.details {
+    background-color: seagreen;
+    margin: 20px;
+    padding: 10px;
+}
+.play {
+    float: right;
+    margin-right: 20px;
+}
+.info-text {
+    margin-top: 40px;
+}
+.poster {
+    margin-top: 50px;
+}
