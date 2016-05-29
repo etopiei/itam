@@ -76,6 +76,10 @@
 "Out With Dad": [
   {"Title": "Out With Dad", "Genre": "Drama", "Creator":"Jason Leaver", "PosterURL":"http://i53.photobucket.com/albums/g63/etopiei/Screen%20Shot%202016-05-29%20at%208.20.09%20PM_zpsh0wfbrcu.png", "Time": "7", "ID": "T11"},
   {"Name": "Out With Dad - Episode 1 - Rose with Vanessa", "ShortName": "Rose with Vanessa", "URL":"d4OdATe76q4", "EpisodeID": "T11.1", "Plot": "The premiere episode of Out With Dad. 15 year old Rose (Kate Conway) and her best friend Vanessa (Lindsey Middleton), find out that sometimes first kisses don't turn out exactly how we expect."},
-  {"Name": "Out With Dad - Episode 2 - Out To Lunch", "ShortName": "Out To Lunch", "URL":"XAGjbvcqbrc", "EpisodeID": "T11.2", "Plot": "Nathan (Will Conlon) wants to learn how to help Rose. First thing he learns is that friends are more reliable than the Internet. Meanwhile, Kenny (Corey Lof) encorages Rose (Kate Conway) to make amends with Vanessa (Lindsey Middleton).""}
+  {"Name": "Out With Dad - Episode 2 - Out To Lunch", "ShortName": "Out To Lunch", "URL":"XAGjbvcqbrc", "EpisodeID": "T11.2", "Plot": "Nathan (Will Conlon) wants to learn how to help Rose. First thing he learns is that friends are more reliable than the Internet. Meanwhile, Kenny (Corey Lof) encorages Rose (Kate Conway) to make amends with Vanessa (Lindsey Middleton)."}
+],
+"How It's Made": [
+  {"Title": "How It's Made", "Genre": "Documentary", "Creator":"Gabriel Hoss", "PosterURL":"http://i53.photobucket.com/albums/g63/etopiei/how-its-made-52e4f9e1b2be5_zpsz2kcvnjt.jpg", "Time": "20", "ID": "T12"},
+  {"Name": "How It's Made - Episode 1 - Aluminum Foil - Snowboards - Contact Lenses - Bread", "ShortName": "Aluminum Foil - Snowboards - Contact Lenses - Bread", "URL":"GlInPbe9wC8", "EpisodeID": "T12.1", "Plot": "Aluminum Foil - Snowboards - Contact Lenses - Bread"}
 ]
 }
