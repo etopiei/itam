@@ -29,12 +29,69 @@ function getParameterByName(name, url) {
 function loadDataFromJSON(type) {
   if (type === "M") {
 
+    //change background colour
+
+    document.getElementById("bg").style.backgroundColor = "#4169e1";
+
+    //get movies from json (add them to html page)
+
+    $.getJSON("js/movies.json", function(json) {
+
+      for (var prop in json) {
+
+           if (!json.hasOwnProperty(prop)) {
+               //The current property is not a direct property of p
+               continue;
+           }
+
+           var Posturl = json[prop][0]["PosterURL"];
+           var url = json[prop][0]["ID"];
+
+           createElement(Posturl,url);
+
+       }
+  });
+
+
   }
   else if (type === "T") {
 
-  }
+    //change background colour
+
+    document.getElementById("bg").style.backgroundColor = "#20b2aa";
+
+    //get tv shows from json (add them to html page)
+    $.getJSON("js/tv.json", function(json) {
+
+      for (var prop in json) {
+
+           if (!json.hasOwnProperty(prop)) {
+               //The current property is not a direct property of p
+               continue;
+           }
+
+           var Posturl = json[prop][0]["PosterURL"];
+           var url = json[prop][0]["ID"];
+
+           createElement(Posturl,url);
+
+       }
+  });
+}
 };
 
-function createElement(link) {
+function createElement(link,code) {
 
-}
+  //create a poster that links to the code from the json
+
+  var a = document.createElement("A");
+  a.href = code;
+  var x = document.createElement("IMG");
+  x.src = link;
+  x.height = 256;
+  x.width = 150;
+  var box = document.getElementById("addNew");
+  box.appendChild(a);
+  a.appendChild(x);
+
+};

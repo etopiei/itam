@@ -50,3 +50,8 @@ body {
 .footer {
   font-size: 32px;
 }
+.more-box {
+  margin:20px;
+  padding: 10px;
+  border-radius: 10px;
+}
