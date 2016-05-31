@@ -9,8 +9,13 @@ $(document).ready(function () {
 function fillDetails() {
 
     var query = getParameterByName("?");
-    getDetailsFromQuery(query);
-
+    var firstCharacter = query.substr(0,1);
+    if (firstCharacter === "T") {
+      getDetailsFromQuery(query);
+    }
+    else if (firstCharacter === "M") {
+      getDetailsFromMovie(query);
+    }
 }
 
 function getParameterByName(name, url) {
@@ -59,11 +64,41 @@ function getDetailsFromQuery(queryString) {
                 $(".poster").attr('src',PostURL);
                 document.getElementById("play").href = "play.html?=" + queryString;
 
-
                 }
-
             }
-
         });
+}
 
+function getDetailsFromMovie(queryString) {
+  $.getJSON("js/movies.json", function (json) {
+
+      for (var prop in json) {
+
+          if (!json.hasOwnProperty(prop)) {
+              //The current property is not a direct property of prop
+              console.log("prop fail");
+              continue;
+          }
+
+          if (json[prop][0]["ID"] === queryString) {
+
+              var Genre = json[prop][0]["Genre"];
+              var Creator = json[prop][0]["Director"];
+              var Runtime = json[prop][0]["Time"];
+              var PostURL = json[prop][0]["PosterURL"];
+              var episodeTitle = json[prop][0]["Title"];
+              var epsiodeID = json[prop][0]["ID"];
+              var Synopsis = json[prop][0]["Plot"];
+
+              $(".epTitle").html(episodeTitle);
+              $(".Synopsis").html(Synopsis);
+              $(".Genre").html(Genre);
+              $(".Creator").html(Creator);
+              $(".Time").html(Runtime + " mins");
+              $(".poster").attr('src',PostURL);
+              document.getElementById("play").href = "play.html?=" + queryString;
+
+              }
+          }
+      });
 }

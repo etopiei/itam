@@ -14,7 +14,7 @@ function getType() {
 
   loadDataFromJSON(typeID);
 
-};
+}
 
 function getParameterByName(name, url) {
     if (!url) url = window.location.href;
@@ -24,7 +24,7 @@ function getParameterByName(name, url) {
     if (!results) return null;
     if (!results[2]) return '';
     return decodeURIComponent(results[2].replace(/\+/g, " "));
-};
+}
 
 function loadDataFromJSON(type) {
   if (type === "M") {
@@ -78,7 +78,7 @@ function loadDataFromJSON(type) {
        }
   });
 }
-};
+}
 
 function createTVElement(link,code) {
 
@@ -94,7 +94,7 @@ function createTVElement(link,code) {
   box.appendChild(a);
   a.appendChild(x);
 
-};
+}
 
 function createMovieElement(link,code) {
 
@@ -111,4 +111,4 @@ function createMovieElement(link,code) {
   box.appendChild(a);
   a.appendChild(x);
 
-};
+}
