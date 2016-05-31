@@ -1,11 +1,17 @@
 $(document).ready(function (){
 
    var query = getParameterByName("?");
-   getURL(query);
+   var firstCharacter = query.substr(0,1);
+   if (firstCharacter === "T") {
+     getTVURL(query);
+   }
+   else if (firstCharacter === "M") {
+     getMovieURL(query);
+   }
 
 });
 
-function getURL (input) {
+function getTVURL (input) {
 
         $.getJSON("js/tv.json", function(json) {
         for (var prop in json) {
@@ -28,19 +34,36 @@ function getURL (input) {
                         var linkURL = json[prop][j]["URL"];
                         var title = json[prop][j]["Name"];
                         $(".video-title").html(title);
-                        console.log(linkURL);
                         changePlayerURL(linkURL);
 
                     }
-
                 }
-
             }
-
         }
-
     });
+}
 
+function getMovieURL(input) {
+
+  $.getJSON("js/movies.json", function(json) {
+  for (var prop in json) {
+
+      if (!json.hasOwnProperty(prop)) {
+          //The current property is not a direct property of prop
+          console.log("prop fail");
+          continue;
+      }
+
+      if (json[prop][0]["ID"] === input) {
+
+        var linkURL = json[prop][0]["URL"];
+        var title = json[prop][0]["Title"];
+        $(".video-title").html(title);
+        changePlayerURL(linkURL);
+
+      }
+  }
+});
 }
 
 function changePlayerURL (link) {
