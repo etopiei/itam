@@ -19,11 +19,6 @@ function getRecommendedData () {
                     continue;
                 }
 
-                if (prop === 13) {
-                  getTVData(json);
-                  return;
-                }
-
                 var Posturl = json[prop][0]["PosterURL"];
                 var url = json[prop][0]["ID"];
                 var currentPoster = ".posterR";
@@ -43,6 +38,8 @@ function getRecommendedData () {
                 counter += 1;
             }
 
+            getTVData(json);
+
     }).fail(function (d, textStatus, error) {
         console.error("getJSON failed, status: " + textStatus + ", error: " + error)
     });
@@ -57,11 +54,6 @@ function getTVData (json) {
             if (!json.hasOwnProperty(prop)) {
                 //The current property is not a direct property of p
                 continue;
-            }
-
-            if (prop === 13) {
-              getMovieData();
-              return;
             }
 
             var Posturl = json[prop][0]["PosterURL"];
@@ -82,6 +74,8 @@ function getTVData (json) {
 
             counter += 1;
         }
+
+    getMovieData();
 }
 
 function getMovieData () {
@@ -95,10 +89,6 @@ function getMovieData () {
                 //The current property is not a direct property of prop
                 console.log("prop fail");
                 continue;
-            }
-
-            if (prop === 13) {
-              return;
             }
 
             var Posturl = json[prop][0]["PosterURL"];

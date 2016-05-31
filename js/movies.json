@@ -1,5 +1,8 @@
 {
 "Kung Fury":[
-    {"Title": "Kung Fury", "Director": "David Sandberg", "Time": "31", "ID": "M1", "Genre": "Action/Comedy", "PosterURL": "http://image.tmdb.org/t/p/original/oLhvFUZKh6UxGQTegztDsJWSZAk.jpg", "Plot": "Kung Fury is an over-the-top 80’s action comedy that was crowd funded through Kickstarter. It features Kung Fury, a Kung Fu renegade cop who travels back in time to kill his Nemesis, Hitler. The film features nazis, dinosaurs, vikings and cheesy one-liners."}
+  {"Title": "Kung Fury", "Director": "David Sandberg", "Time": "31", "ID": "M1", "Genre": "Action/Comedy", "PosterURL": "http://image.tmdb.org/t/p/original/oLhvFUZKh6UxGQTegztDsJWSZAk.jpg", "Plot": "Kung Fury is an over-the-top 80’s action comedy that was crowd funded through Kickstarter. It features Kung Fury, a Kung Fu renegade cop who travels back in time to kill his Nemesis, Hitler. The film features nazis, dinosaurs, vikings and cheesy one-liners.", "URL": "bS5P_LAqiVg"}
+],
+"Casino Jack and the United States of Money":[
+  {"Title": "Casino Jack and the United States of Money", "Director": "Alex Gibney", "Time": "118", "ID": "M2", "Genre": "Documentary", "PosterURL": "http://i53.photobucket.com/albums/g63/etopiei/images.duckduckgo_zpsuernyebe.jpg", "Plot": "A probing investigation into the lies, greed and corruption surrounding D.C. super-lobbyist Jack Abramoff and his cronies.", "URL": "GOOUjnGDqso"}
 ]
 }

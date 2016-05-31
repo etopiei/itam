@@ -47,7 +47,7 @@ function loadDataFromJSON(type) {
            var Posturl = json[prop][0]["PosterURL"];
            var url = json[prop][0]["ID"];
 
-           createElement(Posturl,url);
+           createMovieElement(Posturl,url);
 
        }
   });
@@ -73,19 +73,36 @@ function loadDataFromJSON(type) {
            var Posturl = json[prop][0]["PosterURL"];
            var url = json[prop][0]["ID"];
 
-           createElement(Posturl,url);
+           createTVElement(Posturl,url);
 
        }
   });
 }
 };
 
-function createElement(link,code) {
+function createTVElement(link,code) {
 
   //create a poster that links to the code from the json
 
   var a = document.createElement("A");
-  a.href = code;
+  a.href = "/episode-list.html?=" + code;
+  var x = document.createElement("IMG");
+  x.src = link;
+  x.height = 256;
+  x.width = 150;
+  var box = document.getElementById("addNew");
+  box.appendChild(a);
+  a.appendChild(x);
+
+};
+
+function createMovieElement(link,code) {
+
+  //create a poster that links to the code from the json
+
+  var a = document.createElement("A");
+  a.href = "/details.html?=" + code;
+  console.log(a.href);
   var x = document.createElement("IMG");
   x.src = link;
   x.height = 256;
