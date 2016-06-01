@@ -1,8 +1,29 @@
 {
 "Kung Fury":[
-  {"Title": "Kung Fury", "Director": "David Sandberg", "Time": "31", "ID": "M1", "Genre": "Action/Comedy", "PosterURL": "http://image.tmdb.org/t/p/original/oLhvFUZKh6UxGQTegztDsJWSZAk.jpg", "Plot": "Kung Fury is an over-the-top 80’s action comedy that was crowd funded through Kickstarter. It features Kung Fury, a Kung Fu renegade cop who travels back in time to kill his Nemesis, Hitler. The film features nazis, dinosaurs, vikings and cheesy one-liners.", "URL": "bS5P_LAqiVg"}
+  {"Title": "Kung Fury (2015)", "Director": "David Sandberg", "Time": "31", "ID": "M1", "Genre": "Action/Comedy", "PosterURL":"http://image.tmdb.org/t/p/original/oLhvFUZKh6UxGQTegztDsJWSZAk.jpg", "Plot": "Kung Fury is an over-the-top 80’s action comedy that was crowd funded through Kickstarter. It features Kung Fury, a Kung Fu renegade cop who travels back in time to kill his Nemesis, Hitler. The film features nazis, dinosaurs, vikings and cheesy one-liners.", "URL": "bS5P_LAqiVg"}
 ],
 "Casino Jack and the United States of Money":[
-  {"Title": "Casino Jack and the United States of Money", "Director": "Alex Gibney", "Time": "118", "ID": "M2", "Genre": "Documentary", "PosterURL": "http://i53.photobucket.com/albums/g63/etopiei/images.duckduckgo_zpsuernyebe.jpg", "Plot": "A probing investigation into the lies, greed and corruption surrounding D.C. super-lobbyist Jack Abramoff and his cronies.", "URL": "GOOUjnGDqso"}
+  {"Title": "Casino Jack and the United States of Money (2010)", "Director": "Alex Gibney", "Time": "118", "ID": "M2", "Genre": "Documentary", "PosterURL":"http://i53.photobucket.com/albums/g63/etopiei/images.duckduckgo_zpsuernyebe.jpg", "Plot": "A probing investigation into the lies, greed and corruption surrounding D.C. super-lobbyist Jack Abramoff and his cronies.", "URL": "GOOUjnGDqso"}
+],
+"Dark City":[
+  {"Title": "Dark City (1950)", "Director": "William Dieterle", "Time": "93", "ID": "M3", "Genre": "Drama", "PosterURL": "http://i53.photobucket.com/albums/g63/etopiei/images.duckduckgo-1_zpscrvhdjk8.jpg", "Plot": "When a crooked card game turns deadly, the remaining gamblers are the subject of a plot for vengeance.", "URL": "LPdH4KOvg84"}
+],
+"Free To Play":[
+  {"Title": "Free To Play (2014)", "Director": "Valve", "Time": "75", "ID": "M4", "Genre": "Documentary", "PosterURL": "http://i53.photobucket.com/albums/g63/etopiei/2Q_zpsukcw5zkj.jpg", "Plot": "Follow three professional video game players as they overcome personal adversity, family pressures, and the realities of life to compete in a $1,000,000 tournament that could change their lives forever.", "URL": "UjZYMI1zB9s"}
+],
+"Who Needs Sleep":[
+  {"Title": "Who Needs Sleep? (2004)", "Director": "Haskell Wexler", "Time": "78", "ID": "M5", "Genre": "Documentary", "PosterURL":"http://i53.photobucket.com/albums/g63/etopiei/Z_zpsh8senjsm.jpg", "Plot": "Unsettled by the preventable death of a coworker, filmmaker Haskell Wexler learns that sleep deprivation and long work hours are a deadly combination. Interweaving medical findings with personal accounts, his camera reveals how a 24/7 work culture affects all Americans.", "URL": "UuqHNC8oGr0"}
+],
+"Inside LSD":[
+  {"Title": "Inside LSD (2009)", "Director": "Pamela Caragol Wells", "Time": "45", "ID": "M6", "Genre": "Documentary", "PosterURL":"http://i53.photobucket.com/albums/g63/etopiei/Inside%20LSD_zpsdq2jiq0x.jpg", "Plot": "Could LSD be the next drug in your doctor's arsenal? New experiments have a few researchers believing that this 'trippy' drug could become a pharmaceutical of the future, thinking it may enhance brain power, expand creativity, and cure disease.", "URL": "3aZre1Lib0o"}
+],
+"The Making of Star Wars":[
+  {"Title": "The Making of Star Wars (1977)", "Director": "Robert Guenette", "Time": "49", "ID": "M7", "Genre": "Documentary", "PosterURL":"http://i53.photobucket.com/albums/g63/etopiei/Z-1_zps56kbmu8w.jpg", "Plot": "The story behind the making of 'Star Wars: A New Hope', the 1977 epic film which launched one of the most successful sagas of all time. This TV special, the first ever Star Wars documentary, was hosted by C-3PO and R2-D2 and narrated by William Conrad, with appearances by George Lucas, Mark Hamill, Carrie Fisher and Harrison Ford.", "URL": "FSuDjjlIPak"}
+],
+"The Weight of a Nation":[
+  {"Title": "The Weight of the Nation (2012)", "Director": "Sarah Teale", "Time": "69", "ID": "M8", "Genre": "Documentary", "PosterURL":"http://i53.photobucket.com/albums/g63/etopiei/images.duckduckgo-2_zpsgebmzvmd.jpg", "Plot": "The Weight of the Nation examines the long-term health consequences of obesity in America. It pays special attention to childhood weight problems and heart disease, the negative impact of high weight on heart and liver function, the link between weight gain and diabetes, and the social costs of the obesity epidemic.", "URL": "-pEkCbqN4uo"}
+],
+"CIA Secret Experiments":[
+  {"Title": "CIA Secret Experiments (2008)", "Director": "Nicole Teusch and Tria Thalman", "Time": "50", "ID": "M9", "Genre": "Documentary", "PosterURL":"http://i53.photobucket.com/albums/g63/etopiei/Z_zpshufkbopl.jpg", "Plot": "It's the height of the Cold War and the United States government is desperate to combat the spread of Communism. The CIA launches a highly classified, top secret research program into the covert use of biological and chemical agents.", "URL": "gxiojvmaPGg"}
 ]
 }
