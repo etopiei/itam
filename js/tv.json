@@ -43,10 +43,24 @@
     {"Name":"Anyone But Me - Episode 1 -  Heavy Lifting", "ShortName": "Heavy Lifting", "URL":"jsmsR8lF4WU", "EpisodeID": "T4.1" , "Plot": "Vivian McMillan moves out of the city and away from herself."},
     {"Name":"Anyone But Me - Episode 2 -  New Alliance", "ShortName": "New Alliance", "URL":"-yATO0PM1bU", "EpisodeID": "T4.2" , "Plot": "Outsiders connect."},
     {"Name":"Anyone But Me - Episode 3 -  Countdown", "ShortName": "Countdown", "URL":"BhY5DylarpE", "EpisodeID": "T4.3" , "Plot": "A lot can happen in one day."}
+    {"Name":"Anyone But Me - Episode 4 -  Vivian + Aster", "ShortName": "Vivian + Aster", "URL":"JByCNMRXuVo", "EpisodeID": "T4.4" , "Plot": "Vivian and Aster reunite and sparks fly. Maybe it's true you can't go home again."}
+    {"Name":"Anyone But Me - Episode 5 -  The Note Pt. 1", "ShortName": "The Note Pt. 1", "URL":"v3_y9ma5Rso", "EpisodeID": "T4.5" , "Plot": "Vivian and Aster are feeling the distance. Sophie and Jonathan don't see eye to eye."}
+    {"Name":"Anyone But Me - Episode 6 -  The Note Pt. 2", "ShortName": "The Note Pt. 2", "URL":"1YM1FRxaPeM", "EpisodeID": "T4.6" , "Plot": "Aster unfolds the past to figure out the present. Archibald and Elisabeth have a run in. Sophie puts Vivian on the spot."}
+    {"Name":"Anyone But Me - Episode 7 -  Welcome to the Party. Now Clean Up the Mess Pt. 1", "ShortName": "Welcome to the Party. Now Clean Up the Mess Pt. 1", "URL":"bZWSGA9_8fQ", "EpisodeID": "T4.7" , "Plot": "Aster meets Vivian's new friends."}
+    {"Name":"Anyone But Me - Episode 8 -  Welcome to the Party. Now Clean Up the Mess Pt. 2", "ShortName": "Welcome to the Party. Now Clean Up the Mess Pt. 2", "URL":"rTDknR87xPw", "EpisodeID": "T4.8" , "Plot": "Relationships are put on the line."}
+    {"Name":"Anyone But Me - Episode 9 -  Out of the Gate", "ShortName": "Out of the Gate", "URL":"050TGfzrBm8", "EpisodeID": "T4.9" , "Plot": "In the year of getting to know us, some things you never heard. And a hint or two about where we go from here. An intimate free for all."}
+    {"Name":"Anyone But Me - Episode 10 -  Enormous Changes at the Last Minute", "ShortName": "Enormous Changes at the Last Minute", "URL":"HE9_RcvcYBg", "EpisodeID": "T4.10" , "Plot": "A class trip to The New York Times turns up a story of its own."}
 ],
 "Chop Socky Boom":[
     {"Title": "Chop Socky Boom", "Genre": "Comedy", "Creator": "Darlene Sellers and Heath Ward", "PosterURL": "http://i53.photobucket.com/albums/g63/etopiei/chop-socky-boom-poster_zpspg9mejmq.png", "Time": "10", "ID": "T5"},
-    {"Name":"Chop Socky Boom - Episode 1", "URL":"nsNN_N0mF6Q", "EpisodeID": "T5.1"}
+    {"Name":"Chop Socky Boom - Episode 1 - Auditions", "ShortName": "Auditions", "URL":"nsNN_N0mF6Q", "EpisodeID": "T5.1", "Plot":"Seattle based web series 'Final Zodiac Warrior' hosts auditions for twelve open roles: Rat, Ox, Tiger, Rabbit, Dragon, Snake, Horse, Goat, Monkey, Rooster, Dog and Pig."}
+    {"Name":"Chop Socky Boom - Episode 2 - Callbacks", "ShortName": "Callbacks", "URL":"BIItoT21rDQ", "EpisodeID": "T5.2", "Plot":"Three rounds of callbacks for 'Final Zodiac Warrior' pit Seattle indie actors against one another as they compete in martial arts, group combat and 'improv.'"}
+    {"Name":"Chop Socky Boom - Episode 3 - Day One on Set", "ShortName": "Day One on Set", "URL":"nRzLerkKx-8", "EpisodeID": "T5.3", "Plot":"Director Trick of 'Final Zodiac Warrior' puts the cast through their paces on the first day on set."}
+    {"Name":"Chop Socky Boom - Episode 4 - The Nude Scene", "ShortName": "The Nude Scene", "URL":"7I8QzD9dQhA", "EpisodeID": "T5.4", "Plot":"Tensions run high amongst the cast and crew of 'Final Zodiac Warrior' in anticipation of the scheduled nude scene."}
+    {"Name":"Chop Socky Boom - Episode 5 - The Day Job", "ShortName": "The Day Job", "URL":"C0R3BOinXQY", "EpisodeID": "T5.5", "Plot":"Seattle based web series 'Final Zodiac Warrior' shuts down to recast when the Director fires the Dragon Warrior."}
+    {"Name":"Chop Socky Boom - Episode 6 - The Table Read", "ShortName": "The Table Read", "URL":"2ORUWh4QU94", "EpisodeID": "T5.6", "Plot":"Seattle based web series 'Final Zodiac Warrior' holds the first table read with Action Star, 'D'Angelo.'"}
+    {"Name":"Chop Socky Boom - Episode 7 - The DIVAS Episode", "ShortName": "The DIVAS Episode", "URL":"T8IpLc5ZE_M", "EpisodeID": "T5.7", "Plot":"Final Zodiac Warrior cast and crew members wrestle with their own inner divas in preparation for D'Angelo's first scene."}
+    {"Name":"Chop Socky Boom - Episode 8 - The Thunderdome Episode", "ShortName": "The Thunderdome Episode", "URL":"d2hNugZ4V0g", "EpisodeID": "T5.8", "Plot":"When the new FZW Line Producer announces that the show is broke, Trick develops a plan to keep the cameras rolling. Will fortune continue to favor the misfits?"}
 ],
 "Rwby": [
     {"Title": "Rwby", "Genre": "Action/Adventure", "Creator": "Monty Oum", "PosterURL":"http://i53.photobucket.com/albums/g63/etopiei/rwby_zpsx73kwtnk.jpg", "Time": "10", "ID": "T6"},
