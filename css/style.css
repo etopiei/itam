@@ -58,3 +58,11 @@ body {
 .version-text {
   font-size: 15px;
 }
+a {
+    color: black;
+    margin-right: 10px;
+}
+a:hover {
+    color: black;
+    font-style: oblique;
+}
