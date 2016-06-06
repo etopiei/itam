@@ -104,7 +104,7 @@
     {"Name": "Video Game High School (VGHS) - Episode 5", "ShortName": "VGHS Episode 5", "URL":"PKj4-4GvcxY", "EpisodeID": "T8.5", "Plot": "Episode five of our feature-length webseries 'Video Game High School!'"},
     {"Name": "Video Game High School (VGHS) - Episode 6", "ShortName": "VGHS Episode 6", "URL":"wlrBo3P3Rd8", "EpisodeID": "T8.6", "Plot": "Episode six of our feature-length webseries 'Video Game High School!'"},
     {"Name": "Video Game High School (VGHS) - Episode 7", "ShortName": "VGHS Episode 7", "URL":"wQRvX0rVHkc", "EpisodeID": "T8.7", "Plot": "Episode seven of our feature-length webseries 'Video Game High School!'"},
-    {"Name": "Video Game High School (VGHS) - Episode 8", "ShortName": "VGHS Episode 8", "URL":"hSwW4CeReeo", "EpisodeID": "T8.8", "Plot": "Episode eight of our feature-length webseries 'Video Game High School!'"}
+    {"Name": "Video Game High School (VGHS) - Episode 8", "ShortName": "VGHS Episode 8", "URL":"hSwW4CeReeo", "EpisodeID": "T8.8", "Plot": "Episode eight of our feature-length webseries 'Video Game High School!'"},
     {"Name": "Video Game High School (VGHS) - Episode 9", "ShortName": "VGHS Episode 9", "URL":"XK7lc4rNvkI", "EpisodeID": "T8.9", "Plot": "Episode nine of our feature-length webseries 'Video Game High School!'"}
 ],
 "Awkward Black Girl": [
@@ -144,8 +144,13 @@
   {"Name": "Out With Dad - Episode 7 - Chemistry with Vanessa", "ShortName": "Chemistry with Vanessa", "URL":"uBDxZ9PnDCo", "EpisodeID": "T11.7", "Plot": "In this penultimate episode of season one, things are shaping up for Rose."},
   {"Name": "Out With Dad - Episode 8 - Out With Kenny", "ShortName": "Out With Kenny", "URL":"kRLWtXPiuNQ", "EpisodeID": "T11.8", "Plot": "In this finale episode of our first season, Rose finds coming out isn't easy... even when you practice."}
 ],
-"How It's Made": [
-  {"Title": "How It's Made", "Genre": "Documentary", "Creator":"Gabriel Hoss", "PosterURL":"http://i53.photobucket.com/albums/g63/etopiei/how-its-made-52e4f9e1b2be5_zpsz2kcvnjt.jpg", "Time": "20", "ID": "T12"},
-  {"Name": "How It's Made - Episode 1 - Aluminum Foil - Snowboards - Contact Lenses - Bread", "ShortName": "Aluminum Foil - Snowboards - Contact Lenses - Bread", "URL":"GlInPbe9wC8", "EpisodeID": "T12.1", "Plot": "Aluminum Foil - Snowboards - Contact Lenses - Bread"}
+"H+": [
+  {"Title": "H+", "Genre": "Sci-Fi", "Creator":"Stewart Hendler", "PosterURL":"http://i53.photobucket.com/albums/g63/etopiei/2Q_zpsmpeeieao.jpg", "Time": "6", "ID": "T12"},
+  {"Name": "H+ - Episode 1 - Driving Under", "ShortName": "Driving Under", "URL":"ZedLgAF9aEg", "EpisodeID": "T12.1", "Plot": "Fragments of news reports show a future world as it adopts H+: a radical new way to be connected to information and each other through only your thoughts, via a high-tech implant. While the breakthrough is hotly anticipated by the masses, it is a change not easily adopted by its discontents. We segue to a couple parking their car in an underground airport garage. The husband, Lee, surreptitiously watches a football game on his H+, upsetting his wife Julie who wants him to drive safely. Their domestic squabble is interrupted by a bizarre spectacle throwing their world into chaos."},
+  {"Name": "H+ - Episode 2 - On Their Level", "ShortName": "On Their Level", "URL":"zKJDB2RTJ78", "EpisodeID": "T12.2", "Plot": "Julie and Lee stand shocked at the sudden chaos surrounding them in the lot and then risk a similar fate as Lee goes to aid the fallen people. A mysterious bearded man in glasses, Kenneth, appears and leads a small group down to Level 6, where he insists they're safe. But some in the group are skeptical of their hero and his theory for what has just happened."},
+  {"Name": "H+ - Episode 3 - Prophetess", "ShortName": "Prophetess", "URL":"I47aG6NLmr0", "EpisodeID": "T12.3", "Plot": "A young man, Topi, enters a bar to meet a woman named Manta, who he has chatted with online. Manta plays mysterious, giving Topi a hard time, but Topi may have secrets of his own."},
+  {"Name": "H+ - Episode 4 - Airport Security", "ShortName": "Airport Security", "URL":"9mOwO59AzR4", "EpisodeID": "T12.4", "Plot": "With a small group from Level 6 of the parking structure, Kenneth takes Lee's body to a van to get out of the water from the sprinkler system with the hope he may be able to save him."},
+  {"Name": "H+ - Episode 5 - A Large Family", "ShortName": "A Large Family", "URL":"Nk83MCoTS2w", "EpisodeID": "T12.5", "Plot": "Breanna, a hard-charging technology executive, and her husband Connal (both Irish) meet with a doctor, Gurveer, and a young woman, Leena (both Indian), to arrange a surrogate pregnancy. When the introductory meeting turns into something more like an interrogation and Breanna leaves to continue a work call on her H+, Connall tries to make a more human connection."},
+  {"Name": "H+ - Episode 6 - Voci Dal Sud", "ShortName": "Voci Dal Sud", "URL":"9a6ya6sGeg0", "EpisodeID": "T12.6", "Plot": "In a desolate village, Matteo tries to help a man injured in an accident, but realizes getting the medicine he needs will not be easy."}
 ]
 }

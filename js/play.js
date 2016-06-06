@@ -33,6 +33,10 @@ function getTVURL (input) {
 
                         var linkURL = json[prop][j]["URL"];
                         var title = json[prop][j]["Name"];
+                        var nextLink = json[prop][j+1]["EpisodeID"];
+                        if (nextLink !== "") {
+                          addNextButton(nextLink);
+                        }
                         $(".video-title").html(title);
                         changePlayerURL(linkURL);
 
@@ -41,6 +45,15 @@ function getTVURL (input) {
             }
         }
     });
+}
+
+function addNextButton(link) {
+  //change button link and make visible
+  //access it via id Buttonlink
+  var aLink = document.getElementById("a-bit");
+  aLink.href = "play.html?=" + link;
+  var linkButton = document.getElementById("linkButton");
+  linkButton.style.visibility = "visible";
 }
 
 function getMovieURL(input) {

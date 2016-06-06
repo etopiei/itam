@@ -14,7 +14,11 @@ body {
     margin-left: 20px;
 }
 .video-frame {
-    padding: 20px;
-    background-color: seagreen;
-    margin: 20px;
+  overflow: hidden;
+  padding: 20px;
+  background-color: seagreen;
+  margin: 20px;
+}
+button {
+  visibility: hidden;
 }
