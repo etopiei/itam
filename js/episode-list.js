@@ -1,10 +1,10 @@
-$(document).ready(function(){
+$(document).ready(function () {
 
-   loadEpsFromId();
+    loadEpsFromId();
 
 });
 
-function loadEpsFromId () {
+function loadEpsFromId() {
 
     var showID = getParameterByName("?");
     loadEpisodeTitles(showID);
@@ -13,7 +13,7 @@ function loadEpsFromId () {
 
 function loadEpisodeTitles(ID) {
 
-        $.getJSON("js/tv.json", function(json) {
+    $.getJSON("js/tv.json", function (json) {
         for (var prop in json) {
 
             if (!json.hasOwnProperty(prop)) {
@@ -40,7 +40,7 @@ function loadEpisodeTitles(ID) {
 
 }
 
-function createElement (title, epID){
+function createElement(title, epID) {
 
     var br = document.createElement("br");
     var place = document.getElementById("insert-episodes");
