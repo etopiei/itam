@@ -198,5 +198,25 @@
   {"Name": "Red Vs Blue - Episode 8 - Don’t Ph34r the Reaper", "ShortName": "Don’t Ph34r the Reaper", "URL":"RJwGxdlcB0Y", "EpisodeID": "T16.8", "Plot": "Grif and Simmons flee as Caboose’s trigger happy firing has dire consequences."},
   {"Name": "Red Vs Blue - Episode 9 - After Church", "ShortName": "After Church", "URL":"f439Jx9clFA", "EpisodeID": "T16.9", "Plot": "The cavalry arrives, and Caboose gets stuck."},
   {"Name": "Red Vs Blue - Episode 10 - A Shadow of His Former Self", "ShortName": "A Shadow of His Former Self", "URL":"xdEqIbX50DE", "EpisodeID": "T16.10", "Plot": "Tucker requests reinforcements, and gets more than he bargained for."}
+],
+"The Vault":[
+  {"Title": "The Vault", "Genre": "Drama, Mystery, Thriller", "Creator":"Aaron Hann and Mario Miscione", "PosterURL":"http://i53.photobucket.com/albums/g63/etopiei/Z-1_zpspvyovwhd.jpg", "Time": "10", "ID": "T17"},
+  {"Name": "The Vault - Pilot", "ShortName": "Pilot", "URL":"SJ8XGe1s42E", "EpisodeID": "T17.1", "Plot": "An introduction to 'The Vault,' an original web series."},
+  {"Name": "The Vault - Episode 1", "ShortName": "Episode 1", "URL":"VU0nQNLMzmI", "EpisodeID": "T17.2", "Plot": "The game begins."},
+  {"Name": "The Vault - Episode 2", "ShortName": "Episode 2", "URL":"ZlU8jLLj0U0", "EpisodeID": "T17.3", "Plot": "Henry must contend with a game much larger than he anticipated."},
+  {"Name": "The Vault - Episode 3", "ShortName": "Episode 3", "URL":"gaGlmaJCshs", "EpisodeID": "T17.4", "Plot": "Armed with a new strategy and new allies, Henry renews his focus."},
+  {"Name": "The Vault - Episode 4", "ShortName": "Episode 4", "URL":"Kt916FlbqPo", "EpisodeID": "T17.5", "Plot": "As day 2 begins, Henry struggles to make progress."},
+  {"Name": "The Vault - Episode 5", "ShortName": "Episode 5", "URL":"rBNpiRGOBq0", "EpisodeID": "T17.6", "Plot": "The discovery of a key player may be the break the others have been waiting for."},
+  {"Name": "The Vault - Episode 6", "ShortName": "Episode 6", "URL":"JUd8gVHyLWc", "EpisodeID": "T17.7", "Plot": "Unforeseen complications threaten the entire game."},
+  {"Name": "The Vault - Episode 7", "ShortName": "Episode 7", "URL":"LaVgLm85XIM", "EpisodeID": "T17.8", "Plot": "In the aftermath of the game's latest twist, Henry weighs his options."},
+  {"Name": "The Vault - Episode 8", "ShortName": "Episode 8", "URL":"XeMZtm7kigU", "EpisodeID": "T17.9", "Plot": "As a new deadline looms, the players race to unlock the Vault."},
+  {"Name": "The Vault - Episode 9", "ShortName": "Episode 9", "URL":"N93l7nF9bBU", "EpisodeID": "T17.10", "Plot": "Games within the game slow the players' momentum."},
+  {"Name": "The Vault - Episode 10", "ShortName": "Episode 10", "URL":"namYZMtis1I", "EpisodeID": "T17.11", "Plot": "The players' knowledge of each other is tested."},
+  {"Name": "The Vault - Episode 11", "ShortName": "Episode 11", "URL":"W-O6FC4KMgo", "EpisodeID": "T17.12", "Plot": "As time runs low, what's locked inside one of the rooms may be the key to advancing."},
+  {"Name": "The Vault - Episode 12", "ShortName": "Episode 12", "URL":"KmDP4V-Mf1c", "EpisodeID": "T17.13", "Plot": "The end begins."},
+  {"Name": "The Vault - Episode 13", "ShortName": "Episode 13", "URL":"cmgKoIx1n4w", "EpisodeID": "T17.14", "Plot": "Time is running out."},
+  {"Name": "The Vault - Episode 14", "ShortName": "Episode 14", "URL":"AC7D-kxS_Iw", "EpisodeID": "T17.15", "Plot": "As The Vault comes ever closer to shutting down, Henry comes face-to-face with his final challenge...among other things."},
+  {"Name": "The Vault - Episode 15", "ShortName": "Episode 15", "URL":"L14wl4BImDQ", "EpisodeID": "T17.16", "Plot": "After days of surprises and setbacks, it's all coming to an end...whether they're ready for it or not."},
+  {"Name": "The Vault - Episode 16", "ShortName": "Episode 16", "URL":"0JITMi-O1xc", "EpisodeID": "T17.17", "Plot": "One way or another, the game ends here. The series finale of 'The Vault.'"}
 ]
 }
