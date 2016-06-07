@@ -1,24 +1,25 @@
 $(document).ready(function () {
 
-    'use strict';
-
     fillDetails();
 
 });
 
 function fillDetails() {
 
-    var query = getParameterByName("?");
-    var firstCharacter = query.substr(0,1);
-    if (firstCharacter === "T") {
-      getDetailsFromQuery(query);
-    }
-    else if (firstCharacter === "M") {
-      getDetailsFromMovie(query);
-    }
+  //get ID from URL after ?=
+  var query = getParameterByName("?");
+  var firstCharacter = query.substr(0,1);
+  //for tv shows and movies get slightly different details
+  if (firstCharacter === "T") {
+    getDetailsFromQuery(query);
+  }
+  else if (firstCharacter === "M") {
+    getDetailsFromMovie(query);
+  }
 }
 
 function getParameterByName(name, url) {
+  //regex to get id from after ?=
     if (!url) url = window.location.href;
     name = name.replace(/[\[\]]/g, "\\$&");
     var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
@@ -44,6 +45,8 @@ function getDetailsFromQuery(queryString) {
             var showID = queryString.slice(0,position);
 
             if (json[prop][0]["ID"] === showID) {
+
+              //set details on page
 
                 var Genre = json[prop][0]["Genre"];
                 var Creator = json[prop][0]["Creator"];
@@ -81,6 +84,8 @@ function getDetailsFromMovie(queryString) {
           }
 
           if (json[prop][0]["ID"] === queryString) {
+
+            //set details on page
 
               var Genre = json[prop][0]["Genre"];
               var Creator = json[prop][0]["Director"];
