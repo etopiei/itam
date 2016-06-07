@@ -27,15 +27,19 @@ function getTVURL (input) {
 
             if (json[prop][0]["ID"] === showID) {
 
-                for (var j = 1; j < json[prop].length; j++) {
+              var numEpisodes = json[prop].length;
+
+                for (var j = 1; j < numEpisodes; j++) {
 
                     if (json[prop][j]["EpisodeID"] === input) {
 
                         var linkURL = json[prop][j]["URL"];
                         var title = json[prop][j]["Name"];
-                        var nextLink = json[prop][j+1]["EpisodeID"];
-                        if (nextLink !== "") {
-                          addNextButton(nextLink);
+                        if (j !== numEpisodes - 1) {
+                          var nextLink = json[prop][j+1]["EpisodeID"];
+                          if (nextLink !== "") {
+                            addNextButton(nextLink);
+                          }
                         }
                         $(".video-title").html(title);
                         changePlayerURL(linkURL);

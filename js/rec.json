@@ -1,0 +1,35 @@
+{
+  "H+":[
+    {"Title": "H+", "Genre": "Sci-Fi", "Creator":"Stewart Hendler", "PosterURL":"http://i53.photobucket.com/albums/g63/etopiei/2Q_zpsmpeeieao.jpg", "Time": "6", "ID": "T12"}
+  ],
+  "Video Game High School":[
+    {"Title": "Video Game High School", "Genre": "Action/Romance/Sci-Fi", "Creator":"Matthew Arnold, Will Campos and Brian Firenzi", "PosterURL":"http://i53.photobucket.com/albums/g63/etopiei/MV5BOTgxOTMwOTAxMF5BMl5BanBnXkFtZTcwMTY3MTExOA._V1_SX640_SY720__zps4fssm3zt.jpg", "Time": "15", "ID": "T8"}
+  ],
+  "Kung Fury":[
+    {"Title": "Kung Fury (2015)", "Director": "David Sandberg", "Time": "31", "ID": "M1", "Genre": "Action/Comedy", "PosterURL":"http://image.tmdb.org/t/p/original/oLhvFUZKh6UxGQTegztDsJWSZAk.jpg", "Plot": "Kung Fury is an over-the-top 80’s action comedy that was crowd funded through Kickstarter. It features Kung Fury, a Kung Fu renegade cop who travels back in time to kill his Nemesis, Hitler. The film features nazis, dinosaurs, vikings and cheesy one-liners.", "URL": "bS5P_LAqiVg"}
+  ],
+  "Rwby":[
+    {"Title": "Rwby", "Genre": "Action/Adventure", "Creator": "Monty Oum", "PosterURL":"http://i53.photobucket.com/albums/g63/etopiei/rwby_zpsx73kwtnk.jpg", "Time": "10", "ID": "T6"}
+  ],
+  "The Fabric of the Cosmos: Quantum Leap":[
+    {"Title": "The Fabric of the Cosmos: Quantum Leap (2011)", "Director": "Julia Cort and Josh Rosen", "Time": "54", "ID": "M11", "Genre": "Documentary", "PosterURL":"http://i53.photobucket.com/albums/g63/etopiei/images.duckduckgo_zpsp5i07x9t.jpg", "Plot": "This program explains some of the weirdest aspects of quantum mechanics: uncertainty and entanglement. Despite the absurdity of these behaviors they have been confirmed time and again and have never been refuted. Lastly the theory that suggests the possibility that teleportation and quantum computers may be possible are examined.", "URL": "CBrsWPCp_rs"}
+  ],
+  "Out With Dad":[
+    {"Title": "Out With Dad", "Genre": "Drama", "Creator":"Jason Leaver", "PosterURL":"http://i53.photobucket.com/albums/g63/etopiei/Screen%20Shot%202016-05-29%20at%208.20.09%20PM_zpsh0wfbrcu.png", "Time": "7", "ID": "T11"}
+  ],
+  "The Weight of a Nation":[
+    {"Title": "The Weight of the Nation (2012)", "Director": "Sarah Teale", "Time": "69", "ID": "M8", "Genre": "Documentary", "PosterURL":"http://i53.photobucket.com/albums/g63/etopiei/images.duckduckgo-2_zpsgebmzvmd.jpg", "Plot": "The Weight of the Nation examines the long-term health consequences of obesity in America. It pays special attention to childhood weight problems and heart disease, the negative impact of high weight on heart and liver function, the link between weight gain and diabetes, and the social costs of the obesity epidemic.", "URL": "-pEkCbqN4uo"}
+  ],
+  "The Guild":[
+    {"Title": "The Guild", "Genre": "Comedy", "Creator": "Felicia Day", "PosterURL": "http://ecx.images-amazon.com/images/I/51aF4SrO5aL._AC_UL480_SR342,480_.jpg", "Time": "5", "ID": "T2"}
+  ],
+  "Chop Socky Boom":[
+      {"Title": "Chop Socky Boom", "Genre": "Comedy", "Creator": "Darlene Sellers and Heath Ward", "PosterURL": "http://i53.photobucket.com/albums/g63/etopiei/chop-socky-boom-poster_zpspg9mejmq.png", "Time": "10", "ID": "T5"}
+  ],
+  "Awkward Black Girl": [
+    {"Title": "Awkward Black Girl", "Genre": "Comedy", "Creator":"Shea William Vanderpoort", "PosterURL":"http://i53.photobucket.com/albums/g63/etopiei/The-Misadventures-of-Awkward-Black-Girl_zpsschnj0db.jpg", "Time": "5", "ID": "T9"}
+  ],
+  "I Hate Being Single": [
+    {"Title": "I Hate Being Single", "Genre": "Comedy", "Creator":"Shannon Coffey", "PosterURL":"http://i53.photobucket.com/albums/g63/etopiei/2Q_zpsknr6fzbp.jpg", "Time": "5", "ID": "T13"}
+  ]
+}
