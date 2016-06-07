@@ -5,7 +5,6 @@ $(document).ready(function () {
 });
 
 function fillDetails() {
-
   //get ID from URL after ?=
   var query = getParameterByName("?");
   var firstCharacter = query.substr(0,1);
@@ -42,7 +41,7 @@ function getDetailsFromQuery(queryString) {
             }
 
             var position = queryString.indexOf(".");
-            var showID = queryString.slice(0,position);
+            var showID = queryString.slice(0, position);
 
             if (json[prop][0]["ID"] === showID) {
 
@@ -64,15 +63,16 @@ function getDetailsFromQuery(queryString) {
                 $(".Genre").html(Genre);
                 $(".Creator").html(Creator);
                 $(".Time").html(Runtime + " mins");
-                $(".poster").attr('src',PostURL);
+                $(".poster").attr('src', PostURL);
                 document.getElementById("play").href = "play.html?=" + queryString;
 
-                }
             }
-        });
+        }
+    });
 }
 
 function getDetailsFromMovie(queryString) {
+
   $.getJSON("js/movies.json", function (json) {
 
       for (var prop in json) {

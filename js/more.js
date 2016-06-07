@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(document).ready(function () {
   getType();
 })
 
@@ -17,13 +17,13 @@ function getType() {
 }
 
 function getParameterByName(name, url) {
-    if (!url) url = window.location.href;
-    name = name.replace(/[\[\]]/g, "\\$&");
-    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
-        results = regex.exec(url);
-    if (!results) return null;
-    if (!results[2]) return '';
-    return decodeURIComponent(results[2].replace(/\+/g, " "));
+  if (!url) url = window.location.href;
+  name = name.replace(/[\[\]]/g, "\\$&");
+  var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+    results = regex.exec(url);
+  if (!results) return null;
+  if (!results[2]) return '';
+  return decodeURIComponent(results[2].replace(/\+/g, " "));
 }
 
 function loadDataFromJSON(type) {
@@ -35,22 +35,22 @@ function loadDataFromJSON(type) {
 
     //get movies from json (add them to html page)
 
-    $.getJSON("js/movies.json", function(json) {
+    $.getJSON("js/movies.json", function (json) {
 
       for (var prop in json) {
 
-           if (!json.hasOwnProperty(prop)) {
-               //The current property is not a direct property of p
-               continue;
-           }
+        if (!json.hasOwnProperty(prop)) {
+          //The current property is not a direct property of p
+          continue;
+        }
 
-           var Posturl = json[prop][0]["PosterURL"];
-           var url = json[prop][0]["ID"];
+        var Posturl = json[prop][0]["PosterURL"];
+        var url = json[prop][0]["ID"];
 
-           createMovieElement(Posturl,url);
+        createMovieElement(Posturl, url);
 
-       }
-  });
+      }
+    });
 
 
   }
@@ -61,26 +61,26 @@ function loadDataFromJSON(type) {
     document.getElementById("bg").style.backgroundColor = "#20b2aa";
 
     //get tv shows from json (add them to html page)
-    $.getJSON("js/tv.json", function(json) {
+    $.getJSON("js/tv.json", function (json) {
 
       for (var prop in json) {
 
-           if (!json.hasOwnProperty(prop)) {
-               //The current property is not a direct property of p
-               continue;
-           }
+        if (!json.hasOwnProperty(prop)) {
+          //The current property is not a direct property of p
+          continue;
+        }
 
-           var Posturl = json[prop][0]["PosterURL"];
-           var url = json[prop][0]["ID"];
+        var Posturl = json[prop][0]["PosterURL"];
+        var url = json[prop][0]["ID"];
 
-           createTVElement(Posturl,url);
+        createTVElement(Posturl, url);
 
-       }
-  });
+      }
+    });
+  }
 }
-}
 
-function createTVElement(link,code) {
+function createTVElement(link, code) {
 
   //create a poster that links to the code from the json
 
@@ -96,7 +96,7 @@ function createTVElement(link,code) {
 
 }
 
-function createMovieElement(link,code) {
+function createMovieElement(link, code) {
 
   //create a poster that links to the code from the json
 

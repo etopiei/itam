@@ -185,5 +185,18 @@
   {"Name": "The Lizzie Bennet Diaries - Episode 8 - Charlotte's Back!", "ShortName": "Charlotte's Back!", "URL":"grSiQyC2RoY", "EpisodeID": "T15.8", "Plot": "Yay Charlotte is back. I hope she never leaves again. Watch as she and I catch up. Also she apparently told something to my mother that didn't exactly thrill me, but hey it's Charlotte and I love her."},
   {"Name": "The Lizzie Bennet Diaries - Episode 9 - Single and Happyish", "ShortName": "Single and Happyish", "URL":"gkGVenUsXfk", "EpisodeID": "T15.9", "Plot": "As my mother has been pushing for the day that her three single daughters are 'properly' wed, I'd like to point out in this video that it's perfectly okay (and usually better) that you wait and find the right person."},
   {"Name": "The Lizzie Bennet Diaries - Episode 10 - Cats and Chinchillas", "ShortName": "Cats and Chinchillas", "URL":"qdhKqIXGq2k", "EpisodeID": "T15.10", "Plot": "So I got some pictures of some cats playing with Chinchillas. I was going to spend today talking about adorableness and not Bing, but then Jane showed up and, well..."}
+],
+"Red Vs. Blue": [
+  {"Title": "Red Vs. Blue", "Genre": "Comedy", "Creator":"Burnie Burns", "PosterURL":"http://i53.photobucket.com/albums/g63/etopiei/images.duckduckgo-2_zpsk1rwdbft.jpg", "Time": "2", "ID": "T16"},
+  {"Name": "Red Vs Blue - Episode 1 - Why Are We Here?", "ShortName": "Why Are We Here?", "URL":"9N8IpxO6rKs", "EpisodeID": "T16.1", "Plot": "The first episode of Red vs. Blue introduces the main characters, and poses the all-important question, why are we here?"},
+  {"Name": "Red Vs Blue - Episode 2 - Red Gets a Delivery", "ShortName": "Red Gets a Delivery", "URL":"Rju4RWdEyZk", "EpisodeID": "T16.2", "Plot": "The Reds get a new piece of equipment, and Grif has a problem with its name."},
+  {"Name": "Red Vs Blue - Episode 3 - The Rookies", "ShortName": "The Rookies", "URL":"Ps9SRsiSASY", "EpisodeID": "T16.3", "Plot": "The Red and Blue armies get new recruits."},
+  {"Name": "Red Vs Blue - Episode 4 - Head Noob in Charge", "ShortName": "Head Noob in Charge", "URL":"_7UFQkH25vw", "EpisodeID": "T16.4", "Plot": "Caboose is given the job of 'guarding the flag.' Donut goes to the store."},
+  {"Name": "Red Vs Blue - Episode 5 - The Package Is in the Open", "ShortName": "The Package Is in the Open", "URL":"vRL7TnoOPsA", "EpisodeID": "T16.5", "Plot": "Donut returns from the store with a surprise."},
+  {"Name": "Red Vs Blue - Episode 6 - 1.21 Giga-Whats??", "ShortName": "1.21 Giga-Whats??", "URL":"Od7F3ZLtTRc", "EpisodeID": "T16.6", "Plot": "The Blues go through the teleporter. The Reds get the upper hand."},
+  {"Name": "Red Vs Blue - Episode 7 - Check out the Treads on That Tank", "ShortName": "Check out the Treads on That Tank", "URL":"UATJ_GGYGS0", "EpisodeID": "T16.7", "Plot": "While Church and Tucker lament their current situation, Caboose hops into the tank."},
+  {"Name": "Red Vs Blue - Episode 8 - Don’t Ph34r the Reaper", "ShortName": "Don’t Ph34r the Reaper", "URL":"RJwGxdlcB0Y", "EpisodeID": "T16.8", "Plot": "Grif and Simmons flee as Caboose’s trigger happy firing has dire consequences."},
+  {"Name": "Red Vs Blue - Episode 9 - After Church", "ShortName": "After Church", "URL":"f439Jx9clFA", "EpisodeID": "T16.9", "Plot": "The cavalry arrives, and Caboose gets stuck."},
+  {"Name": "Red Vs Blue - Episode 10 - A Shadow of His Former Self", "ShortName": "A Shadow of His Former Self", "URL":"xdEqIbX50DE", "EpisodeID": "T16.10", "Plot": "Tucker requests reinforcements, and gets more than he bargained for."}
 ]
 }

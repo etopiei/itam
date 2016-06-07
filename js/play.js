@@ -1,19 +1,19 @@
-$(document).ready(function (){
+$(document).ready(function () {
 
-   var query = getParameterByName("?");
-   var firstCharacter = query.substr(0,1);
-   if (firstCharacter === "T") {
-     getTVURL(query);
-   }
-   else if (firstCharacter === "M") {
-     getMovieURL(query);
-   }
+    var query = getParameterByName("?");
+    var firstCharacter = query.substr(0, 1);
+    if (firstCharacter === "T") {
+        getTVURL(query);
+    }
+    else if (firstCharacter === "M") {
+        getMovieURL(query);
+    }
 
 });
 
-function getTVURL (input) {
+function getTVURL(input) {
 
-        $.getJSON("js/tv.json", function(json) {
+    $.getJSON("js/tv.json", function (json) {
         for (var prop in json) {
 
             if (!json.hasOwnProperty(prop)) {
@@ -23,11 +23,11 @@ function getTVURL (input) {
             }
 
             var position = input.indexOf(".")
-            var showID = input.slice(0,position);
+            var showID = input.slice(0, position);
 
             if (json[prop][0]["ID"] === showID) {
 
-              var numEpisodes = json[prop].length;
+                var numEpisodes = json[prop].length;
 
                 for (var j = 1; j < numEpisodes; j++) {
 
@@ -36,10 +36,10 @@ function getTVURL (input) {
                         var linkURL = json[prop][j]["URL"];
                         var title = json[prop][j]["Name"];
                         if (j !== numEpisodes - 1) {
-                          var nextLink = json[prop][j+1]["EpisodeID"];
-                          if (nextLink !== "") {
-                            addNextButton(nextLink);
-                          }
+                            var nextLink = json[prop][j + 1]["EpisodeID"];
+                            if (nextLink !== "") {
+                                addNextButton(nextLink);
+                            }
                         }
                         $(".video-title").html(title);
                         changePlayerURL(linkURL);
@@ -52,38 +52,38 @@ function getTVURL (input) {
 }
 
 function addNextButton(link) {
-  //change button link and make visible
-  //access it via id Buttonlink
-  var aLink = document.getElementById("a-bit");
-  aLink.href = "play.html?=" + link;
-  var linkButton = document.getElementById("linkButton");
-  linkButton.style.visibility = "visible";
+    //change button link and make visible
+    //access it via id Buttonlink
+    var aLink = document.getElementById("a-bit");
+    aLink.href = "play.html?=" + link;
+    var linkButton = document.getElementById("linkButton");
+    linkButton.style.visibility = "visible";
 }
 
 function getMovieURL(input) {
 
-  $.getJSON("js/movies.json", function(json) {
-  for (var prop in json) {
+    $.getJSON("js/movies.json", function (json) {
+        for (var prop in json) {
 
-      if (!json.hasOwnProperty(prop)) {
-          //The current property is not a direct property of prop
-          console.log("prop fail");
-          continue;
-      }
+            if (!json.hasOwnProperty(prop)) {
+                //The current property is not a direct property of prop
+                console.log("prop fail");
+                continue;
+            }
 
-      if (json[prop][0]["ID"] === input) {
+            if (json[prop][0]["ID"] === input) {
 
-        var linkURL = json[prop][0]["URL"];
-        var title = json[prop][0]["Title"];
-        $(".video-title").html(title);
-        changePlayerURL(linkURL);
+                var linkURL = json[prop][0]["URL"];
+                var title = json[prop][0]["Title"];
+                $(".video-title").html(title);
+                changePlayerURL(linkURL);
 
-      }
-  }
-});
+            }
+        }
+    });
 }
 
-function changePlayerURL (link) {
+function changePlayerURL(link) {
 
     var completeSrc = "https://www.youtube.com/embed/" + link + "?&version=3&autohide=1&autoplay=1&disablekb=0&iv_load_policy=3&modestbranding=1&rel=0&showinfo=0";
 
