@@ -26,3 +26,11 @@ a:hover {
 .footer {
   font-size: 32px;
 }
+.style-eps {
+  background-color: seagreen;
+  margin: 20px;
+  padding: 20px;
+}
+.posterStyle {
+  float: right;
+}

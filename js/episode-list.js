@@ -24,6 +24,11 @@ function loadEpisodeTitles(ID) {
 
             if (json[prop][0]["ID"] === ID) {
 
+              var showPosterURL = json[prop][0]["PosterURL"];
+              $(".showPoster").attr('src', showPosterURL);
+              var header = json[prop][0]["Title"];
+              $(".epsiodeHeading").html("Episode List: " + header);
+
                 for (var i = 1; i < json[prop].length; i++) {
 
                     var episodeTitle = json[prop][i]["Name"];
