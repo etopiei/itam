@@ -87,6 +87,7 @@ function createTVElement(link, code) {
   var a = document.createElement("A");
   a.href = "/episode-list.html?=" + code;
   var x = document.createElement("IMG");
+  x.setAttribute("class","spaced");
   x.src = link;
   x.height = 256;
   x.width = 150;
@@ -104,6 +105,7 @@ function createMovieElement(link, code) {
   a.href = "/details.html?=" + code;
   console.log(a.href);
   var x = document.createElement("IMG");
+  x.setAttribute("class","spaced");
   x.src = link;
   x.height = 256;
   x.width = 150;
