@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
 <link rel=StyleSheet href="css/bootstrap.min.css">
 <link rel=StyleSheet href="css/style-play.css" type="text/css" media=screen>
+</head>
 
 <body>
 
@@ -16,11 +18,15 @@
                 </center>
             </div>
 
+            <script src="js/jquery-min.js"> </script>
+            <script src="js/bootstrap.min.js"></script>
+            <script src="js/play.js"> </script>
+
             <div id="video-frame">
                 <center>
                     <h3 class="video-title"> </h3>
-                    <iframe class="player" id="player" width="640" height="480" src="" frameborder="0" allowfullscreen>
-                </iframe>
+                    <div id="embeded-player">
+                    </div>
                     <br>
                     <a id="a-bit">
                         <button id="linkButton" class="btn btn-primary">Next</button>
@@ -31,13 +37,5 @@
     </div>
 
 </body>
-
-<script src="js/jquery-min.js">
-
-</script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/play.js">
-
-</script>
 
 </html>

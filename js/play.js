@@ -42,7 +42,7 @@ function getTVURL(input) {
                             }
                         }
                         $(".video-title").html(title);
-                        changePlayerURL(linkURL);
+                        createPlayer(linkURL);
 
                     }
                 }
@@ -83,11 +83,16 @@ function getMovieURL(input) {
     });
 }
 
-function changePlayerURL(link) {
+function createPlayer(link) {
 
-    var completeSrc = "https://www.youtube.com/embed/" + link + "?&version=3&autohide=1&autoplay=1&disablekb=0&iv_load_policy=3&modestbranding=1&rel=0&showinfo=0";
-
-    $(player).attr('src', completeSrc);
+    var completeSrc = "http://www.youtube.com/embed/" + link + "?&version=3&autohide=1&autoplay=1&disablekb=0&iv_load_policy=3&modestbranding=1&rel=0&showinfo=0";
+    frm = document.createElement("IFRAME");
+    frm.setAttribute("src", completeSrc);
+    frm.setAttribute("frameborder", "0");
+    frm.style.width = 640+"px";
+    frm.style.height = 480+"px";
+    place = document.getElementById("embeded-player");
+    place.appendChild(frm);
 
 }
 
