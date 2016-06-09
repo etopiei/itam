@@ -89,6 +89,7 @@ function createPlayer(link) {
     frm = document.createElement("IFRAME");
     frm.setAttribute("src", completeSrc);
     frm.setAttribute("frameborder", "0");
+    frm.setAttribute("allowfullscreen","1");
     frm.style.width = 640+"px";
     frm.style.height = 480+"px";
     place = document.getElementById("embeded-player");
