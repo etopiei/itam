@@ -10,6 +10,7 @@ Simply clone this project to SourceTree or to your local machine. Then run a web
 ### Contribution guidelines ###
 
 The documentation for how to contribute and the git structure are outlined here: https://www.dropbox.com/s/y07k46xn8o3btn2/itam%20development%20guide.docx?dl=0
+Also further information on how to contribute and tasks still to do are on Trello here: https://trello.com/b/6olLZLKb/tv-development-map
 
 Any other questions talk to me. 
 
