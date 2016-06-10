@@ -76,7 +76,7 @@ function getMovieURL(input) {
                 var linkURL = json[prop][0]["URL"];
                 var title = json[prop][0]["Title"];
                 $(".video-title").html(title);
-                changePlayerURL(linkURL);
+                createPlayer(linkURL);
 
             }
         }
