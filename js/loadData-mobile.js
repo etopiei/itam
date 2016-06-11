@@ -151,7 +151,7 @@ function createMoviePoster(link,poster,cat) {
 function createTVPoster(link,poster,cat) {
 
   var a = document.createElement("A");
-  a.href = "/episode-list.html?=" + link;
+  a.href = "/mobile/mobile-episode-list.html?=" + link;
   var x = document.createElement("IMG");
   x.setAttribute("class","spaced hor-spaced");
   x.src = poster;
