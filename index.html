@@ -1,5 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+<script type="text/javascript">
+if (screen.width <= 699) {
+document.location = "/mobile/mobile.html";
+}
+</script>
+<script language=javascript>
+if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))) {
+   location.replace("/mobile/mobile.html");
+}
+</script>
 <link rel=StyleSheet href="css/bootstrap.min.css">
 <link rel=StyleSheet href="css/style.css" type="text/css" media=screen>
 <link rel="stylesheet" href="/font-awesome-4.6.3/css/font-awesome.min.css">
