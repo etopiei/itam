@@ -131,7 +131,7 @@ function getMovieData() {
 function createMoviePoster(link,poster,cat) {
 
   var a = document.createElement("A");
-  a.href = "/details.html?=" + link;
+  a.href = "/mobile/mobile-details.html?=" + link;
   var x = document.createElement("IMG");
   x.setAttribute("class","spaced hor-spaced");
   x.src = poster;

@@ -52,7 +52,7 @@ function createElement(title,ID) {
   p.textContent = title;
   p.setAttribute("class","mediumText")
   var a = document.createElement("a");
-  a.href = "/details.html?=" + ID;
+  a.href = "/mobile/mobile-details.html?=" + ID;
   place.appendChild(p);
   place.appendChild(a);
 
