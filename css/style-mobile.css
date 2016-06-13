@@ -44,3 +44,24 @@ body {
 .footer {
   font-size: 50px;
 }
+.more-space {
+  margin: 20px;
+  background-color: lightseagreen;
+  padding:10px;
+  border-radius: 10px;
+}
+.more-btn {
+  padding: 20px;
+  background-color: slategray;
+  color: black;
+}
+.more-btn:hover {
+  background-color: lightgray;
+  color: black;
+}
+.upSized {
+  height: 100px;
+  width: 300px;
+  font-size: 30px;
+  margin-bottom: 50px;
+}

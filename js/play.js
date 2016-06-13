@@ -58,6 +58,14 @@ function addNextButton(link) {
     aLink.href = "play.html?=" + link;
     var linkButton = document.getElementById("linkButton");
     linkButton.style.visibility = "visible";
+
+    if (screen.width <= 699) {
+      linkButton.setAttribute("class","upSized btn btn-primary");
+    }
+    if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))) {
+       linkButton.setAttribute("class","upSized btn btn-primary");
+    }
+
 }
 
 function getMovieURL(input) {
