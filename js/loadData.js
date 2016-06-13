@@ -70,6 +70,8 @@ function getRecommendedData() {
 
 function getTVData() {
 
+  console.log("TV Data");
+
     var counter = 0;
 
     $.getJSON("js/tv.json", function (json) {
@@ -81,6 +83,11 @@ function getTVData() {
             if (!json.hasOwnProperty(prop)) {
                 //The current property is not a direct property of p
                 continue;
+            }
+
+            if (counter > 12) {
+              getMovieData();
+              return;
             }
 
             var Posturl = json[prop][0]["PosterURL"];
@@ -120,6 +127,10 @@ function getMovieData() {
                 //The current property is not a direct property of prop
                 console.log("prop fail");
                 continue;
+            }
+
+            if (counter > 12) {
+              return;
             }
 
             var Posturl = json[prop][0]["PosterURL"];
