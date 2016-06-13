@@ -18,6 +18,7 @@ body {
 }
 .footer {
   font-size: 50px;
+  color: black;
 }
 .insert-details {
   margin: 20px;
@@ -34,4 +35,7 @@ body {
   width: 300px;
   font-size: 30px;
   margin-bottom: 50px;
+}
+a {
+  color: black;
 }
