@@ -22,3 +22,9 @@ body {
 button {
   visibility: hidden;
 }
+.upSized {
+  height: 100px;
+  width: 300px;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
