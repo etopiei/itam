@@ -57,7 +57,7 @@ function getTVData() {
 
   console.log(category);
 
-  $.getJSON("/js/tv.json", function (json) {
+  $.getJSON("/js/tv-min.json", function (json) {
 
       console.log("JSON Received");
 

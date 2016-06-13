@@ -1,0 +1,59 @@
+{
+  "TAOS":[
+    {"Title": "The Adventures of Superseven", "Genre": "Action/Adventure", "Creator": "Scott Rhodes", "PosterURL": "http://i53.photobucket.com/albums/g63/etopiei/taos%20poster_zpsgzcnqeas.png", "Time": "10", "ID": "T1"}
+  ],
+  "The Guild": [
+    {"Title": "The Guild", "Genre": "Comedy", "Creator": "Felicia Day", "PosterURL": "http://ecx.images-amazon.com/images/I/51aF4SrO5aL._AC_UL480_SR342,480_.jpg", "Time": "5", "ID": "T2"}
+  ],
+  "Justice Woman":[
+      {"Title": "Justice Woman", "Genre": "Comedy", "Creator": "Vanessa Verduga", "PosterURL":"http://i53.photobucket.com/albums/g63/etopiei/images.duckduckgo_zpsicqw82hn.png", "Time": "10", "ID": "T3"}
+  ],
+  "Anyone But Me": [
+    {"Title": "Anyone But Me", "Genre": "Comedy/Drama", "Creator": "Susan Miller & Tina Cesa Ward", "PosterURL": "http://i43.tower.com/images/mm117027548/anyone-but-me-complete-first-season-rachael-hip-flores-dvd-cover-art.jpg", "Time": "10", "ID": "T4"}
+  ],
+  "Chop Socky Boom":[
+    {"Title": "Chop Socky Boom", "Genre": "Comedy", "Creator": "Darlene Sellers and Heath Ward", "PosterURL": "http://i53.photobucket.com/albums/g63/etopiei/chop-socky-boom-poster_zpspg9mejmq.png", "Time": "10", "ID": "T5"}
+  ],
+  "Rwby": [
+    {"Title": "Rwby", "Genre": "Action/Adventure", "Creator": "Monty Oum", "PosterURL":"http://i53.photobucket.com/albums/g63/etopiei/rwby_zpsx73kwtnk.jpg", "Time": "10", "ID": "T6"}
+  ],
+  "Walking In Circles": [
+    {"Title": "Walking In Circles", "Genre": "Action/Adventure", "Creator":"Adam Rady", "PosterURL":"http://i53.photobucket.com/albums/g63/etopiei/walking-in-circles_zpstuntsgoi.jpg", "Time": "10", "ID": "T7"}
+  ],
+  "Video Game High School": [
+    {"Title": "Video Game High School", "Genre": "Action/Romance/Sci-Fi", "Creator":"Matthew Arnold, Will Campos and Brian Firenzi", "PosterURL":"http://i53.photobucket.com/albums/g63/etopiei/MV5BOTgxOTMwOTAxMF5BMl5BanBnXkFtZTcwMTY3MTExOA._V1_SX640_SY720__zps4fssm3zt.jpg", "Time": "15", "ID": "T8"}
+  ],
+  "Awkward Black Girl": [
+    {"Title": "Awkward Black Girl", "Genre": "Comedy", "Creator":"Shea William Vanderpoort", "PosterURL":"http://i53.photobucket.com/albums/g63/etopiei/The-Misadventures-of-Awkward-Black-Girl_zpsschnj0db.jpg", "Time": "5", "ID": "T9"}
+  ],
+  "Journey Quest": [
+    {"Title": "Journey Quest", "Genre": "Action, Adventure, Comedy", "Creator":"Ben Dobyns and Matt Vancil", "PosterURL":"http://i53.photobucket.com/albums/g63/etopiei/Z_zpsfufignd9.jpg", "Time": "7", "ID": "T10"}
+  ],
+  "Out With Dad": [
+    {"Title": "Out With Dad", "Genre": "Drama", "Creator":"Jason Leaver", "PosterURL":"http://i53.photobucket.com/albums/g63/etopiei/Screen%20Shot%202016-05-29%20at%208.20.09%20PM_zpsh0wfbrcu.png", "Time": "7", "ID": "T11"}
+  ],
+  "H+": [
+    {"Title": "H+", "Genre": "Sci-Fi", "Creator":"Stewart Hendler", "PosterURL":"http://i53.photobucket.com/albums/g63/etopiei/2Q_zpsmpeeieao.jpg", "Time": "6", "ID": "T12"}
+  ],
+  "I Hate Being Single": [
+    {"Title": "I Hate Being Single", "Genre": "Comedy", "Creator":"Shannon Coffey", "PosterURL":"http://i53.photobucket.com/albums/g63/etopiei/2Q_zpsknr6fzbp.jpg", "Time": "5", "ID": "T13"}
+  ],
+  "Kicking Dan Out": [
+    {"Title": "Kicking Dan Out", "Genre": "Comedy", "Creator":"Adam Wirtz", "PosterURL":"http://i53.photobucket.com/albums/g63/etopiei/images.duckduckgo_zps6q2ttoqf.jpg", "Time": "5", "ID": "T14"}
+  ],
+  "The Lizzie Bennet Diaries": [
+    {"Title": "The Lizzie Bennet Diaries", "Genre": "Comedy/Drama", "Creator":"Bernie Su", "PosterURL":"http://i53.photobucket.com/albums/g63/etopiei/images.duckduckgo-1_zpsqumarohe.jpg", "Time": "3", "ID": "T15"}
+  ],
+  "Red Vs. Blue": [
+    {"Title": "Red Vs. Blue", "Genre": "Comedy", "Creator":"Burnie Burns", "PosterURL":"http://i53.photobucket.com/albums/g63/etopiei/images.duckduckgo-2_zpsk1rwdbft.jpg", "Time": "2", "ID": "T16"}
+  ],
+  "The Vault":[
+    {"Title": "The Vault", "Genre": "Drama, Mystery, Thriller", "Creator":"Aaron Hann and Mario Miscione", "PosterURL":"http://i53.photobucket.com/albums/g63/etopiei/Z-1_zpspvyovwhd.jpg", "Time": "10", "ID": "T17"}
+  ],
+  "Downsized":[
+    {"Title": "Downsized", "Genre": "Comedy, Drama", "Creator":"Daryn Strauss", "PosterURL":"http://i53.photobucket.com/albums/g63/etopiei/Beth1-550x308_zps3q2t3lhb.jpg", "Time": "4", "ID": "T18"}
+  ],
+  "Long Story Short":[
+    {"Title": "Long Story Short", "Genre": "Comedy", "Creator":"Almost Cool", "PosterURL":"http://i53.photobucket.com/albums/g63/etopiei/images.duckduckgo-1_zpspdp7an4d.png", "Time": "4", "ID": "T19"}
+  ]
+}

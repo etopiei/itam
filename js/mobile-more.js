@@ -53,7 +53,7 @@ function loadPosters(typeID) {
     document.getElementById("bg").style.backgroundColor = "#20b2aa";
 
     //get tv shows from json (add them to html page)
-    $.getJSON("/js/tv.json", function (json) {
+    $.getJSON("/js/tv-min.json", function (json) {
 
       for (var prop in json) {
 

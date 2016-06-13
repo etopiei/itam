@@ -74,7 +74,7 @@ function getTVData() {
 
     var counter = 0;
 
-    $.getJSON("js/tv.json", function (json) {
+    $.getJSON("js/tv-min.json", function (json) {
 
         console.log("JSON Received");
 
