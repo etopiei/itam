@@ -53,6 +53,7 @@ body {
 }
 .more-btn {
   padding: 20px;
+  margin-top: 20px;
   background-color: slategray;
   color: black;
 }

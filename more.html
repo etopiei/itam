@@ -1,5 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+<script type="text/javascript">
+var addOn = getParameterByName("?");
+if (screen.width <= 699) {
+document.location = "/mobile/mobile-more.html?=" + addOn;
+}
+if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))) {
+   location.replace("/mobile/mobile-more.html?=" + addOn);
+}
+function getParameterByName(name, url) {
+  //regex to get id from after ?=
+    if (!url) url = window.location.href;
+    name = name.replace(/[\[\]]/g, "\\$&");
+    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, " "));
+}
+</script>
 <link rel=StyleSheet href="css/bootstrap.min.css">
 <link rel=StyleSheet href="css/style.css" type="text/css" media=screen>
 <link rel="stylesheet" href="/font-awesome-4.6.3/css/font-awesome.min.css">
