@@ -66,6 +66,9 @@ a:hover {
     color: black;
     font-style: oblique;
 }
+a:active {
+    background-color: #6495ed;
+}
 .spaced {
   margin-bottom: 10px;
 }
