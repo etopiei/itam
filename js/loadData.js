@@ -70,8 +70,6 @@ function getRecommendedData() {
 
 function getTVData() {
 
-  console.log("TV Data");
-
     var counter = 0;
 
     $.getJSON("js/tv-min.json", function (json) {
