@@ -18,10 +18,13 @@ function search(text) {
               continue;
           }
 
-          //use the str.includes js function.
           var showTitle = json[prop][0]["Title"];
+          var upperCaseTitle = showTitle.toUpperCase();
+          console.log(upperCaseTitle);
+          var upperCaseSearchTerm = text.toUpperCase();
+          console.log(upperCaseSearchTerm);
 
-          if (showTitle.includes(text)) {
+          if (upperCaseTitle.includes(upperCaseSearchTerm)) {
 
             var showPosterURL = json[prop][0]["PosterURL"];
             var url = json[prop][0]["ID"];
