@@ -70,3 +70,8 @@ body {
 a {
   color: black;
 }
+.tfbutton{
+  height: 60px;
+  width: 200px;
+  font-size: 30px;
+}
