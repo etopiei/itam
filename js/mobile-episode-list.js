@@ -6,62 +6,62 @@ $(document).ready(function () {
 
 function loadEps() {
 
-  var showID = getParameterByName("?");
-  loadEpisodeTitles(showID);
+    var showID = getParameterByName("?");
+    loadEpisodeTitles(showID);
 
 }
 
 function loadEpisodeTitles(ID) {
 
-  $.getJSON("/js/tv.json", function (json) {
-      for (var prop in json) {
+    $.getJSON("/js/tv.json", function (json) {
+        for (var prop in json) {
 
-          if (!json.hasOwnProperty(prop)) {
-              //The current property is not a direct property of prop
-              console.log("prop fail");
-              continue;
-          }
+            if (!json.hasOwnProperty(prop)) {
+                //The current property is not a direct property of prop
+                console.log("prop fail");
+                continue;
+            }
 
-          if (json[prop][0]["ID"] === ID) {
+            if (json[prop][0]["ID"] === ID) {
 
-            var header = json[prop][0]["Title"];
-            $(".title").html("Episode List: " + header);
+                var header = json[prop][0]["Title"];
+                $(".title").html("Episode List: " + header);
 
-              for (var i = 1; i < json[prop].length; i++) {
+                for (var i = 1; i < json[prop].length; i++) {
 
-                  var episodeTitle = json[prop][i]["Name"];
-                  var epsiodeID = json[prop][i]["EpisodeID"];
-                  createElement(episodeTitle, epsiodeID);
+                    var episodeTitle = json[prop][i]["Name"];
+                    var epsiodeID = json[prop][i]["EpisodeID"];
+                    createElement(episodeTitle, epsiodeID);
 
-              }
+                }
 
-          }
+            }
 
-      }
+        }
 
-  });
+    });
 }
 
-function createElement(title,ID) {
+function createElement(title, ID) {
 
-  var br = document.createElement("br");
-  var place = document.getElementById("insert-episodes");
-  place.appendChild(br);
+    var br = document.createElement("br");
+    var place = document.getElementById("insert-episodes");
+    place.appendChild(br);
 
-  var p = document.createElement("p");
-  p.textContent = title;
-  p.setAttribute("class","mediumText")
-  var a = document.createElement("a");
-  a.href = "/mobile/mobile-details.html?=" + ID;
-  place.appendChild(p);
-  place.appendChild(a);
+    var p = document.createElement("p");
+    p.textContent = title;
+    p.setAttribute("class", "mediumText")
+    var a = document.createElement("a");
+    a.href = "/mobile/mobile-details.html?=" + ID;
+    place.appendChild(p);
+    place.appendChild(a);
 
-  var btn = document.createElement("BUTTON");
-  btn.textContent = "View";
-  btn.setAttribute("class","btn btn-primary upSized");
-  a.appendChild(br);
-  a.appendChild(btn);
-  a.appendChild(br);
+    var btn = document.createElement("BUTTON");
+    btn.textContent = "View";
+    btn.setAttribute("class", "btn btn-primary upSized");
+    a.appendChild(br);
+    a.appendChild(btn);
+    a.appendChild(br);
 
 }
 

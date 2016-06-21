@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-    checkType();
+  checkType();
 
 });
 
@@ -40,7 +40,7 @@ function loadPosters(typeID) {
         var Posturl = json[prop][0]["PosterURL"];
         var url = json[prop][0]["ID"];
 
-        createMoviePoster(url,Posturl);
+        createMoviePoster(url, Posturl);
 
       }
     });
@@ -72,12 +72,12 @@ function loadPosters(typeID) {
   }
 }
 
-function createMoviePoster(link,poster) {
+function createMoviePoster(link, poster) {
 
   var a = document.createElement("A");
   a.href = "/mobile/mobile-details.html?=" + link;
   var x = document.createElement("IMG");
-  x.setAttribute("class","spaced hor-spaced");
+  x.setAttribute("class", "spaced hor-spaced");
   x.src = poster;
   x.height = 512;
   x.width = 300;
@@ -86,12 +86,12 @@ function createMoviePoster(link,poster) {
   a.appendChild(x);
 }
 
-function createTVPoster(link,poster) {
+function createTVPoster(link, poster) {
 
   var a = document.createElement("A");
   a.href = "/mobile/mobile-episode-list.html?=" + link;
   var x = document.createElement("IMG");
-  x.setAttribute("class","spaced hor-spaced");
+  x.setAttribute("class", "spaced hor-spaced");
   x.src = poster;
   x.height = 512;
   x.width = 300;
@@ -101,11 +101,11 @@ function createTVPoster(link,poster) {
 }
 
 function getParameterByName(name, url) {
-    if (!url) url = window.location.href;
-    name = name.replace(/[\[\]]/g, "\\$&");
-    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
-        results = regex.exec(url);
-    if (!results) return null;
-    if (!results[2]) return '';
-    return decodeURIComponent(results[2].replace(/\+/g, " "));
+  if (!url) url = window.location.href;
+  name = name.replace(/[\[\]]/g, "\\$&");
+  var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+    results = regex.exec(url);
+  if (!results) return null;
+  if (!results[2]) return '';
+  return decodeURIComponent(results[2].replace(/\+/g, " "));
 }

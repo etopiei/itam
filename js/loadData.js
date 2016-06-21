@@ -84,8 +84,8 @@ function getTVData() {
             }
 
             if (counter > 12) {
-              getMovieData();
-              return;
+                getMovieData();
+                return;
             }
 
             var Posturl = json[prop][0]["PosterURL"];
@@ -128,7 +128,7 @@ function getMovieData() {
             }
 
             if (counter > 12) {
-              return;
+                return;
             }
 
             var Posturl = json[prop][0]["PosterURL"];

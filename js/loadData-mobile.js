@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-    loadMobileData();
+  loadMobileData();
 
 });
 
@@ -12,42 +12,42 @@ function loadMobileData() {
   // $.getJSON("js/tv.json", function(json) {
   $.getJSON("/js/rec.json", function (json) {
 
-      console.log("JSON Received");
+    console.log("JSON Received");
 
-      for (var prop in json) {
-          if (!json.hasOwnProperty(prop)) {
-              //The current property is not a direct property of prop
-              continue;
-          }
+    for (var prop in json) {
+      if (!json.hasOwnProperty(prop)) {
+        //The current property is not a direct property of prop
+        continue;
+      }
 
-          if (counter === 6) {
-            getTVData();
-            return;
-          }
+      if (counter === 6) {
+        getTVData();
+        return;
+      }
 
-          var Posturl = json[prop][0]["PosterURL"];
-          var url = json[prop][0]["ID"];
-          var type = url.substr(0, 1);
+      var Posturl = json[prop][0]["PosterURL"];
+      var url = json[prop][0]["ID"];
+      var type = url.substr(0, 1);
 
-            if (url !== "") {
-              if (type === "M") {
-                createMoviePoster(url,Posturl,category);
-              }
-              else {
-                createTVPoster(url,Posturl,category);
-              }
-            }
-            else {
-                console.log("failed to find");
-                continue;
-            }
+      if (url !== "") {
+        if (type === "M") {
+          createMoviePoster(url, Posturl, category);
+        }
+        else {
+          createTVPoster(url, Posturl, category);
+        }
+      }
+      else {
+        console.log("failed to find");
+        continue;
+      }
 
-            counter += 1;
+      counter += 1;
     }
 
-}).fail(function (d, textStatus, error) {
+  }).fail(function (d, textStatus, error) {
     console.error("getJSON failed, status: " + textStatus + ", error: " + error)
-});
+  });
 }
 
 function getTVData() {
@@ -59,36 +59,36 @@ function getTVData() {
 
   $.getJSON("/js/tv-min.json", function (json) {
 
-      console.log("JSON Received");
+    console.log("JSON Received");
 
-      for (var prop in json) {
+    for (var prop in json) {
 
-          if (!json.hasOwnProperty(prop)) {
-              //The current property is not a direct property of p
-              continue;
-          }
-
-          if (counter === 6) {
-            getMovieData();
-            return;
-          }
-
-          var Posturl = json[prop][0]["PosterURL"];
-          var url = json[prop][0]["ID"];
-
-          if (url !== "") {
-              createTVPoster(url,Posturl,category);
-          }
-          else {
-              console.log("failed to find");
-              continue;
-          }
-
-          counter += 1;
+      if (!json.hasOwnProperty(prop)) {
+        //The current property is not a direct property of p
+        continue;
       }
 
+      if (counter === 6) {
+        getMovieData();
+        return;
+      }
+
+      var Posturl = json[prop][0]["PosterURL"];
+      var url = json[prop][0]["ID"];
+
+      if (url !== "") {
+        createTVPoster(url, Posturl, category);
+      }
+      else {
+        console.log("failed to find");
+        continue;
+      }
+
+      counter += 1;
+    }
+
   }).fail(function (d, textStatus, error) {
-      console.error("getJSON failed, status: " + textStatus + ", error: " + error)
+    console.error("getJSON failed, status: " + textStatus + ", error: " + error)
   });
 }
 
@@ -98,42 +98,42 @@ function getMovieData() {
   var category = "M";
 
   $.getJSON("/js/movies.json", function (json) {
-      for (var prop in json) {
+    for (var prop in json) {
 
-          if (!json.hasOwnProperty(prop)) {
-              //The current property is not a direct property of prop
-              console.log("prop fail");
-              continue;
-          }
-
-          if (counter === 6) {
-            return;
-          }
-
-          var Posturl = json[prop][0]["PosterURL"];
-          var url = json[prop][0]["ID"];
-
-          if (url !== "") {
-            createMoviePoster(url,Posturl,category);
-          }
-          else {
-              console.log("failed to find");
-              continue;
-          }
-
-          counter += 1;
+      if (!json.hasOwnProperty(prop)) {
+        //The current property is not a direct property of prop
+        console.log("prop fail");
+        continue;
       }
+
+      if (counter === 6) {
+        return;
+      }
+
+      var Posturl = json[prop][0]["PosterURL"];
+      var url = json[prop][0]["ID"];
+
+      if (url !== "") {
+        createMoviePoster(url, Posturl, category);
+      }
+      else {
+        console.log("failed to find");
+        continue;
+      }
+
+      counter += 1;
+    }
 
 
   });
 }
 
-function createMoviePoster(link,poster,cat) {
+function createMoviePoster(link, poster, cat) {
 
   var a = document.createElement("A");
   a.href = "/mobile/mobile-details.html?=" + link;
   var x = document.createElement("IMG");
-  x.setAttribute("class","spaced hor-spaced");
+  x.setAttribute("class", "spaced hor-spaced");
   x.src = poster;
   x.height = 512;
   x.width = 300;
@@ -148,12 +148,12 @@ function createMoviePoster(link,poster,cat) {
   a.appendChild(x);
 }
 
-function createTVPoster(link,poster,cat) {
+function createTVPoster(link, poster, cat) {
 
   var a = document.createElement("A");
   a.href = "/mobile/mobile-episode-list.html?=" + link;
   var x = document.createElement("IMG");
-  x.setAttribute("class","spaced hor-spaced");
+  x.setAttribute("class", "spaced hor-spaced");
   x.src = poster;
   x.height = 512;
   x.width = 300;

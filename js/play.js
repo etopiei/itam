@@ -60,10 +60,10 @@ function addNextButton(link) {
     linkButton.style.visibility = "visible";
 
     if (screen.width <= 699) {
-      linkButton.setAttribute("class","upSized btn btn-primary");
+        linkButton.setAttribute("class", "upSized btn btn-primary");
     }
     if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))) {
-       linkButton.setAttribute("class","upSized btn btn-primary");
+        linkButton.setAttribute("class", "upSized btn btn-primary");
     }
 
 }
@@ -97,9 +97,9 @@ function createPlayer(link) {
     frm = document.createElement("IFRAME");
     frm.setAttribute("src", completeSrc);
     frm.setAttribute("frameborder", "0");
-    frm.setAttribute("allowfullscreen","1");
-    frm.style.width = 640+"px";
-    frm.style.height = 480+"px";
+    frm.setAttribute("allowfullscreen", "1");
+    frm.style.width = 640 + "px";
+    frm.style.height = 480 + "px";
     place = document.getElementById("embeded-player");
     place.appendChild(frm);
 
