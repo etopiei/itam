@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<title>itam - More</title>
 
 <head>
   <link rel=StyleSheet href="/css/bootstrap.min.css">
@@ -16,6 +17,25 @@
         <a href="/mobile/mobile.html">
           <img src="/media/itam-heading.png" width=100%> </img>
         </a>
+      </div>
+      <div class="search-bar">
+        <center>
+          <form onSubmit="return process();">
+            <input type="text" class="tftextinput" name="q" size="60" style="height:60px" maxlength="120" id="searchTerm">
+            <input
+              type="submit" value="Search" class="tfbutton btn btn-primary">
+          </form>
+
+          <script>
+      function process()
+      {
+      var url="/search.html?=" + document.getElementById("searchTerm").value;
+      location.href=url;
+      return false;
+      }
+      </script>
+
+        </center>
       </div>
       <div class="more-space" id="bg">
         <center>

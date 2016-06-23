@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<title>itam - More</title>
 <script type="text/javascript">
 var addOn = getParameterByName("?");
 if (screen.width <= 699) {
@@ -34,6 +35,25 @@ function getParameterByName(name, url) {
           <br>
           <p class="tag">Internet Television And Movies.</p>
         </center>
+      </div>
+      <div class="search-bar">
+          <center>
+              <form onSubmit="return process();">
+                  <input type="text" class="tftextinput" name="q" size="21" maxlength="120" id="searchTerm">
+                  <input
+                      type="submit" value="Search" class="tfbutton">
+              </form>
+
+              <script>
+        function process()
+        {
+        var url="/search.html?=" + document.getElementById("searchTerm").value;
+        location.href=url;
+        return false;
+        }
+        </script>
+
+          </center>
       </div>
       <div class="more-box" id="bg">
         <center>
