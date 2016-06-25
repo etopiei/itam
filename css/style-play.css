@@ -19,7 +19,7 @@ body {
   background-color: seagreen;
   margin: 20px;
 }
-button {
+button:play {
   visibility: hidden;
 }
 .upSized {
@@ -27,4 +27,8 @@ button {
   width: 300px;
   font-size: 30px;
   margin-bottom: 50px;
+}
+.btnToDetails {
+  margin-bottom: 20px;
+  margin-top: 20px;
 }

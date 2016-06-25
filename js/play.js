@@ -22,6 +22,19 @@ function getTVURL(input) {
                 continue;
             }
 
+            //make input (or url parameter) apply to details page, but first check if it should be mobile or not
+
+            var detailsLink = document.getElementById("changeMe");
+
+            if (screen.width <= 699 || navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPod/i)) {
+              //it is mobile
+              detailsLink.href = "/mobile/mobile-details.html?=" + input;
+            }
+            else {
+              //it is desktop
+              detailsLink.href = "/details.html?=" + input;
+            }
+
             var position = input.indexOf(".")
             var showID = input.slice(0, position);
 
