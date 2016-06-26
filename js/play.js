@@ -25,10 +25,12 @@ function getTVURL(input) {
             //make input (or url parameter) apply to details page, but first check if it should be mobile or not
 
             var detailsLink = document.getElementById("changeMe");
+            var backButton = document.getElementById("backButton");
 
             if (screen.width <= 699 || navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPod/i)) {
               //it is mobile
               detailsLink.href = "/mobile/mobile-details.html?=" + input;
+              backButton.setAttribute("class","upSized btn btn-primary");
             }
             else {
               //it is desktop
