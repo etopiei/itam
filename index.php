@@ -38,14 +38,14 @@ if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i
 
 </script>
 <script src="/js/bootstrap.min.js"></script>
-
+<?php include "count.php";?>
 <body>
 
     <div class="page">
         <div class="content">
             <div class="banner">
                 <center>
-                    <a href="index.html"><img src="media/itam-heading.png" width="80%" height="50%"> </img>
+                    <a href="index.php"><img src="media/itam-heading.png" width="80%" height="50%"> </img>
                     </a>
                     <br>
                     <p class="tag">Internet Television And Movies.</p>
