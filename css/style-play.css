@@ -26,7 +26,8 @@ button:play {
   height: 100px;
   width: 300px;
   font-size: 30px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 .btnToDetails {
   margin-bottom: 20px;

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <title>itam - Home</title>
+<?php //include "count.php"; ?> <!--Uncomment this in production environment -->
 <script type="text/javascript">
 if (screen.width <= 699) {
 document.location = "/mobile/mobile.html";
@@ -38,7 +39,6 @@ if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i
 
 </script>
 <script src="/js/bootstrap.min.js"></script>
-<?php //include "count.php"; ?> <!--Uncomment this in production environment -->
 <body>
 
     <div class="page">
