@@ -7,8 +7,18 @@ $(document).ready(function () {
 function loadEpsFromId() {
 
     var showID = getParameterByName("?");
+
+    if (showID === "") {
+      unFound();
+    }
+
     loadEpisodeTitles(showID);
 
+}
+
+function unFound() {
+  document.location = "/unfound.html";
+  location.replace("/unfound.html");
 }
 
 function loadEpisodeTitles(ID) {

@@ -7,6 +7,11 @@ $(document).ready(function () {
 function fillDetails() {
     //get ID from URL after ?=
     var query = getParameterByName("?");
+
+    if (query === "") {
+      unFound();
+    }
+
     var firstCharacter = query.substr(0, 1);
     //for tv shows and movies get slightly different details
     if (firstCharacter === "T") {
@@ -15,6 +20,11 @@ function fillDetails() {
     else if (firstCharacter === "M") {
         getDetailsFromMovie(query);
     }
+}
+
+function unFound() {
+  document.location = "/unfound.html";
+  location.replace("/unfound.html");
 }
 
 function getParameterByName(name, url) {

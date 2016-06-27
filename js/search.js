@@ -1,9 +1,19 @@
 $(document).ready(function () {
 
   var searchTerm = getParameterByName("?");
+
+  if (searchTerm === "") {
+    unFound();
+  }
+
   search(searchTerm);
 
 });
+
+function unFound() {
+  document.location = "/unfound.html";
+  location.replace("/unfound.html");
+}
 
 function search(text) {
 

@@ -7,6 +7,11 @@ $(document).ready(function () {
 function getID() {
 
     var ID = getParameterByName("?");
+
+    if (ID === "") {
+      unFound();
+    }
+
     var type = ID.substr(0, 1);
 
     if (type === "M") {
@@ -16,6 +21,11 @@ function getID() {
         getTVDetails(ID);
     }
 
+}
+
+function unFound() {
+  document.location = "/unfound.html";
+  location.replace("/unfound.html");
 }
 
 function getMovieDetails(queryString) {

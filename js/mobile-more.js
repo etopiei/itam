@@ -7,6 +7,11 @@ $(document).ready(function () {
 function checkType() {
 
   var typeID = getParameterByName("?");
+
+  if (typeID === "") {
+    unFound();
+  }
+
   if (typeID === "M") {
     $(".title").html("Movies");
   }
@@ -16,6 +21,11 @@ function checkType() {
 
   loadPosters(typeID);
 
+}
+
+function unFound() {
+  document.location = "/unfound.html";
+  location.replace("/unfound.html");
 }
 
 function loadPosters(typeID) {

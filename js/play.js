@@ -1,6 +1,11 @@
 $(document).ready(function () {
 
     var query = getParameterByName("?");
+
+    if (query === "") {
+      unFound();
+    }
+
     var firstCharacter = query.substr(0, 1);
     if (firstCharacter === "T") {
         getTVURL(query);
@@ -10,6 +15,11 @@ $(document).ready(function () {
     }
 
 });
+
+function unFound() {
+  document.location = "/unfound.html";
+  location.replace("/unfound.html");
+}
 
 function getTVURL(input) {
 

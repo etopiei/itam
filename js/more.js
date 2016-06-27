@@ -5,6 +5,11 @@ $(document).ready(function () {
 function getType() {
 
   var typeID = getParameterByName("?");
+
+  if (typeID === "") {
+    unFound();
+  }
+
   if (typeID === "M") {
     $(".title").html("Movies");
   }
@@ -14,6 +19,11 @@ function getType() {
 
   loadDataFromJSON(typeID);
 
+}
+
+function unFound() {
+  document.location = "/unfound.html";
+  location.replace("/unfound.html");
 }
 
 function getParameterByName(name, url) {
