@@ -23,6 +23,8 @@ function unFound() {
 
 function loadEpisodeTitles(ID) {
 
+  var found = 0;
+
     $.getJSON("js/tv.json", function (json) {
         for (var prop in json) {
 
@@ -33,6 +35,8 @@ function loadEpisodeTitles(ID) {
             }
 
             if (json[prop][0]["ID"] === ID) {
+
+              found = 1;
 
                 var showPosterURL = json[prop][0]["PosterURL"];
                 $(".showPoster").attr('src', showPosterURL);
@@ -49,6 +53,10 @@ function loadEpisodeTitles(ID) {
 
             }
 
+        }
+
+        if (found === 0) {
+          unFound();
         }
 
     });

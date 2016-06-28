@@ -17,8 +17,11 @@ function getID() {
     if (type === "M") {
         getMovieDetails(ID);
     }
-    else {
+    else if (type === "T") {
         getTVDetails(ID);
+    }
+    else {
+      unFound();
     }
 
 }

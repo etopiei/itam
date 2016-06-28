@@ -23,6 +23,8 @@ function unFound() {
 
 function loadEpisodeTitles(ID) {
 
+  var found = 0;
+
     $.getJSON("/js/tv.json", function (json) {
         for (var prop in json) {
 
@@ -33,6 +35,8 @@ function loadEpisodeTitles(ID) {
             }
 
             if (json[prop][0]["ID"] === ID) {
+
+              found = 1;
 
                 var header = json[prop][0]["Title"];
                 $(".title").html("Episode List: " + header);
@@ -47,6 +51,10 @@ function loadEpisodeTitles(ID) {
 
             }
 
+        }
+
+        if (found === 0) {
+          unFound();
         }
 
     });

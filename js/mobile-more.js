@@ -18,6 +18,9 @@ function checkType() {
   else if (typeID === "T") {
     $(".title").html("TV Shows");
   }
+  else {
+    unFound();
+  }
 
   loadPosters(typeID);
 

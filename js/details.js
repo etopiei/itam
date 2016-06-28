@@ -20,6 +20,9 @@ function fillDetails() {
     else if (firstCharacter === "M") {
         getDetailsFromMovie(query);
     }
+    else {
+      unFound();
+    }
 }
 
 function unFound() {
@@ -40,6 +43,8 @@ function getParameterByName(name, url) {
 
 function getDetailsFromQuery(queryString) {
 
+  var found = 0; //Set it to unfound
+
     $.getJSON("js/tv.json", function (json) {
 
         for (var prop in json) {
@@ -56,6 +61,8 @@ function getDetailsFromQuery(queryString) {
             if (json[prop][0]["ID"] === showID) {
 
                 //set details on page
+
+                found = 1; //show found
 
                 var Genre = json[prop][0]["Genre"];
                 var Creator = json[prop][0]["Creator"];
@@ -77,11 +84,23 @@ function getDetailsFromQuery(queryString) {
                 document.getElementById("play").href = "play.html?=" + queryString;
 
             }
+
         }
+
+        //check if found, otherwise go to "unfound" page.
+
+        console.log(found);
+
+        if (found === 0) {
+          unFound();
+        }
+
     });
 }
 
 function getDetailsFromMovie(queryString) {
+
+  var found = 0;
 
     $.getJSON("js/movies.json", function (json) {
 
@@ -96,6 +115,8 @@ function getDetailsFromMovie(queryString) {
             if (json[prop][0]["ID"] === queryString) {
 
                 //set details on page
+
+                found = 1;
 
                 var Genre = json[prop][0]["Genre"];
                 var Creator = json[prop][0]["Director"];
@@ -115,5 +136,10 @@ function getDetailsFromMovie(queryString) {
 
             }
         }
+
+        if (found === 0) {
+          unFound();
+        }
+
     });
 }

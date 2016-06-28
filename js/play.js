@@ -13,6 +13,9 @@ $(document).ready(function () {
     else if (firstCharacter === "M") {
         getMovieURL(query);
     }
+    else {
+      unFound();
+    }
 
 });
 
@@ -22,6 +25,8 @@ function unFound() {
 }
 
 function getTVURL(input) {
+
+  var found = 0;
 
     $.getJSON("js/tv.json", function (json) {
         for (var prop in json) {
@@ -52,6 +57,8 @@ function getTVURL(input) {
 
             if (json[prop][0]["ID"] === showID) {
 
+              found = 1;
+
                 var numEpisodes = json[prop].length;
 
                 for (var j = 1; j < numEpisodes; j++) {
@@ -73,6 +80,11 @@ function getTVURL(input) {
                 }
             }
         }
+
+        if (found === 0) {
+          unFound();
+        }
+
     });
 }
 

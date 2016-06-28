@@ -16,6 +16,9 @@ function getType() {
   else if (typeID === "T") {
     $(".title").html("TV Shows");
   }
+  else {
+    unFound();
+  }
 
   loadDataFromJSON(typeID);
 
