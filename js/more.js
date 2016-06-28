@@ -41,7 +41,7 @@ function loadDataFromJSON(type) {
 
     //change background colour
 
-    document.getElementById("bg").style.backgroundColor = "#4169e1";
+    document.getElementById("bg").style.backgroundColor = "#7592A4";
 
     //get movies from json (add them to html page)
 
@@ -68,7 +68,7 @@ function loadDataFromJSON(type) {
 
     //change background colour
 
-    document.getElementById("bg").style.backgroundColor = "#20b2aa";
+    document.getElementById("bg").style.backgroundColor = "#7592A4";
 
     //get tv shows from json (add them to html page)
     $.getJSON("js/tv-min.json", function (json) {
