@@ -1,8 +1,8 @@
 body {
-    background-color: lightgray;
+    background-color: #A0C2DE;
 }
 .content {
-    background-color: slategray;
+    background-color: #A0C2DE;
     margin: 30px;
     border-radius: 10px;
     padding: 10px;
@@ -11,7 +11,7 @@ body {
     margin: 20px;
 }
 .episode-list {
-    background-color: seagreen;
+    background-color: #7592A4;
     margin: 20px;
     padding: 20px;
 }
@@ -27,7 +27,7 @@ a:hover {
   font-size: 32px;
 }
 .style-eps {
-  background-color: seagreen;
+  background-color: #7592A4;
   margin: 20px;
   padding: 20px;
 }

@@ -1,11 +1,11 @@
 body {
-    background-color: lightgray;
+    background-color: #A0C2DE;
 }
 .page {
   margin: 10px;
 }
 .content {
-    background-color: slategray;
+    background-color: #A0C2DE;
     margin: 10px;
     border-radius: 10px;
     padding: 30px;
@@ -18,19 +18,19 @@ body {
 }
 .rec{
     margin: 20px;
-    background-color: seagreen;
+    background-color: #7592A4;
     padding: 10px;
     border-radius: 10px;
 }
 .tv{
     margin: 20px;
-    background-color: lightseagreen;
+    background-color: light#7592A4;
     padding:10px;
     border-radius: 10px;
 }
 .movies{
     margin: 20px;
-    background-color: royalblue;
+    background-color:#7592A4;
     padding:10px;
     border-radius: 10px;
 }
@@ -47,18 +47,18 @@ body {
 }
 .more-space {
   margin: 20px;
-  background-color: lightseagreen;
+  background-color: light#7592A4;
   padding:10px;
   border-radius: 10px;
 }
 .more-btn {
   padding: 20px;
   margin-top: 20px;
-  background-color: slategray;
+  background-color: #7592A4;
   color: black;
 }
 .more-btn:hover {
-  background-color: lightgray;
+  background-color: #7592A4;
   color: black;
 }
 .upSized {
