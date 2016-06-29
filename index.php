@@ -13,7 +13,7 @@ if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i
 }
 </script>
 <link rel=StyleSheet href="css/bootstrap.min.css">
-<link rel=StyleSheet href="css/style.css" type="text/css" media=screen>
+<link rel=StyleSheet href="css/style.min.css" type="text/css" media=screen>
 <link rel="stylesheet" href="/font-awesome-4.6.3/css/font-awesome.min.css">
 <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/media/icons/apple-touch-icon-57x57.png" />
 <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/media/icons/apple-touch-icon-114x114.png" />
@@ -309,7 +309,7 @@ if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i
     </div>
 
 </body>
-<script src="js/loadData.js">
+<script src="js/loadData.min.js">
 
 </script>
 
