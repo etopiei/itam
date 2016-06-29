@@ -124,13 +124,3 @@ a:active {
   padding: 10px;
   margin-left: 10px;
 }
-.top-link {
-  float: right;
-  margin-right: 25px;
-}
-.link {
-  color: white;
-}
-.link:hover {
-  color: white;
-}
