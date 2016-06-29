@@ -24,7 +24,7 @@ body {
 }
 .tv{
     margin: 20px;
-    background-color: light#7592A4;
+    background-color: #7592A4;
     padding:10px;
     border-radius: 10px;
 }
@@ -47,19 +47,16 @@ body {
 }
 .more-space {
   margin: 20px;
-  background-color: light#7592A4;
+  background-color: #7592A4;
   padding:10px;
   border-radius: 10px;
 }
 .more-btn {
   padding: 20px;
   margin-top: 20px;
-  background-color: #7592A4;
-  color: black;
 }
 .more-btn:hover {
-  background-color: #7592A4;
-  color: black;
+  font-size: 32px;;
 }
 .upSized {
   height: 100px;
