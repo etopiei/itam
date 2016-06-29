@@ -114,10 +114,23 @@ a:active {
 /* Fixes submit button height problem in Firefox */
 .tfbutton::-moz-focus-inner {
   border: 0;
+  margin-left: 10px;
 }
 .tfclear{
   clear:both;
 }
 .search-box {
   background-color: #7592A4;
+  padding: 10px;
+  margin-left: 10px;
+}
+.top-link {
+  float: right;
+  margin-right: 25px;
+}
+.link {
+  color: white;
+}
+.link:hover {
+  color: white;
 }
