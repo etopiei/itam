@@ -1,7 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<title>itam - Search</title>
-<link rel=StyleSheet href="/css/bootstrap.min.css">
+<script type="text/javascript">
+var addOn = getParameterByName("?");
+if (screen.width <= 699) {
+document.location = "/mobile/mobile-genre.html?=" + addOn;
+}
+if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))) {
+   location.replace("/mobile/mobile-genre.html?=" + addOn);
+}
+function getParameterByName(name, url) {
+  //regex to get id from after ?=
+    if (!url) url = window.location.href;
+    name = name.replace(/[\[\]]/g, "\\$&");
+    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, " "));
+}
+</script>
+<title>itam - Genres</title>
+<link rel=StyleSheet href="css/bootstrap.min.css">
 <link rel=StyleSheet href="/css/style.css" type="text/css" media=screen>
 <link rel="stylesheet" href="/font-awesome-4.6.3/css/font-awesome.min.css">
 <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/media/icons/apple-touch-icon-57x57.png" />
@@ -30,15 +49,34 @@
     <div class="content">
       <div class="banner">
         <center>
-          <a href="index.html"><img src="/media/itam-heading.png" width="80%" height="50%"> </img>
+          <a href="index.html"><img src="media/itam-heading.png" width="80%" height="50%"> </img>
           </a>
           <br>
           <p class="tag">Internet Television And Movies.</p>
         </center>
       </div>
-      <div class="more-box search-box" id="bg">
+      <div class="search-bar">
+          <center>
+              <form onSubmit="return process();">
+                  <input type="text" class="tftextinput" name="q" size="21" maxlength="120" id="searchTerm">
+                  <input
+                      type="submit" value="Search" class="tfbutton">
+              </form>
+
+              <script>
+        function process()
+        {
+        var url="/search.html?=" + document.getElementById("searchTerm").value;
+        location.href=url;
+        return false;
+        }
+        </script>
+
+          </center>
+      </div>
+      <div class="more-box" id="bg">
         <center>
-          <h1 class="title" id="title">Loading Results...</h1>
+          <h1 class="title">Genres</h1>
           <div class="alt-content" id="addNew">
           </div>
         </center>
@@ -60,13 +98,13 @@
   </div>
 
 </body>
-<script src="/js/jquery-min.js">
+<script src="js/jquery-min.js">
 
 </script>
 <!-- <script src="js/bootstrap.min.js"></script> -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
   crossorigin="anonymous"></script>
-<script src="/js/search.js">
+<script src="/js/genre.js">
 
 </script>
 

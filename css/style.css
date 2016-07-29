@@ -124,3 +124,7 @@ a:active {
   padding: 10px;
   margin-left: 10px;
 }
+.btn {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

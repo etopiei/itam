@@ -46,6 +46,9 @@ function loadDataFromJSON(type) {
 
     document.getElementById("bg").style.backgroundColor = "#7592A4";
 
+    var link = document.getElementById("genreLink");
+    link.href="genre.html?=M";
+
     //get movies from json (add them to html page)
 
     $.getJSON("js/movies.json", function (json) {
@@ -69,9 +72,11 @@ function loadDataFromJSON(type) {
   }
   else if (type === "T") {
 
-    //change background colour
+    //change background colour and button link
 
     document.getElementById("bg").style.backgroundColor = "#7592A4";
+    var link = document.getElementById("genreLink");
+    link.href="genre.html?=T";
 
     //get tv shows from json (add them to html page)
     $.getJSON("js/tv-min.json", function (json) {

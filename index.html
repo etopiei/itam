@@ -11,8 +11,8 @@ if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i
    location.replace("/mobile/mobile.html");
 }
 </script>
-<link rel=StyleSheet href="css/bootstrap.min.css">
-<link rel=StyleSheet href="css/style.css" type="text/css" media=screen>
+<link rel=StyleSheet href="/css/bootstrap.min.css">
+<link rel=StyleSheet href="/css/style.css" type="text/css" media=screen>
 <link rel="stylesheet" href="/font-awesome-4.6.3/css/font-awesome.min.css">
 <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/media/icons/apple-touch-icon-57x57.png" />
 <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/media/icons/apple-touch-icon-114x114.png" />
@@ -281,7 +281,7 @@ if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i
 
         <div class="footer">
             <center>
-              <p><a href="about.html">About</a> - <a href="credit.html">Thanks</a></p>
+              <p><a href="about.html">About</a> - <a href="faq.html">FAQ</a> - <a href="credit.html">Thanks</a></p>
                 <!-- About us section/social media links -->
                 <a href="https://github.com/etopiei"> <span class="fa fa-github"></span> </a>
                 <a href="https://twitter.com/etopiei"> <span class="fa fa-twitter"></span> </a>
@@ -291,11 +291,10 @@ if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i
                   <p>itam will always be free, with no ads or data collection. However if you like itam, please consider donating to help
                     keep it running.</p>
                     <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                        <input type="hidden" name="cmd" value="_s-xclick">
-                        <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----MIIHJwYJKoZIhvcNAQcEoIIHGDCCBxQCAQExggEwMIIBLAIBADCBlDCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20CAQAwDQYJKoZIhvcNAQEBBQAEgYBYzHHuBprWDQAnHpJbxdKe608aYsm1n56BcYimqCKWVraq/z1yWX2b3I6w79e/wJMJvJaAYo9+Z8KLxq+s70STdBkKZ8FvvFbgjZ4B34j9s4LjHPeLYdOueMtk2WBG9C5yMFK06BoAEKQ5pyH9ivQaVDM72tcnAd24Rnj5/MdiNjELMAkGBSsOAwIaBQAwgaQGCSqGSIb3DQEHATAUBggqhkiG9w0DBwQIeUw39rXpLPmAgYAL1VWJ+ebaMAb5LU9XqmraruC+h3MiZoSw5sFEjKoJ+Mwq3AQpId/LMd6J1h0zgUh9RhEBfHd8j6fKP3mnv1c050UMynjuXmEA6bv2if98WEolRjSm3T1jvhb1/rCwOZ1ctGhKaQQE1XhdeveeCN1d5wpLl8RgMvbPQm2dQiPnTaCCA4cwggODMIIC7KADAgECAgEAMA0GCSqGSIb3DQEBBQUAMIGOMQswCQYDVQQGEwJVUzELMAkGA1UECBMCQ0ExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxFDASBgNVBAoTC1BheVBhbCBJbmMuMRMwEQYDVQQLFApsaXZlX2NlcnRzMREwDwYDVQQDFAhsaXZlX2FwaTEcMBoGCSqGSIb3DQEJARYNcmVAcGF5cGFsLmNvbTAeFw0wNDAyMTMxMDEzMTVaFw0zNTAyMTMxMDEzMTVaMIGOMQswCQYDVQQGEwJVUzELMAkGA1UECBMCQ0ExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxFDASBgNVBAoTC1BheVBhbCBJbmMuMRMwEQYDVQQLFApsaXZlX2NlcnRzMREwDwYDVQQDFAhsaXZlX2FwaTEcMBoGCSqGSIb3DQEJARYNcmVAcGF5cGFsLmNvbTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAwUdO3fxEzEtcnI7ZKZL412XvZPugoni7i7D7prCe0AtaHTc97CYgm7NsAtJyxNLixmhLV8pyIEaiHXWAh8fPKW+R017+EmXrr9EaquPmsVvTywAAE1PMNOKqo2kl4Gxiz9zZqIajOm1fZGWcGS0f5JQ2kBqNbvbg2/Za+GJ/qwUCAwEAAaOB7jCB6zAdBgNVHQ4EFgQUlp98u8ZvF71ZP1LXChvsENZklGswgbsGA1UdIwSBszCBsIAUlp98u8ZvF71ZP1LXChvsENZklGuhgZSkgZEwgY4xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLUGF5UGFsIEluYy4xEzARBgNVBAsUCmxpdmVfY2VydHMxETAPBgNVBAMUCGxpdmVfYXBpMRwwGgYJKoZIhvcNAQkBFg1yZUBwYXlwYWwuY29tggEAMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEFBQADgYEAgV86VpqAWuXvX6Oro4qJ1tYVIT5DgWpE692Ag422H7yRIr/9j/iKG4Thia/Oflx4TdL+IFJBAyPK9v6zZNZtBgPBynXb048hsP16l2vi0k5Q2JKiPDsEfBhGI+HnxLXEaUWAcVfCsQFvd2A1sxRr67ip5y2wwBelUecP3AjJ+YcxggGaMIIBlgIBATCBlDCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20CAQAwCQYFKw4DAhoFAKBdMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTE2MDYyMDIzMzgzNlowIwYJKoZIhvcNAQkEMRYEFAFAlZRkbEU/LiS19Lfre9DXXBEgMA0GCSqGSIb3DQEBAQUABIGAPJAgOx6NiOHgtRlrNfJg1HT4u9ihAouiRuD0MusO7vt551M7h3b2KJbvlg7Qm1G97O6b6IEA41oGCVWw3CzoWxezf5aHlB/JtzvFDLzPGq4S2FRWzXKpNALpjPwRviJA2PKIUw/zfFmWU84f7t+jGeW0twK50JOcHazgu8md4rY=-----END PKCS7-----
-      ">
-                        <input type="image" src="https://www.paypalobjects.com/en_AU/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online!">
-                        <img alt="" border="0" src="https://www.paypalobjects.com/en_AU/i/scr/pixel.gif" width="1" height="1">
+                      <input type="hidden" name="cmd" value="_s-xclick">
+                      <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+                      <input type="image" src="https://www.paypalobjects.com/en_AU/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online!">
+                      <img alt="" border="0" src="https://www.paypalobjects.com/en_AU/i/scr/pixel.gif" width="1" height="1">
                     </form>
                     <p class="version-text"> itam (0.5) - &copy; etopiei 2016 </p>
             </center>
@@ -305,7 +304,7 @@ if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i
 
 </body>
 <script src="/js/jquery-min.js"></script>
-<script src="js/loadData.min.js"></script>
+<script src="/js/loadData.js"></script>
 <script src="/js/bootstrap.min.js"></script>
 
 </html>
