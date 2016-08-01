@@ -67,9 +67,7 @@ function getTVURL(input) {
 
                         var linkURL = json[prop][j]["URL"];
                         var title = json[prop][j]["Name"];
-                        console.log(j);
                         var last = numEpisodes - 1;
-                        console.log(last);
                         if (j !== last) {
                             var nextLink = json[prop][j + 1]["EpisodeID"];
                             if (nextLink !== "") {
@@ -77,7 +75,6 @@ function getTVURL(input) {
                             }
                           }
                         else {
-                          console.log("Deleting button");
                           deleteNextButton();
                         }
                         $(".video-title").html(title);
@@ -117,6 +114,8 @@ function addNextButton(link) {
 }
 
 function getMovieURL(input) {
+
+  deleteNextButton();
 
     $.getJSON("js/movies.json", function (json) {
         for (var prop in json) {
