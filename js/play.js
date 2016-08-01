@@ -67,11 +67,18 @@ function getTVURL(input) {
 
                         var linkURL = json[prop][j]["URL"];
                         var title = json[prop][j]["Name"];
-                        if (j !== numEpisodes - 1) {
+                        console.log(j);
+                        var last = numEpisodes - 1;
+                        console.log(last);
+                        if (j !== last) {
                             var nextLink = json[prop][j + 1]["EpisodeID"];
                             if (nextLink !== "") {
                                 addNextButton(nextLink);
                             }
+                          }
+                        else {
+                          console.log("Deleting button");
+                          deleteNextButton();
                         }
                         $(".video-title").html(title);
                         createPlayer(linkURL);
@@ -86,6 +93,10 @@ function getTVURL(input) {
         }
 
     });
+}
+
+function deleteNextButton () {
+  document.getElementById('linkButton').setAttribute('style','visibility:hidden');
 }
 
 function addNextButton(link) {
