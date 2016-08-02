@@ -23,7 +23,7 @@ function createGenrePageTV() {
 
   //loop through all the genres
 
-  for (var i = 0; i < 8; i++) {
+  for (var i = 0; i < 10; i++) {
 
     //add a div, with title of each genre
 
@@ -54,6 +54,13 @@ function createGenrePageTV() {
         break;
       case 7:
         var currentClass = "Thriller";
+        break;
+      case 8:
+        var currentClass = "Fantasy";
+        break;
+      case 9:
+        var currentClass = "Animation";
+        break;
       }
 
       d.setAttribute("class", currentClass + " for-you");
