@@ -55,5 +55,11 @@
   ],
   "Long Story Short":[
     {"Title": "Long Story Short", "Genre": "Comedy", "Creator":"Almost Cool", "PosterURL":"http://i53.photobucket.com/albums/g63/etopiei/images.duckduckgo-1_zpspdp7an4d.png", "Time": "4", "ID": "T19"}
+  ],
+  "Clone High":[
+      {"Title": "Clone High", "Genre": "Comedy/Animation", "Creator":"Phil Lord, Christopher Miller and Bill Lawrence", "PosterURL":"http://i53.photobucket.com/albums/g63/etopiei/Z_zpsv1gpia26.jpg", "Time": "15", "ID": "T20"}
+  ],
+  "The Wizards of Aus":[
+    {"Title": "The Wizards of Aus", "Genre": "Comedy/Fantasy", "Creator":"LateNite Films", "PosterURL":"https://walter.trakt.us/images/shows/000/104/089/posters/thumb/78315bfd9e.jpg", "Time": "15", "ID": "T21"}
   ]
 }
