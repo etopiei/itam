@@ -444,5 +444,14 @@
   {"Name": "Long Story Short - Episode 10 - I Heard Voices", "ShortName": "I Heard Voices", "URL":"LZhf31QQhhI", "EpisodeID": "T19.10", "Plot": "Tommy hears voices."},
   {"Name": "Long Story Short - Episode 11 - I Got Sick", "ShortName": "I Got Sick", "URL":"EogZ8laGRpI", "EpisodeID": "T19.11", "Plot": "Tommy gets sick."},
   {"Name": "Long Story Short - Episode 12 - I Moved", "ShortName": "I Moved", "URL":"xhPV1iaQUJY", "EpisodeID": "T19.12", "Plot": "Tommy moves."}
+],
+"The Wizards of Aus":[
+  {"Title": "The Wizards of Aus", "Genre": "Comedy/Fantasy", "Creator":"LateNite Films", "PosterURL":"https://walter.trakt.us/images/shows/000/104/089/posters/thumb/78315bfd9e.jpg", "Time": "15", "ID": "T20"},
+  {"Name": "THE WIZARDS OF AUS || Episode 1 'Honk'", "ShortName": "Honk", "URL":"yv3DedNXN4o", "EpisodeID": "T20.1", "Plot": "After a disastrous battle with a dragon, Jack the wizard decides to escape the madness of the magical realm by moving to Melbourne, Australia."},
+  {"Name": "THE WIZARDS OF AUS || Episode 2 'Lotus'", "ShortName": "Lotus", "URL":"1wscS1Itgnk", "EpisodeID": "T20.2", "Plot": "Having sworn off magic, Jack attempts to get himself a new recycling bin the normal, human way - however if there's anything more confusing than mastering the arcane arts, it might be local council bureaucracy."},
+  {"Name": "THE WIZARDS OF AUS || Episode 3 'Magic by Moonlight'", "ShortName": "Magic by Moonlight", "URL":"g4QzsBcQN0A", "EpisodeID": "T20.3", "Plot": "Fresh from a nasty divorce with his unicorn wife, Jack tries his hand at speed dating."},
+  {"Name": "THE WIZARDS OF AUS || Episode 4 'Canvassing'", "ShortName": "Canvassing", "URL":"94B0s9uXejg", "EpisodeID": "T20.4", "Plot": "When a vote is called to kick all wizards out of Melbourne for good, it's up to Jack to rally his fellow magical immigrants and convince them to try and fit in a little better."},
+  {"Name": "THE WIZARDS OF AUS || Episode 5 'The Ballad of Baby Bones'", "ShortName": "The Ballad of Baby Bones", "URL":"3rKLAVDPqh0", "EpisodeID": "T20.5", "Plot": "Jack comes under harsh scrutiny following a television exposé on media darling, 'Baby Bones', an adorable human child cursed to live without skin."},
+  {"Name": "THE WIZARDS OF AUS || Episode 6 'M.G.S.B'", "ShortName": "M.G.S.B", "URL":"srdX7DqCwvA", "EpisodeID": "T20.6", "Plot": "With the anti-wizard vote looming, Jack calls a town hall meeting in a last ditch effort to turn the tide on anti-wizard sentiment, with fatal and sexual consequences."},
 ]
 }
