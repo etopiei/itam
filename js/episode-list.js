@@ -25,7 +25,7 @@ function loadEpisodeTitles(ID) {
 
   var found = 0;
 
-    $.getJSON("js/tv.json", function (json) {
+  $.getJSON("/js/tv.json", function (json) {    
         for (var prop in json) {
 
             if (!json.hasOwnProperty(prop)) {
