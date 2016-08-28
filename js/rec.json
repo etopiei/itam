@@ -23,8 +23,8 @@
   "The Guild":[
     {"Title": "The Guild", "Genre": "Comedy", "Creator": "Felicia Day", "PosterURL": "http://ecx.images-amazon.com/images/I/51aF4SrO5aL._AC_UL480_SR342,480_.jpg", "Time": "5", "ID": "T2"}
   ],
-  "Chop Socky Boom":[
-      {"Title": "Chop Socky Boom", "Genre": "Comedy", "Creator": "Darlene Sellers and Heath Ward", "PosterURL": "http://i53.photobucket.com/albums/g63/etopiei/chop-socky-boom-poster_zpspg9mejmq.png", "Time": "10", "ID": "T5"}
+  "Clone High":[
+      {"Title": "Clone High", "Genre": "Comedy/Animation", "Creator":"Phil Lord, Christopher Miller and Bill Lawrence", "PosterURL":"http://i53.photobucket.com/albums/g63/etopiei/Z_zpsv1gpia26.jpg", "Time": "15", "ID": "T20"}
   ],
   "Awkward Black Girl": [
     {"Title": "Awkward Black Girl", "Genre": "Comedy", "Creator":"Shea William Vanderpoort", "PosterURL":"http://i53.photobucket.com/albums/g63/etopiei/The-Misadventures-of-Awkward-Black-Girl_zpsschnj0db.jpg", "Time": "5", "ID": "T9"}
@@ -32,7 +32,7 @@
   "I Hate Being Single": [
     {"Title": "I Hate Being Single", "Genre": "Comedy", "Creator":"Shannon Coffey", "PosterURL":"http://i53.photobucket.com/albums/g63/etopiei/2Q_zpsknr6fzbp.jpg", "Time": "5", "ID": "T13"}
   ],
-  "The Lizzie Bennet Diaries": [
-    {"Title": "The Lizzie Bennet Diaries", "Genre": "Comedy/Drama", "Creator":"Bernie Su", "PosterURL":"http://i53.photobucket.com/albums/g63/etopiei/images.duckduckgo-1_zpsqumarohe.jpg", "Time": "3", "ID": "T15"}
+  "Long Story Short":[
+    {"Title": "Long Story Short", "Genre": "Comedy", "Creator":"Almost Cool", "PosterURL":"http://i53.photobucket.com/albums/g63/etopiei/images.duckduckgo-1_zpspdp7an4d.png", "Time": "4", "ID": "T19"}
   ]
 }
