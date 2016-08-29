@@ -36,3 +36,14 @@ button:play {
 .about-text {
   font-size: 30px;
 }
+.footer {
+  font-size: 32px;
+}
+a {
+    color: black;
+    margin-right: 10px;
+}
+a:hover {
+    color: black;
+    font-style: oblique;
+}
