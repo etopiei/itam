@@ -28,7 +28,7 @@ function getTVURL(input) {
 
   var found = 0;
 
-    $.getJSON("js/tv.json", function (json) {
+    $.getJSON("/js/tv.json", function (json) {
         for (var prop in json) {
 
             if (!json.hasOwnProperty(prop)) {
@@ -117,7 +117,7 @@ function getMovieURL(input) {
 
   deleteNextButton();
 
-    $.getJSON("js/movies.json", function (json) {
+    $.getJSON("/js/movies.json", function (json) {
         for (var prop in json) {
 
             if (!json.hasOwnProperty(prop)) {

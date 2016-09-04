@@ -45,7 +45,7 @@ function getDetailsFromQuery(queryString) {
 
   var found = 0; //Set it to unfound
 
-    $.getJSON("js/tv.json", function (json) {
+    $.getJSON("/js/tv.json", function (json) {
 
         for (var prop in json) {
 

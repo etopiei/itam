@@ -51,7 +51,7 @@ function loadDataFromJSON(type) {
 
     //get movies from json (add them to html page)
 
-    $.getJSON("js/movies.json", function (json) {
+    $.getJSON("/js/movies.json", function (json) {
 
       for (var prop in json) {
 
@@ -79,7 +79,7 @@ function loadDataFromJSON(type) {
     link.href="genre.html?=T";
 
     //get tv shows from json (add them to html page)
-    $.getJSON("js/tv-min.json", function (json) {
+    $.getJSON("/js/tv-min.json", function (json) {
 
       for (var prop in json) {
 

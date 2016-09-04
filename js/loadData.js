@@ -9,7 +9,7 @@ function getRecommendedData() {
     var counter = 0;
 
     // $.getJSON("js/tv.json", function(json) {
-    $.getJSON("js/rec.json", function (json) {
+    $.getJSON("/js/rec.json", function (json) {
 
         console.log("JSON Received");
 
@@ -72,7 +72,7 @@ function getTVData() {
 
     var counter = 0;
 
-    $.getJSON("js/tv-min.json", function (json) {
+    $.getJSON("/js/tv-min.json", function (json) {
 
         console.log("JSON Received");
 
@@ -118,7 +118,7 @@ function getMovieData() {
 
     var counter = 0;
 
-    $.getJSON("js/movies.json", function (json) {
+    $.getJSON("/js/movies.json", function (json) {
         for (var prop in json) {
 
             if (!json.hasOwnProperty(prop)) {
