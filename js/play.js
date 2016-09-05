@@ -115,6 +115,8 @@ function addNextButton(link) {
 
 function getMovieURL(input) {
 
+  var found = 0;
+
   deleteNextButton();
 
     $.getJSON("/js/movies.json", function (json) {
@@ -128,6 +130,23 @@ function getMovieURL(input) {
 
             if (json[prop][0]["ID"] === input) {
 
+              found = 1;
+
+              //make input (or url parameter) apply to details page, but first check if it should be mobile or not
+
+              var detailsLink = document.getElementById("changeMe");
+              var backButton = document.getElementById("backButton");
+
+              if (screen.width <= 699 || navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPod/i)) {
+                //it is mobile
+                detailsLink.href = "/mobile/mobile-details.html?=" + input;
+                backButton.setAttribute("class","upSized btn btn-primary");
+              }
+              else {
+                //it is desktop
+                detailsLink.href = "/details.html?=" + input;
+              }
+
                 var linkURL = json[prop][0]["URL"];
                 var title = json[prop][0]["Title"];
                 $(".video-title").html(title);
@@ -135,6 +154,11 @@ function getMovieURL(input) {
 
             }
         }
+
+        if (found === 0) {
+          unFound();
+        }
+
     });
 }
 
