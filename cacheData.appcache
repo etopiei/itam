@@ -1,0 +1,68 @@
+CACHE MANIFEST
+
+# 2016 5/9
+
+#css files
+
+/css/style-details.css
+/css/style-episode-list.css
+/css/style-mobile-details.css
+/css/style-mobile-episode-list.css
+/css/style-mobile.css
+/css/style-play.css
+/css/style.css
+
+#js files
+
+/js/details.js
+/js/episode-list.js
+/js/genre.js
+/js/loadData-mobile.js
+/js/loadData.js
+/js/mobile-details.js
+/js/mobile-episode-list.js
+/js/mobile-genre.js
+/js/mobile-more.js
+/js/more.js
+/js/play.js
+/js/search.js
+/js/bootstrap-min.js
+/js/jquery-min.js
+
+#json files
+
+/js/movies.json
+/js/rec.json
+/js/tv-min.json
+/js/tv.json
+
+#html files
+
+/about.html
+/credit.html
+/details.html
+/episode-list.html
+/faq.html
+/genre.html
+/index.html
+/more.html
+/play.html
+/search.html
+/unfound.html
+/mobile/mobile-details.html
+/mobile/mobile-episode-list.html
+/mobile/mobile-genre.html
+/mobile/mobile-more.html
+/mobile/mobile.html
+
+#pictures
+
+/media/itam-error.png
+/media/itam-heading.png
+/media/loader.gif
+/media/missing.jpeg
+/media/paypal.png
+/media/thankyou.jpg
+
+NETWORK:
+*
