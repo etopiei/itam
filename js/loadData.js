@@ -9,7 +9,7 @@ function getRecommendedData() {
     var counter = 0;
 
     // $.getJSON("js/tv.json", function(json) {
-    $.getJSON("js/rec.json", function (json) {
+    $.getJSON("/js/rec.json", function (json) {
 
         console.log("JSON Received");
 
@@ -70,11 +70,9 @@ function getRecommendedData() {
 
 function getTVData() {
 
-  console.log("TV Data");
-
     var counter = 0;
 
-    $.getJSON("js/tv-min.json", function (json) {
+    $.getJSON("/js/tv-min.json", function (json) {
 
         console.log("JSON Received");
 
@@ -86,8 +84,8 @@ function getTVData() {
             }
 
             if (counter > 12) {
-              getMovieData();
-              return;
+                getMovieData();
+                return;
             }
 
             var Posturl = json[prop][0]["PosterURL"];
@@ -120,7 +118,7 @@ function getMovieData() {
 
     var counter = 0;
 
-    $.getJSON("js/movies.json", function (json) {
+    $.getJSON("/js/movies.json", function (json) {
         for (var prop in json) {
 
             if (!json.hasOwnProperty(prop)) {
@@ -130,7 +128,7 @@ function getMovieData() {
             }
 
             if (counter > 12) {
-              return;
+                return;
             }
 
             var Posturl = json[prop][0]["PosterURL"];

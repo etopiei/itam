@@ -27,7 +27,7 @@
     {"Title": "Awkward Black Girl", "Genre": "Comedy", "Creator":"Shea William Vanderpoort", "PosterURL":"http://i53.photobucket.com/albums/g63/etopiei/The-Misadventures-of-Awkward-Black-Girl_zpsschnj0db.jpg", "Time": "5", "ID": "T9"}
   ],
   "Journey Quest": [
-    {"Title": "Journey Quest", "Genre": "Action, Adventure, Comedy", "Creator":"Ben Dobyns and Matt Vancil", "PosterURL":"http://i53.photobucket.com/albums/g63/etopiei/Z_zpsfufignd9.jpg", "Time": "7", "ID": "T10"}
+    {"Title": "Journey Quest", "Genre": "Action/Adventure/Comedy", "Creator":"Ben Dobyns and Matt Vancil", "PosterURL":"http://i53.photobucket.com/albums/g63/etopiei/Z_zpsfufignd9.jpg", "Time": "7", "ID": "T10"}
   ],
   "Out With Dad": [
     {"Title": "Out With Dad", "Genre": "Drama", "Creator":"Jason Leaver", "PosterURL":"http://i53.photobucket.com/albums/g63/etopiei/Screen%20Shot%202016-05-29%20at%208.20.09%20PM_zpsh0wfbrcu.png", "Time": "7", "ID": "T11"}
@@ -48,12 +48,18 @@
     {"Title": "Red Vs. Blue", "Genre": "Comedy", "Creator":"Burnie Burns", "PosterURL":"http://i53.photobucket.com/albums/g63/etopiei/images.duckduckgo-2_zpsk1rwdbft.jpg", "Time": "2", "ID": "T16"}
   ],
   "The Vault":[
-    {"Title": "The Vault", "Genre": "Drama, Mystery, Thriller", "Creator":"Aaron Hann and Mario Miscione", "PosterURL":"http://i53.photobucket.com/albums/g63/etopiei/Z-1_zpspvyovwhd.jpg", "Time": "10", "ID": "T17"}
+    {"Title": "The Vault", "Genre": "Drama/Mystery/Thriller", "Creator":"Aaron Hann and Mario Miscione", "PosterURL":"http://i53.photobucket.com/albums/g63/etopiei/Z-1_zpspvyovwhd.jpg", "Time": "10", "ID": "T17"}
   ],
   "Downsized":[
-    {"Title": "Downsized", "Genre": "Comedy, Drama", "Creator":"Daryn Strauss", "PosterURL":"http://i53.photobucket.com/albums/g63/etopiei/Beth1-550x308_zps3q2t3lhb.jpg", "Time": "4", "ID": "T18"}
+    {"Title": "Downsized", "Genre": "Comedy/Drama", "Creator":"Daryn Strauss", "PosterURL":"http://i53.photobucket.com/albums/g63/etopiei/Beth1-550x308_zps3q2t3lhb.jpg", "Time": "4", "ID": "T18"}
   ],
   "Long Story Short":[
     {"Title": "Long Story Short", "Genre": "Comedy", "Creator":"Almost Cool", "PosterURL":"http://i53.photobucket.com/albums/g63/etopiei/images.duckduckgo-1_zpspdp7an4d.png", "Time": "4", "ID": "T19"}
+  ],
+  "Clone High":[
+      {"Title": "Clone High", "Genre": "Comedy/Animation", "Creator":"Phil Lord, Christopher Miller and Bill Lawrence", "PosterURL":"http://i53.photobucket.com/albums/g63/etopiei/Z_zpsv1gpia26.jpg", "Time": "15", "ID": "T20"}
+  ],
+  "The Wizards of Aus":[
+    {"Title": "The Wizards of Aus", "Genre": "Comedy/Fantasy", "Creator":"LateNite Films", "PosterURL":"https://walter.trakt.us/images/shows/000/104/089/posters/thumb/78315bfd9e.jpg", "Time": "15", "ID": "T21"}
   ]
 }

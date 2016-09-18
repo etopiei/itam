@@ -1,14 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" manifest="cacheData.appcache">
+<title>itam - Play</title>
+
 <head>
-<link rel=StyleSheet href="css/bootstrap.min.css">
-<link rel=StyleSheet href="css/style-play.css" type="text/css" media=screen>
+    <link rel=StyleSheet href="/css/bootstrap.min.css">
+    <link rel=StyleSheet href="/css/style-play.css" type="text/css" media=screen>
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/media/icons/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/media/icons/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/media/icons/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/media/icons/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="/media/icons/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/media/icons/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="/media/icons/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/media/icons/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="/media/icons/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="/media/icons/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="/media/icons/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="/media/icons/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="/media/icons/favicon-128.png" sizes="128x128" />
+    <meta name="itam" content="&nbsp;"/>
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="/media/icons/mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="/media/icons/mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="/media/icons/mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="/media/icons/mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="/media/icons/mstile-310x310.png" />
 </head>
 
 <body>
 
     <div class="page">
-        <div class="content">
             <div class="banner">
                 <center>
                     <a href="index.html"><img src="media/itam-heading.png" width="80%" height="50%"> </img>
@@ -17,19 +38,20 @@
                     <p class="tag">Internet Television And Movies.</p>
                 </center>
             </div>
-
-            <script src="js/jquery-min.js"> </script>
-            <script src="js/bootstrap.min.js"></script>
-            <script src="js/play.js"> </script>
-
+    <div class="content">
             <div id="video-frame">
                 <center>
                     <h3 class="video-title"> </h3>
+                    <div class="backToDetails">
+                      <a href="" id="changeMe"> <!-- change this link to include url parameters from play.min.js -->
+                          <button id="backButton" class="btn btn-primary btnToDetails">Back to Details</button>
+                      </a>
+                    </div>
                     <div id="embeded-player">
                     </div>
                     <br>
                     <a id="a-bit">
-                        <button id="linkButton" class="btn btn-primary">Next</button>
+                        <button id="linkButton" class="btn btn-primary play">Next</button>
                     </a>
             </div>
         </div>
@@ -37,5 +59,9 @@
     </div>
 
 </body>
+
+<script src="/js/jquery-min.js"> </script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/play.js"> </script>
 
 </html>

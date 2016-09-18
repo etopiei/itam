@@ -6,62 +6,80 @@ $(document).ready(function () {
 
 function loadEps() {
 
-  var showID = getParameterByName("?");
-  loadEpisodeTitles(showID);
+    var showID = getParameterByName("?");
 
+    if (showID === "") {
+      unFound();
+    }
+
+    loadEpisodeTitles(showID);
+
+}
+
+function unFound() {
+  document.location = "/unfound.html";
+  location.replace("/unfound.html");
 }
 
 function loadEpisodeTitles(ID) {
 
-  $.getJSON("/js/tv.json", function (json) {
-      for (var prop in json) {
+  var found = 0;
 
-          if (!json.hasOwnProperty(prop)) {
-              //The current property is not a direct property of prop
-              console.log("prop fail");
-              continue;
-          }
+    $.getJSON("/js/tv.json", function (json) {
+        for (var prop in json) {
 
-          if (json[prop][0]["ID"] === ID) {
+            if (!json.hasOwnProperty(prop)) {
+                //The current property is not a direct property of prop
+                console.log("prop fail");
+                continue;
+            }
 
-            var header = json[prop][0]["Title"];
-            $(".title").html("Episode List: " + header);
+            if (json[prop][0]["ID"] === ID) {
 
-              for (var i = 1; i < json[prop].length; i++) {
+              found = 1;
 
-                  var episodeTitle = json[prop][i]["Name"];
-                  var epsiodeID = json[prop][i]["EpisodeID"];
-                  createElement(episodeTitle, epsiodeID);
+                var header = json[prop][0]["Title"];
+                $(".title").html("Episode List: " + header);
 
-              }
+                for (var i = 1; i < json[prop].length; i++) {
 
-          }
+                    var episodeTitle = json[prop][i]["Name"];
+                    var epsiodeID = json[prop][i]["EpisodeID"];
+                    createElement(episodeTitle, epsiodeID);
 
-      }
+                }
 
-  });
+            }
+
+        }
+
+        if (found === 0) {
+          unFound();
+        }
+
+    });
 }
 
-function createElement(title,ID) {
+function createElement(title, ID) {
 
-  var br = document.createElement("br");
-  var place = document.getElementById("insert-episodes");
-  place.appendChild(br);
+    var br = document.createElement("br");
+    var place = document.getElementById("insert-episodes");
+    place.appendChild(br);
 
-  var p = document.createElement("p");
-  p.textContent = title;
-  p.setAttribute("class","mediumText")
-  var a = document.createElement("a");
-  a.href = "/mobile/mobile-details.html?=" + ID;
-  place.appendChild(p);
-  place.appendChild(a);
+    var p = document.createElement("p");
+    p.textContent = title;
+    p.setAttribute("class", "mediumText")
+    var a = document.createElement("a");
+    a.href = "/mobile/mobile-details.html?=" + ID;
+    place.appendChild(p);
+    place.appendChild(a);
 
-  var btn = document.createElement("BUTTON");
-  btn.textContent = "View";
-  btn.setAttribute("class","btn btn-primary upSized");
-  a.appendChild(br);
-  a.appendChild(btn);
-  a.appendChild(br);
+    var btn = document.createElement("BUTTON");
+    btn.textContent = "View";
+    btn.setAttribute("class", "btn btn-primary upSized");
+    a.appendChild(br);
+    a.appendChild(btn);
+    a.appendChild(br);
 
 }
 

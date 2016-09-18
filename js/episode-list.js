@@ -7,13 +7,25 @@ $(document).ready(function () {
 function loadEpsFromId() {
 
     var showID = getParameterByName("?");
+
+    if (showID === "") {
+      unFound();
+    }
+
     loadEpisodeTitles(showID);
 
 }
 
+function unFound() {
+  document.location = "/unfound.html";
+  location.replace("/unfound.html");
+}
+
 function loadEpisodeTitles(ID) {
 
-    $.getJSON("js/tv.json", function (json) {
+  var found = 0;
+
+  $.getJSON("/js/tv.json", function (json) {    
         for (var prop in json) {
 
             if (!json.hasOwnProperty(prop)) {
@@ -24,10 +36,12 @@ function loadEpisodeTitles(ID) {
 
             if (json[prop][0]["ID"] === ID) {
 
-              var showPosterURL = json[prop][0]["PosterURL"];
-              $(".showPoster").attr('src', showPosterURL);
-              var header = json[prop][0]["Title"];
-              $(".epsiodeHeading").html("Episode List: " + header);
+              found = 1;
+
+                var showPosterURL = json[prop][0]["PosterURL"];
+                $(".showPoster").attr('src', showPosterURL);
+                var header = json[prop][0]["Title"];
+                $(".epsiodeHeading").html("Episode List: " + header);
 
                 for (var i = 1; i < json[prop].length; i++) {
 
@@ -39,6 +53,10 @@ function loadEpisodeTitles(ID) {
 
             }
 
+        }
+
+        if (found === 0) {
+          unFound();
         }
 
     });

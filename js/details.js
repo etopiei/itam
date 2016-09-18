@@ -5,20 +5,33 @@ $(document).ready(function () {
 });
 
 function fillDetails() {
-  //get ID from URL after ?=
-  var query = getParameterByName("?");
-  var firstCharacter = query.substr(0,1);
-  //for tv shows and movies get slightly different details
-  if (firstCharacter === "T") {
-    getDetailsFromQuery(query);
-  }
-  else if (firstCharacter === "M") {
-    getDetailsFromMovie(query);
-  }
+    //get ID from URL after ?=
+    var query = getParameterByName("?");
+
+    if (query === "") {
+      unFound();
+    }
+
+    var firstCharacter = query.substr(0, 1);
+    //for tv shows and movies get slightly different details
+    if (firstCharacter === "T") {
+        getDetailsFromQuery(query);
+    }
+    else if (firstCharacter === "M") {
+        getDetailsFromMovie(query);
+    }
+    else {
+      unFound();
+    }
+}
+
+function unFound() {
+  document.location = "/unfound.html";
+  location.replace("/unfound.html");
 }
 
 function getParameterByName(name, url) {
-  //regex to get id from after ?=
+    //regex to get id from after ?=
     if (!url) url = window.location.href;
     name = name.replace(/[\[\]]/g, "\\$&");
     var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
@@ -30,7 +43,9 @@ function getParameterByName(name, url) {
 
 function getDetailsFromQuery(queryString) {
 
-    $.getJSON("js/tv.json", function (json) {
+  var found = 0; //Set it to unfound
+
+    $.getJSON("/js/tv.json", function (json) {
 
         for (var prop in json) {
 
@@ -45,7 +60,9 @@ function getDetailsFromQuery(queryString) {
 
             if (json[prop][0]["ID"] === showID) {
 
-              //set details on page
+                //set details on page
+
+                found = 1; //show found
 
                 var Genre = json[prop][0]["Genre"];
                 var Creator = json[prop][0]["Creator"];
@@ -67,43 +84,62 @@ function getDetailsFromQuery(queryString) {
                 document.getElementById("play").href = "play.html?=" + queryString;
 
             }
+
         }
+
+        //check if found, otherwise go to "unfound" page.
+
+        console.log(found);
+
+        if (found === 0) {
+          unFound();
+        }
+
     });
 }
 
 function getDetailsFromMovie(queryString) {
 
-  $.getJSON("js/movies.json", function (json) {
+  var found = 0;
 
-      for (var prop in json) {
+    $.getJSON("js/movies.json", function (json) {
 
-          if (!json.hasOwnProperty(prop)) {
-              //The current property is not a direct property of prop
-              console.log("prop fail");
-              continue;
-          }
+        for (var prop in json) {
 
-          if (json[prop][0]["ID"] === queryString) {
+            if (!json.hasOwnProperty(prop)) {
+                //The current property is not a direct property of prop
+                console.log("prop fail");
+                continue;
+            }
 
-            //set details on page
+            if (json[prop][0]["ID"] === queryString) {
 
-              var Genre = json[prop][0]["Genre"];
-              var Creator = json[prop][0]["Director"];
-              var Runtime = json[prop][0]["Time"];
-              var PostURL = json[prop][0]["PosterURL"];
-              var episodeTitle = json[prop][0]["Title"];
-              var epsiodeID = json[prop][0]["ID"];
-              var Synopsis = json[prop][0]["Plot"];
+                //set details on page
 
-              $(".epTitle").html(episodeTitle);
-              $(".Synopsis").html(Synopsis);
-              $(".Genre").html(Genre);
-              $(".Creator").html(Creator);
-              $(".Time").html(Runtime + " mins");
-              $(".poster").attr('src',PostURL);
-              document.getElementById("play").href = "play.html?=" + queryString;
+                found = 1;
 
-              }
-          }
-      });
+                var Genre = json[prop][0]["Genre"];
+                var Creator = json[prop][0]["Director"];
+                var Runtime = json[prop][0]["Time"];
+                var PostURL = json[prop][0]["PosterURL"];
+                var episodeTitle = json[prop][0]["Title"];
+                var epsiodeID = json[prop][0]["ID"];
+                var Synopsis = json[prop][0]["Plot"];
+
+                $(".epTitle").html(episodeTitle);
+                $(".Synopsis").html(Synopsis);
+                $(".Genre").html(Genre);
+                $(".Creator").html(Creator);
+                $(".Time").html(Runtime + " mins");
+                $(".poster").attr('src', PostURL);
+                document.getElementById("play").href = "play.html?=" + queryString;
+
+            }
+        }
+
+        if (found === 0) {
+          unFound();
+        }
+
+    });
 }

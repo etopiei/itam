@@ -5,15 +5,28 @@ $(document).ready(function () {
 function getType() {
 
   var typeID = getParameterByName("?");
+
+  if (typeID === "") {
+    unFound();
+  }
+
   if (typeID === "M") {
     $(".title").html("Movies");
   }
   else if (typeID === "T") {
     $(".title").html("TV Shows");
   }
+  else {
+    unFound();
+  }
 
   loadDataFromJSON(typeID);
 
+}
+
+function unFound() {
+  document.location = "/unfound.html";
+  location.replace("/unfound.html");
 }
 
 function getParameterByName(name, url) {
@@ -31,11 +44,14 @@ function loadDataFromJSON(type) {
 
     //change background colour
 
-    document.getElementById("bg").style.backgroundColor = "#4169e1";
+    document.getElementById("bg").style.backgroundColor = "#7592A4";
+
+    var link = document.getElementById("genreLink");
+    link.href="genre.html?=M";
 
     //get movies from json (add them to html page)
 
-    $.getJSON("js/movies.json", function (json) {
+    $.getJSON("/js/movies.json", function (json) {
 
       for (var prop in json) {
 
@@ -56,12 +72,14 @@ function loadDataFromJSON(type) {
   }
   else if (type === "T") {
 
-    //change background colour
+    //change background colour and button link
 
-    document.getElementById("bg").style.backgroundColor = "#20b2aa";
+    document.getElementById("bg").style.backgroundColor = "#7592A4";
+    var link = document.getElementById("genreLink");
+    link.href="genre.html?=T";
 
     //get tv shows from json (add them to html page)
-    $.getJSON("js/tv-min.json", function (json) {
+    $.getJSON("/js/tv-min.json", function (json) {
 
       for (var prop in json) {
 
@@ -87,7 +105,7 @@ function createTVElement(link, code) {
   var a = document.createElement("A");
   a.href = "/episode-list.html?=" + code;
   var x = document.createElement("IMG");
-  x.setAttribute("class","spaced");
+  x.setAttribute("class", "spaced");
   x.src = link;
   x.height = 256;
   x.width = 150;
@@ -105,7 +123,7 @@ function createMovieElement(link, code) {
   a.href = "/details.html?=" + code;
   console.log(a.href);
   var x = document.createElement("IMG");
-  x.setAttribute("class","spaced");
+  x.setAttribute("class", "spaced");
   x.src = link;
   x.height = 256;
   x.width = 150;
