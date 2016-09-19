@@ -36,6 +36,24 @@
           <p class="tag">Internet Television And Movies.</p>
         </center>
       </div>
+      <div class="search-bar">
+          <center>
+              <form onSubmit="return process();">
+                  <input type="text" class="tftextinput" name="q" size="21" maxlength="120" id="searchTerm">
+                  <input
+                      type="submit" value="Search" class="tfbutton">
+              </form>
+
+              <script>
+        function process()
+        {
+        var url="/search.html?=" + document.getElementById("searchTerm").value;
+        location.href=url;
+        return false;
+        }
+        </script>
+      </div>
+        </center>
       <div class="more-box search-box" id="bg">
         <center>
           <h1 class="title" id="title">Loading Results...</h1>
