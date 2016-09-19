@@ -1,6 +1,6 @@
 {
 "TAOS":[
-    {"Title": "The Adventures of Superseven", "Genre": "Action/Adventure", "Creator": "Scott Rhodes", "PosterURL": "http://i53.photobucket.com/albums/g63/etopiei/taos%20poster_zpsgzcnqeas.png", "Time": "10", "ID": "T1"},
+    {"Title": "The Adventures of Superseven", "Genre": "Action/Adventure", "Creator": "Scott Rhodes", "PosterURL": "/media/posters/taos.png", "Time": "10", "ID": "T1"},
     {"Name":"Adventures of Superseven - Episode 1 -  Operation: Trapezoid Conundrum", "ShortName": "Operation: Trapezoid Conundrum", "URL":"bmWKQAvCZ_c", "EpisodeID": "T1.1", "Plot": "Can Sandra West thwart a plot to assassinate Superseven on live TV?"},
     {"Name": "Adventures Of Superseven - Epsiode 2 - Operation: Breakdown", "ShortName": "Operation Breakdown", "URL":"HSx2krBLYVE", "EpisodeID": "T1.2", "Plot": "Superseven is hot on the trail of the ruthless double Agent 'Mamba'...Can Superseven catch him before Sandra West does!"},
     {"Name": "Adventures Of Superseven - Epsiode 3 - Operation: Fourplay Part 1", "ShortName": "Operation Fourplay Pt.1", "URL":"gcQ7d1mzGSo", "EpisodeID": "T1.3", "Plot": "A deserted theatre....A midnight rendezvous...A cunning trap...Will Superseven survive!!!"},
@@ -40,7 +40,7 @@
     {"Name": "Adventures Of Superseven - Epsiode 37 - Operation: Red Herring", "ShortName": "Operation: Red Herring", "URL":"IU3OuDkq5AA", "EpisodeID": "T1.37", "Plot": "Superseven aids Sandra West, who finds herself on a strange odyssey, where she meets numerous characters from her past."}
 ],
 "The Guild": [
-    {"Title": "The Guild", "Genre": "Comedy", "Creator": "Felicia Day", "PosterURL": "http://ecx.images-amazon.com/images/I/51aF4SrO5aL._AC_UL480_SR342,480_.jpg", "Time": "5", "ID": "T2"},
+    {"Title": "The Guild", "Genre": "Comedy", "Creator": "Felicia Day", "PosterURL": "/media/posters/guild.jpg", "Time": "5", "ID": "T2"},
     {"Name":"The Guild - Season 1 - Episode 1 - Wake-Up Call", "ShortName": "Wake-Up Call", "URL":"grCTXGW3sxQ", "EpisodeID": "T2.1", "Plot": "Cyd Sherman's online gaming addiction brings more than she bargains for..."},
     {"Name":"The Guild - Season 1 - Episode 2 - Zaboo'd", "ShortName": "Zaboo'd", "URL":"Qb7GNu3NN-E", "EpisodeID": "T2.2", "Plot": "Cyd Sherman's imaginary world becomes all too real when a gnome warlock shows up on her doorstep."},
     {"Name":"The Guild - Season 1 - Episode 3 - The Macro Problem", "ShortName": "The Macro Problem", "URL":"SrCoUqWns6g", "EpisodeID": "T2.3", "Plot": "Episode 3, The Macro Problem."},
@@ -77,7 +77,7 @@
     {"Name":"The Guild - Season 3 - Episode 12 - Hero", "ShortName": "Hero", "URL":"NgK2EaPOfzI", "EpisodeID": "T2.34", "Plot": "It's up to Codex to save The Guild all by her lonesome. Solo. No pressure, really."}
 ],
 "Justice Woman":[
-    {"Title": "Justice Woman", "Genre": "Comedy", "Creator": "Vanessa Verduga", "PosterURL":"http://i53.photobucket.com/albums/g63/etopiei/images.duckduckgo_zpsicqw82hn.png", "Time": "10", "ID": "T3"},
+    {"Title": "Justice Woman", "Genre": "Comedy", "Creator": "Vanessa Verduga", "PosterURL":"/media/posters/justicewoman.png", "Time": "10", "ID": "T3"},
     {"Name":"Justice Woman - Season 1 Episode 1 - Luck be a Lady", "ShortName": "Luck be a Lady", "URL":"E3ymDifjTuE", "EpisodeID": "T3.1", "Plot": "Meet Sofia Escala, an Assistant D.A. committed to justice, who wants to take on more than traffic and DWI cases. Her admiration for the all-star prosecutor Brent Renard leads her to peruse his latest triumph, State v. Lopez, in the hopes of getting on his radar, but what she discovers puts Brent's ability to have won that case into question."},
     {"Name":"Justice Woman - Season 1 Episode 2 - A Bit Much", "ShortName": "A Bit Much", "URL":"niBoiGboMEM", "EpisodeID": "T3.2", "Plot": "Sofia convinces Rob to investigate a discrepancy she found in the State v. Lopez files, leading them to an abandoned warehouse where they unexpectedly stumble upon a meeting of corrupt forces. Their presence does not go unperceived by the bad guys. Will they escape?"},
     {"Name":"Justice Woman - Season 1 Episode 3 - Crossing the Line", "ShortName": "Crossing the Line", "URL":"eQXFaomHckE", "EpisodeID": "T3.3", "Plot": "Sometimes the obvious needs to come out to make the stench of injustice come to light. What is justice? It's certainly not blind. And if you're rich and powerful or a combination of the two you've got nothing to fear. The rich, the powerful, they make their own justice. But what they don't know is that she is on the inside too like a virus. She'll play the game and they'll never know she's there killing the unjust from the inside."},
@@ -95,7 +95,7 @@
     {"Name":"Justice Woman - Season 3 Episode 6 - Unveiled", "ShortName": "Unveiled", "URL":"d6KLUiPfu9g", "EpisodeID": "T3.15", "Plot": "Sometimes working at the District Attorney's office feels like being trapped in two worlds. One is a loony bin with a case of missing lollipops and Mama Escala stopping by to make it clear that she wants grandchildren. The other is a harsh real world where fighting for justice must be done undercover to avoid danger. That is, until someone unveils the plan."}
 ],
 "Anyone But Me": [
-    {"Title": "Anyone But Me", "Genre": "Comedy/Drama", "Creator": "Susan Miller & Tina Cesa Ward", "PosterURL": "http://i43.tower.com/images/mm117027548/anyone-but-me-complete-first-season-rachael-hip-flores-dvd-cover-art.jpg", "Time": "10", "ID": "T4"},
+    {"Title": "Anyone But Me", "Genre": "Comedy/Drama", "Creator": "Susan Miller & Tina Cesa Ward", "PosterURL": "/media/posters/anyone.jpg", "Time": "10", "ID": "T4"},
     {"Name":"Anyone But Me - Season 1 - Episode 1 - Heavy Lifting", "ShortName": "Heavy Lifting", "URL":"jsmsR8lF4WU", "EpisodeID": "T4.1" , "Plot": "Vivian McMillan moves out of the city and away from herself."},
     {"Name":"Anyone But Me - Season 1 - Episode 2 - New Alliance", "ShortName": "New Alliance", "URL":"-yATO0PM1bU", "EpisodeID": "T4.2" , "Plot": "Outsiders connect."},
     {"Name":"Anyone But Me - Season 1 - Episode 3 - Countdown", "ShortName": "Countdown", "URL":"BhY5DylarpE", "EpisodeID": "T4.3" , "Plot": "A lot can happen in one day."},
@@ -124,7 +124,7 @@
     {"Name":"Anyone But Me - Season 3 - Episode 6 - Series Finale - We Went Down to Battery Park", "ShortName": "We Went Down to Battery Park", "URL":"nQTME6gUXW8", "EpisodeID": "T4.26" , "Plot": "Vivian and Aster confront their past to see if there's a future. And an unexpected intrusion throws everyone off guard, forcing a decision."}
 ],
 "Chop Socky Boom":[
-    {"Title": "Chop Socky Boom", "Genre": "Comedy", "Creator": "Darlene Sellers and Heath Ward", "PosterURL": "http://i53.photobucket.com/albums/g63/etopiei/chop-socky-boom-poster_zpspg9mejmq.png", "Time": "10", "ID": "T5"},
+    {"Title": "Chop Socky Boom", "Genre": "Comedy", "Creator": "Darlene Sellers and Heath Ward", "PosterURL": "/media/posters/chop-socky-boom.png", "Time": "10", "ID": "T5"},
     {"Name":"Chop Socky Boom - Episode 1 - Auditions", "ShortName": "Auditions", "URL":"nsNN_N0mF6Q", "EpisodeID": "T5.1", "Plot":"Seattle based web series 'Final Zodiac Warrior' hosts auditions for twelve open roles: Rat, Ox, Tiger, Rabbit, Dragon, Snake, Horse, Goat, Monkey, Rooster, Dog and Pig."},
     {"Name":"Chop Socky Boom - Episode 2 - Callbacks", "ShortName": "Callbacks", "URL":"BIItoT21rDQ", "EpisodeID": "T5.2", "Plot":"Three rounds of callbacks for 'Final Zodiac Warrior' pit Seattle indie actors against one another as they compete in martial arts, group combat and 'improv.'"},
     {"Name":"Chop Socky Boom - Episode 3 - Day One on Set", "ShortName": "Day One on Set", "URL":"nRzLerkKx-8", "EpisodeID": "T5.3", "Plot":"Director Trick of 'Final Zodiac Warrior' puts the cast through their paces on the first day on set."},
@@ -135,7 +135,7 @@
     {"Name":"Chop Socky Boom - Episode 8 - The Thunderdome Episode", "ShortName": "The Thunderdome Episode", "URL":"d2hNugZ4V0g", "EpisodeID": "T5.8", "Plot":"When the new FZW Line Producer announces that the show is broke, Trick develops a plan to keep the cameras rolling. Will fortune continue to favor the misfits?"}
 ],
 "Rwby": [
-    {"Title": "Rwby", "Genre": "Action/Adventure", "Creator": "Monty Oum", "PosterURL":"http://i53.photobucket.com/albums/g63/etopiei/rwby_zpsx73kwtnk.jpg", "Time": "10", "ID": "T6"},
+    {"Title": "Rwby", "Genre": "Action/Adventure", "Creator": "Monty Oum", "PosterURL":"/media/posters/rwby.jpg", "Time": "10", "ID": "T6"},
     {"Name":"Rwby - Season 1 - Episode 1 - Ruby Rose", "ShortName": "Ruby Rose", "URL":"-sGiE10zNQM", "EpisodeID": "T6.1", "Plot": "The debut episode of the new series RWBY, created by Monty Oum."},
     {"Name":"Rwby - Season 1 - Episode 2 - The Shining Beacon", "ShortName": "The Shining Beacon", "URL":"sLv6FfHlxmI", "EpisodeID": "T6.2", "Plot": "The story focuses on a group of four girls in their first year at a legendary academy where they will learn to fight monsters."},
     {"Name":"Rwby - Season 1 - Episode 3 - The Shining Beacon, Part 2", "ShortName": "The Shining Beacon, Part 2", "URL":"-ZwGeYu2pOQ", "EpisodeID": "T6.3", "Plot": "The story focuses on a group of four girls in their first year at a legendary academy where they will learn to fight monsters."},
@@ -178,7 +178,7 @@
     {"Name":"Rwby - Season 3 - Episode 12 - End of the Beginning", "ShortName": "End of the Beginning", "URL":"hq1lk-QWxNg", "EpisodeID": "T6.40", "Plot": "The Vytal Festival Tournament is the ultimate battle of skill, pitting the world's most powerful Huntsmen and Huntresses in training against one another... and it's finally here! Ruby, Weiss, Blake, and Yang are back for a season of over-the-top action, and they're not alone. New fighters from around Remnant are ready to bring glory to their kingdom, but there are those among them with a far more sinister goal in mind…"}
 ],
 "Walking In Circles": [
-    {"Title": "Walking In Circles", "Genre": "Action/Adventure", "Creator":"Adam Rady", "PosterURL":"http://i53.photobucket.com/albums/g63/etopiei/walking-in-circles_zpstuntsgoi.jpg", "Time": "10", "ID": "T7"},
+    {"Title": "Walking In Circles", "Genre": "Action/Adventure", "Creator":"Adam Rady", "PosterURL":"/media/posters/walking-in-circles.jpg", "Time": "10", "ID": "T7"},
     {"Name":"Walking In Circles - Season 1 - Episode 1 - Party Up", "ShortName": "Party Up", "URL":"phNkIRq3X9E", "EpisodeID": "T7.1", "Plot": "Krag and the party battle a group of bandits deep in the forest. Well, Krag does."},
     {"Name":"Walking In Circles - Season 1 - Episode 2 - Walking", "ShortName": "Walking", "URL":"XfZ94s-3R7U", "EpisodeID": "T7.2", "Plot": "Lost in the forest, will the party find their way out before Markus kills Garand? Do you really want them to?"},
     {"Name":"Walking In Circles - Season 1 - Episode 3 - Old Debt", "ShortName": "Old Debt", "URL":"tcnru42xiHk", "EpisodeID": "T7.3", "Plot": "Markus’s overdue bills put a serious damper on the party’s day."},
@@ -200,7 +200,7 @@
     {"Name":"Walking In Circles - Season 2 - Episode 8 - The Wastes", "ShortName": "The Wastes", "URL":"CFapYniE3fE", "EpisodeID": "T7.19", "Plot": "Krag finally arrives in the Windscourge Wastes, only to find things have changed in his absence. Krag’s homecoming has dangerous consequences that leave the party in their most desperate situation yet."}
 ],
 "Video Game High School": [
-    {"Title": "Video Game High School", "Genre": "Action/Romance/Sci-Fi", "Creator":"Matthew Arnold, Will Campos and Brian Firenzi", "PosterURL":"http://i53.photobucket.com/albums/g63/etopiei/MV5BOTgxOTMwOTAxMF5BMl5BanBnXkFtZTcwMTY3MTExOA._V1_SX640_SY720__zps4fssm3zt.jpg", "Time": "15", "ID": "T8"},
+    {"Title": "Video Game High School", "Genre": "Action/Romance/Sci-Fi", "Creator":"Matthew Arnold, Will Campos and Brian Firenzi", "PosterURL":"/media/posters/vghs.jpg", "Time": "15", "ID": "T8"},
     {"Name": "Video Game High School (VGHS) - Season 1 - Episode 1", "ShortName": "VGHS Episode 1", "URL":"1JqR3GVqib4", "EpisodeID": "T8.1", "Plot": "The first episode for our feature-length webseries 'Video Game High School!'"},
     {"Name": "Video Game High School (VGHS) - Season 1 - Episode 2", "ShortName": "VGHS Episode 2", "URL":"JDO6dF6O7yM", "EpisodeID": "T8.2", "Plot": "Episode two of our feature-length webseries 'Video Game High School!'"},
     {"Name": "Video Game High School (VGHS) - Season 1 - Episode 3", "ShortName": "VGHS Episode 3", "URL":"tfnyX3-GPz8", "EpisodeID": "T8.3", "Plot": "Episode three of our feature-length webseries 'Video Game High School!'"},
@@ -224,7 +224,7 @@
     {"Name": "Video Game High School (VGHS) - Season 3 - Episode 6", "ShortName": "The N64", "URL":"seeWJSCqj4c", "EpisodeID": "T8.21", "Plot": "The Series Finale: VGHS must band together one last time to fight the biggest battle of their lives."}
 ],
 "Awkward Black Girl": [
-  {"Title": "Awkward Black Girl", "Genre": "Comedy", "Creator":"Shea William Vanderpoort", "PosterURL":"http://i53.photobucket.com/albums/g63/etopiei/The-Misadventures-of-Awkward-Black-Girl_zpsschnj0db.jpg", "Time": "5", "ID": "T9"},
+  {"Title": "Awkward Black Girl", "Genre": "Comedy", "Creator":"Shea William Vanderpoort", "PosterURL":"/media/posters/awkwardblackgirl.jpg", "Time": "5", "ID": "T9"},
   {"Name": "Awkward Black Girl - Season 1 - Episode 1 - The Stop Sign", "ShortName": "The Stop Sign", "URL":"Mia51fMAGJw", "EpisodeID": "T9.1", "Plot": "J introduces herself and walks us through the awkwardness of the stop-sign."},
   {"Name": "Awkward Black Girl - Season 1 - Episode 2 - The Job", "ShortName": "The Job", "URL":"u4HWaWjBAB8", "EpisodeID": "T9.2", "Plot": "J confronts her issue with passive aggressiveness at the workplace."},
   {"Name": "Awkward Black Girl - Season 1 - Episode 3 - The Hallway", "ShortName": "The Hallway", "URL":"y9n7Vx33QiA", "EpisodeID": "T9.3", "Plot": "J attempts to pursue her office crush and navigates the awkwardness of the hallway."},
@@ -252,7 +252,7 @@
   {"Name": "Awkward Black Girl - Season 2 - Episode 12 - Season Finale Pt 2: (The Change)", "ShortName": "Season Finale Pt 2: (The Change)", "URL":"6cIGx47tKxc", "EpisodeID": "T9.25", "Plot": "In the Season 2 finale, J makes a big decision about her personal and professional life."}
 ],
 "Journey Quest": [
-  {"Title": "Journey Quest", "Genre": "Action/Adventure/Comedy", "Creator":"Ben Dobyns and Matt Vancil", "PosterURL":"http://i53.photobucket.com/albums/g63/etopiei/Z_zpsfufignd9.jpg", "Time": "7", "ID": "T10"},
+  {"Title": "Journey Quest", "Genre": "Action/Adventure/Comedy", "Creator":"Ben Dobyns and Matt Vancil", "PosterURL":"/media/posters/journeyquest.jpg", "Time": "7", "ID": "T10"},
   {"Name": "Journey Quest - Season 1 - Episode 1 - Onward", "ShortName": "Onward", "URL":"pVORGr2fDk8", "EpisodeID": "T10.1", "Plot": "Perf attempts to leave the quest, with bloody results..."},
   {"Name": "Journey Quest - Season 1 - Episode 2 - Sod the Quest", "ShortName": "Sod the Quest", "URL":"R7jFcV1FZ3Y", "EpisodeID": "T10.2", "Plot": "A devious riddle divides the party..."},
   {"Name": "Journey Quest - Season 1 - Episode 3 - A Rather Unfortunate Turn of Events", "ShortName": "A Rather Unfortunate Turn of Events", "URL":"QSFDR8kmbM0", "EpisodeID": "T10.3", "Plot": "Perf gives an orcish grammar lesson. Meanwhile, Glorion battles the river..."},
@@ -272,7 +272,7 @@
   {"Name": "Journey Quest - Season 2 - Episode 10 - Through Every Trial", "ShortName": "Through Every Trial", "URL":"Gc3DIsbbG9s", "EpisodeID": "T10.17", "Plot": "Season Finale!"}
 ],
 "Out With Dad": [
-  {"Title": "Out With Dad", "Genre": "Drama", "Creator":"Jason Leaver", "PosterURL":"http://i53.photobucket.com/albums/g63/etopiei/Screen%20Shot%202016-05-29%20at%208.20.09%20PM_zpsh0wfbrcu.png", "Time": "7", "ID": "T11"},
+  {"Title": "Out With Dad", "Genre": "Drama", "Creator":"Jason Leaver", "PosterURL":"/media/posters/outwithdad.png", "Time": "7", "ID": "T11"},
   {"Name": "Out With Dad - Episode 1 - Rose with Vanessa", "ShortName": "Rose with Vanessa", "URL":"d4OdATe76q4", "EpisodeID": "T11.1", "Plot": "The premiere episode of Out With Dad. 15 year old Rose (Kate Conway) and her best friend Vanessa (Lindsey Middleton), find out that sometimes first kisses don't turn out exactly how we expect."},
   {"Name": "Out With Dad - Episode 2 - Out To Lunch", "ShortName": "Out To Lunch", "URL":"XAGjbvcqbrc", "EpisodeID": "T11.2", "Plot": "Nathan (Will Conlon) wants to learn how to help Rose. First thing he learns is that friends are more reliable than the Internet. Meanwhile, Kenny (Corey Lof) encorages Rose (Kate Conway) to make amends with Vanessa (Lindsey Middleton)."},
   {"Name": "Out With Dad - Episode 3 - Movie Night with Dad", "ShortName": "Movie Night with Dad", "URL":"7uSqK7NYF4Y", "EpisodeID": "T11.3", "Plot": "Vanessa (Lindsey Middleton) tries to force Rose (Kate Conway) into explaining herself, but an encounter on the subway is more clarifying. Nathan (Will Conlon) continues to try to reach out to Rose in ways even his subconscious finds embarrassing."},
@@ -283,7 +283,7 @@
   {"Name": "Out With Dad - Episode 8 - Out With Kenny", "ShortName": "Out With Kenny", "URL":"kRLWtXPiuNQ", "EpisodeID": "T11.8", "Plot": "In this finale episode of our first season, Rose finds coming out isn't easy... even when you practice."}
 ],
 "H+": [
-  {"Title": "H+", "Genre": "Sci-Fi", "Creator":"Stewart Hendler", "PosterURL":"http://i53.photobucket.com/albums/g63/etopiei/2Q_zpsmpeeieao.jpg", "Time": "6", "ID": "T12"},
+  {"Title": "H+", "Genre": "Sci-Fi", "Creator":"Stewart Hendler", "PosterURL":"/media/posters/h+.jpg", "Time": "6", "ID": "T12"},
   {"Name": "H+ - Episode 1 - Driving Under", "ShortName": "Driving Under", "URL":"ZedLgAF9aEg", "EpisodeID": "T12.1", "Plot": "Fragments of news reports show a future world as it adopts H+: a radical new way to be connected to information and each other through only your thoughts, via a high-tech implant. While the breakthrough is hotly anticipated by the masses, it is a change not easily adopted by its discontents. We segue to a couple parking their car in an underground airport garage. The husband, Lee, surreptitiously watches a football game on his H+, upsetting his wife Julie who wants him to drive safely. Their domestic squabble is interrupted by a bizarre spectacle throwing their world into chaos."},
   {"Name": "H+ - Episode 2 - On Their Level", "ShortName": "On Their Level", "URL":"zKJDB2RTJ78", "EpisodeID": "T12.2", "Plot": "Julie and Lee stand shocked at the sudden chaos surrounding them in the lot and then risk a similar fate as Lee goes to aid the fallen people. A mysterious bearded man in glasses, Kenneth, appears and leads a small group down to Level 6, where he insists they're safe. But some in the group are skeptical of their hero and his theory for what has just happened."},
   {"Name": "H+ - Episode 3 - Prophetess", "ShortName": "Prophetess", "URL":"I47aG6NLmr0", "EpisodeID": "T12.3", "Plot": "A young man, Topi, enters a bar to meet a woman named Manta, who he has chatted with online. Manta plays mysterious, giving Topi a hard time, but Topi may have secrets of his own."},
@@ -334,7 +334,7 @@
   {"Name": "H+ - Episode 48 - Visions of What's Come", "ShortName": "Visions of What's Come", "URL":"0gFNmcm3Ln0", "EpisodeID": "T12.48", "Plot": "At the data center, Kenneth has something else up his sleeve for Jason. In a flashback to the moment of the massive virus attack, we find clues to the deeper cause."}
 ],
 "I Hate Being Single": [
-  {"Title": "I Hate Being Single", "Genre": "Comedy", "Creator":"Shannon Coffey", "PosterURL":"http://i53.photobucket.com/albums/g63/etopiei/2Q_zpsknr6fzbp.jpg", "Time": "5", "ID": "T13"},
+  {"Title": "I Hate Being Single", "Genre": "Comedy", "Creator":"Shannon Coffey", "PosterURL":"/media/posters/ihbs.jpg", "Time": "5", "ID": "T13"},
   {"Name": "I Hate Being Single - Season 1 - Episode 1 - That's Love", "ShortName": "That's Love", "URL":"jaI1TbGW2Ao", "EpisodeID": "T13.1", "Plot": "Rob is forced to start living as a single in Brooklyn and looks to Dom and Shannon for support."},
   {"Name": "I Hate Being Single - Season 1 - Episode 2 - I'm a Mature", "ShortName": "I'm a Mature", "URL":"84uNAKbeDV0", "EpisodeID": "T13.2", "Plot": "Rob goes out to brunch with Shannon and her pals. He goes out on a date with a college crush and get's too comfortable with his new 'snuggie'."},
   {"Name": "I Hate Being Single - Season 1 - Episode 3 - The Banker", "ShortName": "The Banker", "URL":"K9I0i7X7A70", "EpisodeID": "T13.3", "Plot": "Rob becomes friends with his banker, gains a lot of credit cards, and has an unfortunate encounter with a volunteer organization worker."},
@@ -349,7 +349,7 @@
   {"Name": "I Hate Being Single - Season 2 - Episode 5 - Runnin Like Hell (Season 2 Finale)", "ShortName": "Runnin Like Hell (Season 2 Finale)", "URL":"O_6Mr0UeMqs", "EpisodeID": "T13.12", "Plot": "Rob has a bed bug scare, Shannon finds love, Dom settles down."}
 ],
 "Kicking Dan Out": [
-  {"Title": "Kicking Dan Out", "Genre": "Comedy", "Creator":"Adam Wirtz", "PosterURL":"http://i53.photobucket.com/albums/g63/etopiei/images.duckduckgo_zps6q2ttoqf.jpg", "Time": "5", "ID": "T14"},
+  {"Title": "Kicking Dan Out", "Genre": "Comedy", "Creator":"Adam Wirtz", "PosterURL":"/media/posters/kickingdanout.jpg", "Time": "5", "ID": "T14"},
   {"Name": "Kicking Dan Out - Episode 1 - KICKING DAN OUT", "ShortName": "KICKING DAN OUT", "URL":"TKRbN7Ow31Q", "EpisodeID": "T14.1", "Plot": "What do you do with an unwanted roommate? You kick them out."},
   {"Name": "Kicking Dan Out - Episode 2 - ONE NIGHT STAND", "ShortName": "ONE NIGHT STAND", "URL":"-1LKayarXRY", "EpisodeID": "T14.2", "Plot": "Dan has a one night stand...and then doesn't leave her house."},
   {"Name": "Kicking Dan Out - Episode 3 - INSANE CLOWN PARTY FOUL", "ShortName": "INSANE CLOWN PARTY FOUL", "URL":"aQjTay6FUQ8", "EpisodeID": "T14.3", "Plot": "Dan wants to be a juggalo."},
@@ -357,7 +357,7 @@
   {"Name": "Kicking Dan Out - Episode 5 - SHELL OF A MOR-MAN", "ShortName": "SHELL OF A MOR-MAN", "URL":"XtQi0FUCZOU", "EpisodeID": "T14.5", "Plot": "Dan gives Mormonism his best shot."}
 ],
 "The Lizzie Bennet Diaries": [
-  {"Title": "The Lizzie Bennet Diaries", "Genre": "Comedy/Drama", "Creator":"Bernie Su", "PosterURL":"http://i53.photobucket.com/albums/g63/etopiei/images.duckduckgo-1_zpsqumarohe.jpg", "Time": "3", "ID": "T15"},
+  {"Title": "The Lizzie Bennet Diaries", "Genre": "Comedy/Drama", "Creator":"Bernie Su", "PosterURL":"/media/posters/lizziebennet.jpg", "Time": "3", "ID": "T15"},
   {"Name": "The Lizzie Bennet Diaries - Episode 1 - My Name is Lizzie Bennet", "ShortName": "My Name is Lizzie Bennet", "URL":"KisuGP2lcPs", "EpisodeID": "T15.1", "Plot": "The video diary I started as part of a class project with my best friend Charlotte."},
   {"Name": "The Lizzie Bennet Diaries - Episode 2 - My Sisters: Problematic to Practically Perfect", "ShortName": "My Sisters: Problematic to Practically Perfect", "URL":"6Yq7aJ2uVBg", "EpisodeID": "T15.2", "Plot": "Introducing my sisters...I have two. Lydia, who...is Lydia. And Jane, who works her butt off for her family and never thinks of herself. Also, you may have noticed she's gorgeous."},
   {"Name": "The Lizzie Bennet Diaries - Episode 3 - My Parents: Opposingly Supportive", "ShortName": "My Parents: Opposingly Supportive", "URL":"e926p_3UXes", "EpisodeID": "T15.3", "Plot": "Inspired by Reggie on Facebook, I made this video about my parents so you can get to know them a little more. - But actually showing them? Well that would require me telling them that I'm doing this... so that's going to be a 'no'. Or at least a 'not yet'."},
@@ -370,7 +370,7 @@
   {"Name": "The Lizzie Bennet Diaries - Episode 10 - Cats and Chinchillas", "ShortName": "Cats and Chinchillas", "URL":"qdhKqIXGq2k", "EpisodeID": "T15.10", "Plot": "So I got some pictures of some cats playing with Chinchillas. I was going to spend today talking about adorableness and not Bing, but then Jane showed up and, well..."}
 ],
 "Red Vs. Blue": [
-  {"Title": "Red Vs. Blue", "Genre": "Comedy", "Creator":"Burnie Burns", "PosterURL":"http://i53.photobucket.com/albums/g63/etopiei/images.duckduckgo-2_zpsk1rwdbft.jpg", "Time": "2", "ID": "T16"},
+  {"Title": "Red Vs. Blue", "Genre": "Comedy", "Creator":"Burnie Burns", "PosterURL":"/media/posters/redvblue.jpg", "Time": "2", "ID": "T16"},
   {"Name": "Red Vs Blue - Episode 1 - Why Are We Here?", "ShortName": "Why Are We Here?", "URL":"9N8IpxO6rKs", "EpisodeID": "T16.1", "Plot": "The first episode of Red vs. Blue introduces the main characters, and poses the all-important question, why are we here?"},
   {"Name": "Red Vs Blue - Episode 2 - Red Gets a Delivery", "ShortName": "Red Gets a Delivery", "URL":"Rju4RWdEyZk", "EpisodeID": "T16.2", "Plot": "The Reds get a new piece of equipment, and Grif has a problem with its name."},
   {"Name": "Red Vs Blue - Episode 3 - The Rookies", "ShortName": "The Rookies", "URL":"Ps9SRsiSASY", "EpisodeID": "T16.3", "Plot": "The Red and Blue armies get new recruits."},
@@ -392,7 +392,7 @@
   {"Name": "Red Vs Blue - Episode 19 - Last One Out, Hit the Lights", "ShortName": "Last One Out, Hit the Lights", "URL":"vmgm4QyaGis", "EpisodeID": "T16.19", "Plot": "The final episode of Red vs. Blue season one."}
 ],
 "The Vault":[
-  {"Title": "The Vault", "Genre": "Drama/Mystery/Thriller", "Creator":"Aaron Hann and Mario Miscione", "PosterURL":"http://i53.photobucket.com/albums/g63/etopiei/Z-1_zpspvyovwhd.jpg", "Time": "10", "ID": "T17"},
+  {"Title": "The Vault", "Genre": "Drama/Mystery/Thriller", "Creator":"Aaron Hann and Mario Miscione", "PosterURL":"/media/posters/vault.jpg", "Time": "10", "ID": "T17"},
   {"Name": "The Vault - Pilot", "ShortName": "Pilot", "URL":"SJ8XGe1s42E", "EpisodeID": "T17.1", "Plot": "An introduction to 'The Vault,' an original web series."},
   {"Name": "The Vault - Episode 1", "ShortName": "Episode 1", "URL":"VU0nQNLMzmI", "EpisodeID": "T17.2", "Plot": "The game begins."},
   {"Name": "The Vault - Episode 2", "ShortName": "Episode 2", "URL":"ZlU8jLLj0U0", "EpisodeID": "T17.3", "Plot": "Henry must contend with a game much larger than he anticipated."},
@@ -412,7 +412,7 @@
   {"Name": "The Vault - Episode 16", "ShortName": "Episode 16", "URL":"0JITMi-O1xc", "EpisodeID": "T17.17", "Plot": "One way or another, the game ends here. The series finale of 'The Vault.'"}
 ],
 "Downsized":[
-  {"Title": "Downsized", "Genre": "Comedy/Drama", "Creator":"Daryn Strauss", "PosterURL":"http://i53.photobucket.com/albums/g63/etopiei/Beth1-550x308_zps3q2t3lhb.jpg", "Time": "4", "ID": "T18"},
+  {"Title": "Downsized", "Genre": "Comedy/Drama", "Creator":"Daryn Strauss", "PosterURL":"/media/posters/downsized.jpg", "Time": "4", "ID": "T18"},
   {"Name": "Downsized - Season 1 - Episode 1 - Duane", "ShortName": "Duane", "URL":"OV4v-TMs7c4", "EpisodeID": "T18.1", "Plot": "Debt, credit default, bankruptcy, and unemployment-- average Americans are the subjects of the hit dramedy Downsized, recently named 'the best of the straight dramas (on the web)' by the Los Angeles Times."},
   {"Name": "Downsized - Season 1 - Episode 2 - Broken English", "ShortName": "Broken English", "URL":"uJs8onftbeY", "EpisodeID": "T18.2", "Plot": "In Episode 2, overworked attorney Connor has difficulty understanding his Turkish cleaning lady, Leyla."},
   {"Name": "Downsized - Season 1 - Episode 3 - Pageantry", "ShortName": "Pageantry", "URL":"1m7c-eP44lM", "EpisodeID": "T18.3", "Plot": "In Episode 3, after finding out she can't make her credit card payments, resourceful beauty queen Astrid tries sweet-talking pageant dad Nate into additional coaching services for his daughter, six year old beauty princess Poppy."},
@@ -431,7 +431,7 @@
   {"Name": "Downsized - Season 2 - Epsiode 6 - Dad Headache", "ShortName": "Dad Headache", "URL":"3lCfqf_A0hI", "EpisodeID": "T18.16", "Plot": "In Episode 6 of the Writers Guild Award nominated dramedy Downsized, Astrid's headache is the least of her problems when Nate has some news about Poppy's pageanting."}
 ],
 "Long Story Short":[
-  {"Title": "Long Story Short", "Genre": "Comedy", "Creator":"Almost Cool", "PosterURL":"http://i53.photobucket.com/albums/g63/etopiei/images.duckduckgo-1_zpspdp7an4d.png", "Time": "4", "ID": "T19"},
+  {"Title": "Long Story Short", "Genre": "Comedy", "Creator":"Almost Cool", "PosterURL":"/media/posters/longstoryshort.png", "Time": "4", "ID": "T19"},
   {"Name": "Long Story Short - Episode 1 - I Had to Write an Essay", "ShortName": "I Had to Write an Essay", "URL":"8UD8JbzrlEw", "EpisodeID": "T19.1", "Plot": "Tommy has to write an essay."},
   {"Name": "Long Story Short - Episode 2 - I Had a Movie Date", "ShortName": "I Had a Movie Date", "URL":"Lbz2CZXXLMM", "EpisodeID": "T19.2", "Plot": "Tommy has a movie date."},
   {"Name": "Long Story Short - Episode 3 - I Went to the Beach", "ShortName": "I Went to the Beach", "URL":"9ysUaznpu6g", "EpisodeID": "T19.3", "Plot": "Tommy goes to the beach."},
@@ -446,7 +446,7 @@
   {"Name": "Long Story Short - Episode 12 - I Moved", "ShortName": "I Moved", "URL":"xhPV1iaQUJY", "EpisodeID": "T19.12", "Plot": "Tommy moves."}
 ],
 "Clone High":[
-  {"Title": "Clone High", "Genre": "Comedy/Animation", "Creator":"Phil Lord, Christopher Miller and Bill Lawrence", "PosterURL":"http://i53.photobucket.com/albums/g63/etopiei/Z_zpsv1gpia26.jpg", "Time": "15", "ID": "T20"},
+  {"Title": "Clone High", "Genre": "Comedy/Animation", "Creator":"Phil Lord, Christopher Miller and Bill Lawrence", "PosterURL":"/media/posters/clonehigh.jpg", "Time": "15", "ID": "T20"},
   {"Name": "Clone High School - Episode 1 - Escape to Beer Mountain: A Rope of Sand", "ShortName": "Escape to Beer Mountain: A Rope of Sand", "URL":"PHvN25QPWGE", "EpisodeID": "T20.1", "Plot": "In desperation to get with the beautiful and popular Cleopatra, Abe Lincoln is hoping to make a move on her at JFK's party. JFK, however, also has the hots for her and will only let Abe come on the condition that he brings the beer. Meanwhile, Joan of Arc, who is trying to win Abe's heart, starts up a Teen Crisis Hotline in an attempt to impress him with her commitment to community service; their mutual friend, Gandhi, who accidentally agrees to help with the hotline, forwards the calls to his cell phone so he can go to the party. All the while, Principal Scudworth and Mr. Butlertron attempt to crash the party so as to better understand the students."},
   {"Name": "Clone High School - Episode 2 - Election Blu-Galoo", "ShortName": "Election Blu-Galoo", "URL":"VZKhLAXN4n0", "EpisodeID": "T20.2", "Plot": "Cleo discovers she cannot continue to run for Student Body President because of term limits, so she convinces JFK to run on her behalf, and when Abe sees that Cleo appreciates leaders, he decides to run as well. But students of Clone High do not care about real issues, and many are infatuated with JFK; Abe employs a corporate sponsor, 'X-Stream Blu,' to jazz up his campaign. The only problem is that Gandhi becomes horribly addicted to this mysterious food product."},
   {"Name": "Clone High School - Episode 3 - A.D.D.: The Last 'D' is for Disorder", "ShortName": "A.D.D.: The Last 'D' is for Disorder", "URL":"zVth0u4LY3k", "EpisodeID": "T20.3", "Plot": "When Gandhi is diagnosed with Attention Deficit Disorder (A.D.D.), the students of Clone High begin to ostracize him. Abe must decide whether to please Cleo by doing the same, or to stand up for his 'best dude 4 ever' and lose any chance of being with Cleo. Meanwhile, Joan struggles with living up to the legacy of her 15th century clone mother, and begins hearing strange religious voices in her head. Also, Principal Scudworth starts wearing Mr. Butlertron's sweater vest, in the belief that it gives him the power to relate to the students of Clone High."},
@@ -462,7 +462,7 @@
   {"Name": "Clone High School - Episode 13 - Changes: The Big Prom: The Sex Romp: The Season Finale", "ShortName": "Changes: The Big Prom: The Sex Romp: The Season Finale", "URL":"DRy6l_yNJ3Y", "EpisodeID": "T20.13", "Plot": "As all the clones are preparing for the winter prom, Abe decides whether to ask Cleo or Joan; Gandhi concocts a brilliant plan to get dates for all the school geeks; and Principal Scudworth attempts to execute his sinister, evil plan, while the Secret Board of Shadowy Figures prepares to abduct the clones on prom night to advance their own evil plan."}
 ],
 "The Wizards of Aus":[
-  {"Title": "The Wizards of Aus", "Genre": "Comedy/Fantasy", "Creator":"LateNite Films", "PosterURL":"https://walter.trakt.us/images/shows/000/104/089/posters/thumb/78315bfd9e.jpg", "Time": "15", "ID": "T21"},
+  {"Title": "The Wizards of Aus", "Genre": "Comedy/Fantasy", "Creator":"LateNite Films", "PosterURL":"/media/posters/wizards.jpg", "Time": "15", "ID": "T21"},
   {"Name": "The Wizards of Aus - Episode 1 - 'Honk'", "ShortName": "Honk", "URL":"yv3DedNXN4o", "EpisodeID": "T21.1", "Plot": "After a disastrous battle with a dragon, Jack the wizard decides to escape the madness of the magical realm by moving to Melbourne, Australia."},
   {"Name": "The Wizards of Aus - Episode 2 - 'Lotus'", "ShortName": "Lotus", "URL":"1wscS1Itgnk", "EpisodeID": "T21.2", "Plot": "Having sworn off magic, Jack attempts to get himself a new recycling bin the normal, human way - however if there's anything more confusing than mastering the arcane arts, it might be local council bureaucracy."},
   {"Name": "The Wizards of Aus - Episode 3 - 'Magic by Moonlight'", "ShortName": "Magic by Moonlight", "URL":"g4QzsBcQN0A", "EpisodeID": "T21.3", "Plot": "Fresh from a nasty divorce with his unicorn wife, Jack tries his hand at speed dating."},
