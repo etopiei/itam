@@ -156,8 +156,8 @@ function createTVElement(link, code, genre) {
   var x = document.createElement("IMG");
   x.setAttribute("class", "spaced");
   x.src = link;
-  x.height = 512;
-  x.width = 300;
+  x.height = 536;
+  x.width = 364;
   var box = document.getElementById(genre);
   box.appendChild(a);
   a.appendChild(x);
@@ -173,8 +173,8 @@ function createMovieElement(link, code, genre) {
   var x = document.createElement("IMG");
   x.setAttribute("class", "spaced");
   x.src = link;
-  x.height = 512;
-  x.width = 300;
+  x.height = 536;
+  x.width = 364;
   var box = document.getElementById(genre);
   box.appendChild(a);
   a.appendChild(x);

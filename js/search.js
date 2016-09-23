@@ -90,12 +90,12 @@ function createTVPoster(link, poster) {
   x.setAttribute("class", "spaced hor-spaced");
   x.src = poster;
   if (screen.width <= 699 || navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPod/i)) {
-    x.height = 512;
-    x.width = 300;
+    x.height = 536;
+    x.width = 364;
   }
   else {
-    x.height = 256;
-    x.width = 150;
+    x.height = 268;
+    x.width = 182;
   }
   var box = document.getElementById("addNew");
   box.appendChild(a);
@@ -111,12 +111,12 @@ function createMoviePoster(link, poster) {
   x.setAttribute("class", "spaced hor-spaced");
   x.src = poster;
   if (screen.width <= 699 || navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPod/i)) {
-    x.height = 512;
-    x.width = 300;
+    x.height = 536;
+    x.width = 364;
   }
   else {
-    x.height = 256;
-    x.width = 150;
+    x.height = 268;
+    x.width = 182;
   }
   var box = document.getElementById("addNew");
   box.appendChild(a);

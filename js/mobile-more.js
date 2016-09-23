@@ -92,8 +92,8 @@ function createMoviePoster(link, poster) {
   var x = document.createElement("IMG");
   x.setAttribute("class", "spaced hor-spaced");
   x.src = poster;
-  x.height = 512;
-  x.width = 300;
+  x.height = 536;
+  x.width = 364;
   var box = document.getElementById("insert-posters");
   box.appendChild(a);
   a.appendChild(x);
@@ -106,8 +106,8 @@ function createTVPoster(link, poster) {
   var x = document.createElement("IMG");
   x.setAttribute("class", "spaced hor-spaced");
   x.src = poster;
-  x.height = 512;
-  x.width = 300;
+  x.height = 536;
+  x.width = 364;
   var box = document.getElementById("insert-posters");
   box.appendChild(a);
   a.appendChild(x);

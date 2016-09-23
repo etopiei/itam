@@ -135,8 +135,8 @@ function createMoviePoster(link, poster, cat) {
   var x = document.createElement("IMG");
   x.setAttribute("class", "spaced hor-spaced");
   x.src = poster;
-  x.height = 512;
-  x.width = 300;
+  x.height = 536;
+  x.width = 364;
   //depending on category add it to a differnt "box"
   if (cat === "R") {
     var box = document.getElementById("insert-rec");
@@ -155,8 +155,8 @@ function createTVPoster(link, poster, cat) {
   var x = document.createElement("IMG");
   x.setAttribute("class", "spaced hor-spaced");
   x.src = poster;
-  x.height = 512;
-  x.width = 300;
+  x.height = 536;
+  x.width = 364;
   if (cat == "R") {
     var box = document.getElementById("insert-rec");
   }
