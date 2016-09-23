@@ -164,7 +164,7 @@ function getMovieURL(input) {
 
 function createPlayer(link) {
 
-    var completeSrc = "http://www.youtube.com/embed/" + link + "?&version=3&autohide=1&autoplay=1&disablekb=0&iv_load_policy=3&modestbranding=1&rel=0&showinfo=0";
+    var completeSrc = "https://www.youtube.com/embed/" + link + "?&version=3&autohide=1&autoplay=1&disablekb=0&iv_load_policy=3&modestbranding=1&rel=0&showinfo=0";
     frm = document.createElement("IFRAME");
     frm.setAttribute("src", completeSrc);
     frm.setAttribute("frameborder", "0");
